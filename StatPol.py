@@ -167,7 +167,8 @@ def perform_field_iteration(**kwargs):
 
     data = []
     for f in field_int:
-        data.append(build_alpha_dataset(run_dir=kwargs['run_dir'],intensity=f,input=kwargs['input'],runner=code,posinp=kwargs['posinp'],ppf=kwargs['ppf']))
+        data.append(build_alpha_dataset(run_dir=kwargs['run_dir'],intensity=f,\
+        input=kwargs['input'],runner=code,posinp=kwargs['posinp'],ppf=kwargs['ppf']))
     out = iterate_parameter(label='field_int',values=field_int,data=data)
     return out
 
@@ -188,21 +189,21 @@ def perform_field_convergence(at=1e-3,rt=1e-2,term_verb=True,field_int=[1e-2,5e-
 
     data = []
     for f in field_int:
-        data.append(build_alpha_dataset(run_dir=kwargs['run_dir'],intensity=f,input=kwargs['input'],runner=code,posinp=kwargs['posinp'],ppf=kwargs['ppf']))
+        data.append(build_alpha_dataset(run_dir=kwargs['run_dir'],intensity=f,\
+        input=kwargs['input'],runner=code,posinp=kwargs['posinp'],ppf=kwargs['ppf']))
     out = seek_convergence(rt=rt,term_verb=term_verb,label='field_int',values=field_int,data=data)
     return out
 
-def build_rmult_list(gs):
+def build_rmult_list(rmult_inp):
     """
-    Return a set of values of rmult. The set starts at the value of rmult of the gs
-    calculation and contains the values (up to rmult=11) to perform a convergence procedure
-    analogous to the one performed w.r.t. the field intensity
+    Return a set of values of rmult (in the forme [coarse,fine]). The set starts
+    with the input value and contains the values (up to rmult=11) to perform a
+    convergence procedure analogous to the one performed w.r.t. the field intensity
     """
 
-    r0 = gs.log['dft']['rmult']
     rmult_list = []
-    for coarse in range(int(r0[0]),12):
-        rmult_list.append([1.0*coarse,r0[1]])
+    for coarse in range(int(rmult_inp[0]),12):
+        rmult_list.append([1.0*coarse,rmult_inp[1]])
     return rmult_list
 
 def perform_rmult_iteration(**kwargs):
@@ -229,7 +230,8 @@ def perform_rmult_iteration(**kwargs):
     for r in rmult:
         coarse.append(r[0])
         inp.set_rmult(r)
-        data.append(build_alpha_dataset(run_dir=kwargs['run_dir'],intensity=f,input=inp,runner=code,posinp=kwargs['posinp'],ppf=kwargs['ppf']))
+        data.append(build_alpha_dataset(run_dir=kwargs['run_dir'],intensity=f,\
+        input=inp,runner=code,posinp=kwargs['posinp'],ppf=kwargs['ppf']))
     out = iterate_parameter(label='rmult',values=coarse,data=data)
     return out
 
@@ -239,7 +241,7 @@ def perform_rmult_convergence(at=1e-3,rt=1e-2,term_verb=True,**kwargs):
     result of the polarizability tensor.
 
     Args:
-        kwargs['rmult']     : list of values of rmult in the form [coarse,fine] (3 values for coarse)
+        kwargs['rmult']     : list of values of rmult in the form [coarse,fine]
         kwargs['intensity'] : intensity of the field
         kwargs['input']     : the input file
         kwargs['posinp']    : the posinp
@@ -258,6 +260,7 @@ def perform_rmult_convergence(at=1e-3,rt=1e-2,term_verb=True,**kwargs):
     for r in rmult:
         coarse.append(r[0])
         inp.set_rmult(r)
-        data.append(build_alpha_dataset(run_dir=kwargs['run_dir'],intensity=f,input=inp,runner=code,posinp=kwargs['posinp'],ppf=kwargs['ppf']))
+        data.append(build_alpha_dataset(run_dir=kwargs['run_dir'],intensity=f,\
+        input=inp,runner=code,posinp=kwargs['posinp'],ppf=kwargs['ppf']))
     out = seek_convergence(rt=rt,term_verb=term_verb,label='rmult',values=coarse,data=data)
     return out

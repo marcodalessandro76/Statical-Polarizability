@@ -9,8 +9,19 @@ that HG uses a localized basis set, but this fact should not introduce a bias in
 if the completeness of the basis is sufficient). As ulterior benchmark we can also use the results of the Norvergian group
 (when available), since they perform all electron computations in a wavelet basis.
 
-Use a sort of top-down approach. Build the ordered structure of notebook:
+The analysis is structured in a set of notebooks built in a sort of top-down approach. 
+The (hiercarchically ordered) list of notebooks is: 
 
-* Benchmark data
-* Construction of the dataset
-* Dataset calculator
+* __HG Dataset/Benchmark data__ : perform a parsing of the results of HG and build a dictionary saved in hg_data.yaml. 
+  The dictionary contains the reference results for the CCSD(T) method and for the DFT computations with xc = lda,pbe,pbe0.
+  Also, for each molecule the type of the study (nsp or sp) is reported.
+* __Calculations and.../Construction of the dataset__ : This notebook reads the hg_data.yaml file and build two dictionaries, one for nsp
+  and one for the sp dataset extraced by the HG data. For each moelcule, the dictionary contains the reference results
+  and the 'study' key. The allowed values of the study type are the tuples lda,pbe,pbe0 with hgh-k psp and the pbe,nlcc (only
+  for the subset of molecules for which the nlcc psp are provided).
+* __Calculations and.../Dataset calculator__ : Read the dataset dictionaries built by 'Construction of the dataset' and compute the statical polarizability
+  for all the molecules and study type. Save the results in the files sp/nsp__results.yaml. This files are the starting point for
+  subsequent data analysis. The statical polarizability is computed according to the methods ps/nsp_workflow defined in the Routines.Py.
+  This building of these methods is described in the notebooks 'Single study sp/nsp calculator'. 
+
+* __Calculations and.../Data analysis__ : 
