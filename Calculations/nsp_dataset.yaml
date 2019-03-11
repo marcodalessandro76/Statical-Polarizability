@@ -319,11 +319,7 @@ CH3SH:
     - 6.451
     - 5.097
     - 5.12
-  study:
-  - *id001
-  - *id002
-  - *id003
-  - *id004
+  study: *id005
 CH4:
   ref_results:
     lda:
@@ -395,11 +391,7 @@ CS:
     - 3.554
     - 3.554
     - 5.616
-  study:
-  - *id001
-  - *id002
-  - *id003
-  - *id004
+  study: *id005
 CSO:
   ref_results:
     lda:
@@ -414,11 +406,7 @@ CSO:
     - 3.825
     - 3.825
     - 7.526
-  study:
-  - *id001
-  - *id002
-  - *id003
-  - *id004
+  study: *id005
 Cl2:
   ref_results:
     lda:
@@ -604,11 +592,7 @@ HBS:
     - 4.321
     - 4.321
     - 6.681
-  study:
-  - *id001
-  - *id002
-  - *id003
-  - *id004
+  study: *id005
 HCCCl:
   ref_results:
     lda:
@@ -847,11 +831,7 @@ LiBH4:
     - 4.476
     - 4.476
     - 4.885
-  study:
-  - *id001
-  - *id002
-  - *id003
-  - *id004
+  study: *id005
 LiCN:
   ref_results:
     lda:
@@ -866,11 +846,7 @@ LiCN:
     - 3.824
     - 3.918
     - 3.201
-  study:
-  - *id001
-  - *id002
-  - *id003
-  - *id004
+  study: *id005
 LiCl:
   ref_results:
     lda:
@@ -885,11 +861,7 @@ LiCl:
     - 3.956
     - 3.956
     - 4.196
-  study:
-  - *id001
-  - *id002
-  - *id003
-  - *id004
+  study: *id005
 LiH:
   ref_results:
     lda:
@@ -904,11 +876,7 @@ LiH:
     - 4.507
     - 4.507
     - 4.042
-  study:
-  - *id001
-  - *id002
-  - *id003
-  - *id004
+  study: *id005
 Mg:
   ref_results:
     lda:
@@ -1249,11 +1217,7 @@ S2H2:
     - 5.757
     - 8.442
     - 5.727
-  study:
-  - *id001
-  - *id002
-  - *id003
-  - *id004
+  study: *id005
 SCl2:
   ref_results:
     lda:
@@ -1298,11 +1262,7 @@ SH2:
     - 3.792
     - 3.653
     - 3.653
-  study:
-  - *id001
-  - *id002
-  - *id003
-  - *id004
+  study: *id005
 SO2:
   ref_results:
     lda:

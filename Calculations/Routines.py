@@ -43,7 +43,7 @@ def molecule_inlist(mol,psp_list):
     for a in atoms:
         if a not in psp_list:
             inlist = False
-        break
+            break
     return inlist
 
 def xc_lda(inp,molecule):
