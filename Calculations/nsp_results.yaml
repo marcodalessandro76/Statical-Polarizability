@@ -25558,6 +25558,280 @@ Ne:
     - 0.417
     - 0.417
     - 0.417
+  results:
+    *id004:
+      field_conv:
+        converged: true
+        converged_value: 0.01
+        label: field_int
+        results:
+          0.0005: null
+          0.001: null
+          0.005: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - &id009 !!python/object/apply:numpy.dtype
+              args:
+              - f8
+              - 0
+              - 1
+              state: !!python/tuple
+              - 3
+              - <
+              - null
+              - null
+              - null
+              - -1
+              - -1
+              - 0
+            - true
+            - !!binary |
+              cVtbeF7KB0BAgLjtc2MHv0CAuO1zYwe/QIC47XNjB79xW1t4XsoHQECAuO1zYwe/QIC47XNjB79A
+              gLjtc2MHv3FbW3heygdA
+          0.01: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              WYY41sXNB0CYyAtEqoMHv5jIC0Sqgwe/mMgLRKqDB79ZhjjWxc0HQJjIC0Sqgwe/mMgLRKqDB7+Y
+              yAtEqoMHv1mGONbFzQdA
+        values: &id010
+        - 0.01
+        - 0.005
+        - 0.001
+        - 0.0005
+      gs_conv:
+        converged: true
+        converged_value: 6.0
+        label: rmult
+        results:
+          3.0: -34.73207495465829
+          4.0: -34.8312688698126
+          5.0: -34.8425869947035
+          6.0: -34.84395219806973
+          7.0: -34.84413781396168
+          8.0: null
+          9.0: null
+          10.0: null
+          11.0: null
+        values:
+        - 3.0
+        - 4.0
+        - 5.0
+        - 6.0
+        - 7.0
+        - 8.0
+        - 9.0
+        - 10.0
+        - 11.0
+      rmult_conv:
+        converged: true
+        converged_value: 7.0
+        label: rmult
+        results:
+          6.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              WYY41sXNB0CYyAtEqoMHv5jIC0Sqgwe/mMgLRKqDB79ZhjjWxc0HQJjIC0Sqgwe/mMgLRKqDB7+Y
+              yAtEqoMHv1mGONbFzQdA
+          7.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              k+LjE7JDCEBQcBr7wsbtvlBwGvvCxu2+UHAa+8LG7b6T4uMTskMIQFBwGvvCxu2+UHAa+8LG7b5Q
+              cBr7wsbtvpPi4xOyQwhA
+          8.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              sTIa+bxiCEAgeYa1oBPMviB5hrWgE8y+IHmGtaATzL6xMhr5vGIIQCB5hrWgE8y+IHmGtaATzL4g
+              eYa1oBPMvrEyGvm8YghA
+          9.0: null
+          10.0: null
+          11.0: null
+        values:
+        - 6.0
+        - 7.0
+        - 8.0
+        - 9.0
+        - 10.0
+        - 11.0
+    *id005:
+      field_conv:
+        converged: true
+        converged_value: 0.01
+        label: field_int
+        results:
+          0.0005: null
+          0.001: null
+          0.005: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              QJ/Ik6TrB0CAfF4KcsQIv4B8XgpyxAi/gHxeCnLECL9An8iTpOsHQIB8XgpyxAi/gHxeCnLECL+A
+              fF4KcsQIv0CfyJOk6wdA
+          0.01: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              uD8XDRnvB0B40S4yQ9sIv3jRLjJD2wi/eNEuMkPbCL+4PxcNGe8HQHjRLjJD2wi/eNEuMkPbCL94
+              0S4yQ9sIv7g/Fw0Z7wdA
+        values: *id010
+      gs_conv:
+        converged: true
+        converged_value: 6.0
+        label: rmult
+        results:
+          3.0: -34.79957348935266
+          4.0: -34.89959809695197
+          5.0: -34.911316861087855
+          6.0: -34.91277086010038
+          7.0: -34.912972707411974
+          8.0: null
+          9.0: null
+          10.0: null
+          11.0: null
+        values:
+        - 3.0
+        - 4.0
+        - 5.0
+        - 6.0
+        - 7.0
+        - 8.0
+        - 9.0
+        - 10.0
+        - 11.0
+      rmult_conv:
+        converged: true
+        converged_value: 7.0
+        label: rmult
+        results:
+          6.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              uD8XDRnvB0B40S4yQ9sIv3jRLjJD2wi/eNEuMkPbCL+4PxcNGe8HQHjRLjJD2wi/eNEuMkPbCL94
+              0S4yQ9sIv7g/Fw0Z7wdA
+          7.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              CTICKhxxCEAEITn3KVfwvgQhOfcpV/C+BCE59ylX8L4JMgIqHHEIQAQhOfcpV/C+BCE59ylX8L4E
+              ITn3KVfwvgkyAioccQhA
+          8.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              mKQyxRyUCECg73m+marRvqDveb6ZqtG+oO95vpmq0b6YpDLFHJQIQKDveb6ZqtG+oO95vpmq0b6g
+              73m+marRvpikMsUclAhA
+          9.0: null
+          10.0: null
+          11.0: null
+        values:
+        - 6.0
+        - 7.0
+        - 8.0
+        - 9.0
+        - 10.0
+        - 11.0
   study: *id008
 OCl2:
   ref_results:
@@ -25573,6 +25847,436 @@ OCl2:
     - 4.314
     - 8.014
     - 4.691
+  results:
+    *id004:
+      field_conv:
+        converged: true
+        converged_value: 0.01
+        label: field_int
+        results:
+          0.0005: null
+          0.001: null
+          0.005: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              ybCKNzLPPUCg0oXcNbYxv4A/pN++Dny/IIDvNm+cNL/lfoeiQINMQABkw9MrZWk/JxiCFCPoe79I
+              fje8pFppP9u93CdHK0BA
+          0.01: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              PiKmRBLdPUBUZ3OkTM0yv8Bc64uEtny/IDYxbrQtNL9F2PD0SqNMQADJb18Hzmk/tOsoGN9hfL+U
+              cHTXCoFpPxbUt8zpMEBA
+        values: *id010
+      gs_conv:
+        converged: true
+        converged_value: 6.0
+        label: rmult
+        results:
+          3.0: -45.51611116418057
+          4.0: -45.83219626243663
+          5.0: -45.866337672552326
+          6.0: -45.870516788781956
+          7.0: -45.87107299590561
+          8.0: null
+          9.0: null
+          10.0: null
+          11.0: null
+        values:
+        - 3.0
+        - 4.0
+        - 5.0
+        - 6.0
+        - 7.0
+        - 8.0
+        - 9.0
+        - 10.0
+        - 11.0
+      rmult_conv:
+        converged: true
+        converged_value: 8.0
+        label: rmult
+        results:
+          6.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              PiKmRBLdPUBUZ3OkTM0yv8Bc64uEtny/IDYxbrQtNL9F2PD0SqNMQADJb18Hzmk/tOsoGN9hfL+U
+              cHTXCoFpPxbUt8zpMEBA
+          7.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              uU4jLZWvPkD0b8N7UEgZvwCkceFASGa/sPUOdSfxHL9e9BWkGQ1NQABQ6spneU4/mPViKCfaZb9+
+              CPxEEntQP0fmkT8YgEBA
+          8.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              evfHe9XyPkBatJgcmln7vgDqxvSEJU6/dI2+qvww975oxqLp7CxNQADsOH8TCjE/QXWZuFrJTL8H
+              +sZoAQAOP8GopE5Al0BA
+          9.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              ZWt9kdAGP0Aca+eUNMH/vgBIVTAqqTO/mIA073ph6b4rpPyk2jVNQADg4oi1+AQ/xMprnII5ML+c
+              +wnJcw3EvkiKyLCKnUBA
+          10.0: null
+          11.0: null
+        values:
+        - 6.0
+        - 7.0
+        - 8.0
+        - 9.0
+        - 10.0
+        - 11.0
+    *id005:
+      field_conv:
+        converged: true
+        converged_value: 0.01
+        label: field_int
+        results:
+          0.0005: null
+          0.001: null
+          0.005: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              lc/yPLiTPUCQ7lw59y4wv4BKjBAebXy/UEVDIV3HM78u51JcVWZMQACv+BQA42k/tjak9scgfL/3
+              43KTg59pP345s12hEUBA
+          0.01: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              xVVl3xWhPUBsaZcl8D0yv8DII38w8Hy/KEPGo1TCM78UXKyowYRMQABHHOviNmo/0W4LOzGQfL+d
+              4LRDcBpqP/NUh9wMF0BA
+        values: *id010
+      gs_conv:
+        converged: true
+        converged_value: 6.0
+        label: rmult
+        results:
+          3.0: -45.53144245855786
+          4.0: -45.84491900915673
+          5.0: -45.87929771813334
+          6.0: -45.883634236600514
+          7.0: -45.884244888547
+          8.0: null
+          9.0: null
+          10.0: null
+          11.0: null
+        values:
+        - 3.0
+        - 4.0
+        - 5.0
+        - 6.0
+        - 7.0
+        - 8.0
+        - 9.0
+        - 10.0
+        - 11.0
+      rmult_conv:
+        converged: true
+        converged_value: 8.0
+        label: rmult
+        results:
+          6.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              xVVl3xWhPUBsaZcl8D0yv8DII38w8Hy/KEPGo1TCM78UXKyowYRMQABHHOviNmo/0W4LOzGQfL+d
+              4LRDcBpqP/NUh9wMF0BA
+          7.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              UBn/PuN+PkCE8XS2mW0bvwDS/znMl2e/7HjSuvTMHr/idf2C3fRMQACj8dJNYlA/nqy1g1MXZ7+r
+              3mRlRR5SP/WEJR5QakBA
+          8.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              FK5H4XrIPkBoXyVFgq7/vgA45QrvclG/uhMTHcfkBL9kr3d/vBdNQADk6q2BrTI/K98IkkQdUL/g
+              SHeOA9r2PgDeAgmKg0BA
+          9.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              yh8MPPfePkC6Tck6H8wEvwAQwLLSpDS/mHATrnrS776Bmlq21iFNQAAgxteeWQI/YOFTKjC+Mr/F
+              R4qgn50bP1uU2SCTikBA
+          10.0: null
+          11.0: null
+        values:
+        - 6.0
+        - 7.0
+        - 8.0
+        - 9.0
+        - 10.0
+        - 11.0
+    *id006:
+      field_conv:
+        converged: true
+        converged_value: 0.01
+        label: field_int
+        results:
+          0.0005: null
+          0.001: null
+          0.005: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              kjXqIRplPUC4xTHUWRQzv4CY8e8zLny/IC558p8kM79k0XR2MiRMQACYsWg6O2k/0cJlFTYDfL/v
+              03ive6dpP8ex9Qzh9D9A
+          0.01: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              pu1fWWlyPUCEtXlvTh0yv8DII38w8Hy/gBdtROaAM79TGFsIckJMQICWmZmZmWk/ZqYG/fl0fL+M
+              2tvSD49pPwE1tWyt/z9A
+        values: *id010
+      gs_conv:
+        converged: true
+        converged_value: 6.0
+        label: rmult
+        results:
+          3.0: -50.945917802884225
+          4.0: -51.26043869102755
+          5.0: -51.29481364871861
+          6.0: -51.29910922324133
+          7.0: -51.299683250966524
+          8.0: null
+          9.0: null
+          10.0: null
+          11.0: null
+        values:
+        - 3.0
+        - 4.0
+        - 5.0
+        - 6.0
+        - 7.0
+        - 8.0
+        - 9.0
+        - 10.0
+        - 11.0
+      rmult_conv:
+        converged: true
+        converged_value: 8.0
+        label: rmult
+        results:
+          6.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              pu1fWWlyPUCEtXlvTh0yv8DII38w8Hy/gBdtROaAM79TGFsIckJMQICWmZmZmWk/ZqYG/fl0fL+M
+              2tvSD49pPwE1tWyt/z9A
+          7.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              CfmgZ7NOPkCcR78iZMUVv4APvjCZKmi/OEHw1+jFHr/FVWXfFbFMQACweCPzyE8/YDgR3MwRZ78U
+              UFVfZYZQP7uWkA96UkBA
+          8.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              ZOlDF9SXPkAAs4HweMX5PgAE93XgnFG/KL6QnrqjA7/aIJOMnNNMQAAcgCvZsTE//PdImcDsT7+S
+              TgpEZmYaP+cwX16Aa0BA
+          9.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              Z/LNNjeuPkDf79CUeib9vgAMTgte9DW/CMhNw6aE5r43H9eGit1MQAAAjpJX5xg/b02Kq1vYMr+A
+              MyKgHO8QP1g5tMh2ckBA
+          10.0: null
+          11.0: null
+        values:
+        - 6.0
+        - 7.0
+        - 8.0
+        - 9.0
+        - 10.0
+        - 11.0
   study:
   - *id004
   - *id005
@@ -25592,6 +26296,487 @@ P2H4:
     - 7.514
     - 10.927
     - 7.554
+  results:
+    *id004:
+      field_conv:
+        converged: true
+        converged_value: 0.01
+        label: field_int
+        results:
+          0.0005: null
+          0.001: null
+          0.005: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              JFgczvzKSUAoyko4mZ38PwD4Nv3Zj2S//htqygSS/D+PwvUoXJVSQAC5CP63kn2/Cd+/3JudZL/P
+              Keon95Z9v1q77UJzxUlA
+          0.01: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              jnVxGw3cSUCJIM7DCaz8PwBvokCfyGO/k/sdigJ9/D9/arx0k6lSQABZL4Zyon2/fXK5ZpcUZL/G
+              zjaSX5p9vxODwMqh10lA
+        values: *id010
+      gs_conv:
+        converged: true
+        converged_value: 5.0
+        label: rmult
+        results:
+          3.0: -15.434171996580218
+          4.0: -15.502842352835433
+          5.0: -15.509216701973468
+          6.0: -15.509866478940005
+          7.0: null
+          8.0: null
+          9.0: null
+          10.0: null
+          11.0: null
+        values:
+        - 3.0
+        - 4.0
+        - 5.0
+        - 6.0
+        - 7.0
+        - 8.0
+        - 9.0
+        - 10.0
+        - 11.0
+      rmult_conv:
+        converged: true
+        converged_value: 8.0
+        label: rmult
+        results:
+          5.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              jnVxGw3cSUCJIM7DCaz8PwBvokCfyGO/k/sdigJ9/D9/arx0k6lSQABZL4Zyon2/fXK5ZpcUZL/G
+              zjaSX5p9vxODwMqh10lA
+          6.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              g4b+CS5WSkCPiZRm83j2PwCYsWg6O0m/o6oJou4j9j/X2CWqtyRTQADpp+MxA2W/YoJmTMuMSr/H
+              idk/Dedjv4uO5PIfgkpA
+          7.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              H5OMnIV1SkCSOZZ31aP0PwBgHOviNiq/tyQH7Goy9D9X7C+7J0hTQABkw9MrZUm/jSG8GvnsK7+u
+              dnzKHXVFv2lXIeUnsUpA
+          8.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              220Xmut8SkD2dktywC70PwAA5oi1+AS/DVNb6iCv8z/w9EpZhlFTQADQRuaRPyi/q1DWfpryC79p
+              VZyByUEkv3Mprir7vEpA
+          9.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              ZffkYaF+SkBxIvq19RP0PwAA5oi1+NS+uamB5nOO8z+vDRXj/FNTQACA/DnMlwe//EtzZaSY6L41
+              +I4v4GgKvx5aZDvfv0pA
+          10.0: null
+          11.0: null
+        values:
+        - 5.0
+        - 6.0
+        - 7.0
+        - 8.0
+        - 9.0
+        - 10.0
+        - 11.0
+    *id005:
+      field_conv:
+        converged: true
+        converged_value: 0.01
+        label: field_int
+        results:
+          0.0005: null
+          0.001: null
+          0.005: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              Rloqb0dcSUAiiPNwAnP7PwD2famfN2W/ABTIkXNn+z9xCFVq9lxSQADf3sMlx32/xVgR+yVeZb+H
+              AtBqecx9v4PcRZiiVElA
+          0.01: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              u1zEd2JsSUB/qDRiZn/7PwASrkfhemS/mQzH8xlQ+z9N1qiHaHBSQIClfJbnwX2/FsD/HAfaZL8D
+              9jUers19v7wA++jUZUlA
+        values: *id010
+      gs_conv:
+        converged: true
+        converged_value: 5.0
+        label: rmult
+        results:
+          3.0: -15.446232762253096
+          4.0: -15.514100444841528
+          5.0: -15.520521183355601
+          6.0: -15.521192696377447
+          7.0: null
+          8.0: null
+          9.0: null
+          10.0: null
+          11.0: null
+        values:
+        - 3.0
+        - 4.0
+        - 5.0
+        - 6.0
+        - 7.0
+        - 8.0
+        - 9.0
+        - 10.0
+        - 11.0
+      rmult_conv:
+        converged: true
+        converged_value: 8.0
+        label: rmult
+        results:
+          5.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              u1zEd2JsSUB/qDRiZn/7PwASrkfhemS/mQzH8xlQ+z9N1qiHaHBSQIClfJbnwX2/FsD/HAfaZL8D
+              9jUers19v7wA++jUZUlA
+          6.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              BtMwfEToSUARPSmTGjr1PwDA34RCBEy/qSo0EMvm9D8AdJgvL+5SQAD+NTy9Uma/ZptOxLihTb9E
+              ryc29ldlv5CzsKcdEkpA
+          7.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              Sr99HTgJSkAGED6UaEnzPwCwDqFKzS6/OiS1UDLZ8j+A1CZO7hNTQABYzhlR2ku/nh+zpL1wML8y
+              b6CD2OBHv5V4QNmUQ0pA
+          8.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              7IZtizIRSkAXu31WmcnyPwAANpz51Qy/uwz/6QZK8j/TE5Z4QB5TQACQN5z51Sy/yy6xnSO+EL8S
+              ot79gVMnv1X7dDxmUEpA
+          9.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              qaROQBMTSkAIPZtVn6vyPwAA5oi1+NS+Ekn0Mool8j+Q96qVCSFTQADAAjrMlwe/6zICuYzR675Q
+              bFmOgHMRv10z+WabU0pA
+          10.0: null
+          11.0: null
+        values:
+        - 5.0
+        - 6.0
+        - 7.0
+        - 8.0
+        - 9.0
+        - 10.0
+        - 11.0
+    *id006:
+      field_conv:
+        converged: true
+        converged_value: 0.01
+        label: field_int
+        results:
+          0.0005: null
+          0.001: null
+          0.005: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              BXP0+L1RSUDGG/QAcfL6PwByPKBsymW/P5qgPOLm+j8DWyVYHExSQAA4LNSa5n2/SE85aKfNZb/z
+              0IG8ied9v+IGfH4YSUlA
+          0.01: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              0oxF09lhSUBHjnQGRv76PwB244i1+GS/vXDnwkjP+j+PGaiMf19SQACYBUzg1n2/PFj3duhHZb9k
+              wIo6EOV9v2MLQQ5KWklA
+        values: *id010
+      gs_conv:
+        converged: true
+        converged_value: 5.0
+        label: rmult
+        results:
+          3.0: -23.78047967615646
+          4.0: -23.848631073714802
+          5.0: -23.855079424168526
+          6.0: -23.855754034885827
+          7.0: null
+          8.0: null
+          9.0: null
+          10.0: null
+          11.0: null
+        values:
+        - 3.0
+        - 4.0
+        - 5.0
+        - 6.0
+        - 7.0
+        - 8.0
+        - 9.0
+        - 10.0
+        - 11.0
+      rmult_conv:
+        converged: true
+        converged_value: 8.0
+        label: rmult
+        results:
+          5.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              0oxF09lhSUBHjnQGRv76PwB244i1+GS/vXDnwkjP+j+PGaiMf19SQACYBUzg1n2/PFj3duhHZb9k
+              wIo6EOV9v2MLQQ5KWklA
+          6.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              xoDs9e7dSUC4c2GkF7X0PwDwJjEIrEy/C+vGuyNj9D8a4lgXt9xSQACK+pY5XWa/aH7Fskr9Tb+v
+              5u+UxEhlv197ZkmABkpA
+          7.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              iLX4FAD/SUB+GYwRicLyPwBQVE0QdS+/3NeBc0ZU8j9hiQeUTQJTQAD0zRlR2ku/DQI/a/17ML8O
+              HAfGEOxHv8SZX80BOEpA
+          8.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              aQBvgQQHSkDle0YiNELyPwAANpz51Qy/8gpET8rE8T/kSdI1kwxTQAAgOZz51Sy/qYKtcFTwEL8w
+              jdY9qP4nvywmNh/XREpA
+          9.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              iHssfegISkDGUiRfCSTyPwAA5oi1+NS+LZYi+Uqg8T9PO/w1WQ9TQADAAjrMlwe/gXGc1zkG674Z
+              srTEAikQv5/gYkUNSEpA
+          10.0: null
+          11.0: null
+        values:
+        - 5.0
+        - 6.0
+        - 7.0
+        - 8.0
+        - 9.0
+        - 10.0
+        - 11.0
   study:
   - *id004
   - *id005
@@ -25611,6 +26796,487 @@ PH2OH:
     - 5.008
     - 5.05
     - 4.988
+  results:
+    *id004:
+      field_conv:
+        converged: true
+        converged_value: 0.01
+        label: field_int
+        results:
+          0.0005: null
+          0.001: null
+          0.005: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              FymUha9LQUBUliGOdbH7v8MCJnDrbvc/EtS3zOmy+7/pK0gzFklBQHrMQGX8e/q/Vt6OcFpw9z/0
+              W3Sy1Hr6v5BJRs7COkFA
+          0.01: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              HqLRHcRaQUATvYxiuaX7v5xk5Czsqfc/QYf58gKs+79wWvCir1RBQNzJ4Ch5dfq/UYLF4cyv9z/X
+              TSmvlXD6v7PviuB/SUFA
+        values: *id010
+      gs_conv:
+        converged: true
+        converged_value: 5.0
+        label: rmult
+        results:
+          3.0: -24.297063972519002
+          4.0: -24.351986308204083
+          5.0: -24.356861136481857
+          6.0: -24.35733930353481
+          7.0: null
+          8.0: null
+          9.0: null
+          10.0: null
+          11.0: null
+        values:
+        - 3.0
+        - 4.0
+        - 5.0
+        - 6.0
+        - 7.0
+        - 8.0
+        - 9.0
+        - 10.0
+        - 11.0
+      rmult_conv:
+        converged: true
+        converged_value: 8.0
+        label: rmult
+        results:
+          5.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              HqLRHcRaQUATvYxiuaX7v5xk5Czsqfc/QYf58gKs+79wWvCir1RBQNzJ4Ch5dfq/UYLF4cyv9z/X
+              TSmvlXD6v7PviuB/SUFA
+          6.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              8Lp+wW7AQUDhrfNvl932v7ReDOVE+/k/+9UcIJjj9r+COXr83thBQP99xoUD4fW/bQTidf0C+j/1
+              oKAUrdz1vyHlJ9U+rUFA
+          7.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              uaC+ZU7dQUA6IXTQJVz1vyAa3UHszPo/jo1AvK5f9b+aDTLJyP9BQHNxGw3gbfS/T8gHPZvV+j+t
+              jhzpDGz0v97NUx1yyUFA
+          8.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              l/+QfvvkQUDoc+52vfT0v/IDkNrECfs/LM+Du7P29L+xFp8CYApCQF3I6lbPCfS/MoXOa+wS+z/H
+              KqVnegn0v8HAc+/h0EFA
+          9.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              vvbMkgDnQUBF4h5LH9r0v3yW58HdGfs/QTBHj9/b9L/6CtKMRQ1CQCGUMNP27/O/iSmRRC8j+z+l
+              2NE41O/zvyHgEKrU0kFA
+          10.0: null
+          11.0: null
+        values:
+        - 5.0
+        - 6.0
+        - 7.0
+        - 8.0
+        - 9.0
+        - 10.0
+        - 11.0
+    *id005:
+      field_conv:
+        converged: true
+        converged_value: 0.01
+        label: field_int
+        results:
+          0.0005: null
+          0.001: null
+          0.005: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              yAiocAQNQUCC+wEPDGD8vzz3Hi457vY/5kp2bARi/L/ZIJOMnC1BQOBe0hitI/u/QpfiqrLv9j+i
+              Zd0/FiL7v1buBWaF/EBA
+          0.01: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              UlxV9l0bQUDB7J48LFT8v2UibHh6Jfc/68pneR5c/L9amfBL/ThBQB4pIsMqHvu/RiswZHUr9z+R
+              XWkZqRf7v9uF5jqNCkFA
+        values: *id010
+      gs_conv:
+        converged: true
+        converged_value: 5.0
+        label: rmult
+        results:
+          3.0: -24.329355893226424
+          4.0: -24.383915829377635
+          5.0: -24.388837862674034
+          6.0: -24.38931484608845
+          7.0: null
+          8.0: null
+          9.0: null
+          10.0: null
+          11.0: null
+        values:
+        - 3.0
+        - 4.0
+        - 5.0
+        - 6.0
+        - 7.0
+        - 8.0
+        - 9.0
+        - 10.0
+        - 11.0
+      rmult_conv:
+        converged: true
+        converged_value: 8.0
+        label: rmult
+        results:
+          5.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              UlxV9l0bQUDB7J48LFT8v2UibHh6Jfc/68pneR5c/L9amfBL/ThBQB4pIsMqHvu/RiswZHUr9z+R
+              XWkZqRf7v9uF5jqNCkFA
+          6.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              RgiPNo6CQUDHZ7J/nob3vztvKlJhbPk/5j+k376O97/WqIdodMFBQEeJJHoZhfa/Tdaoh2h0+T9X
+              5xiQvX72vyBe1y/Yb0FA
+          7.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              W0I+6NmgQUBEUgslk/P1v0uh8xq7RPo/gXTqymf59b8XK2owDetBQI7zN6EQAfW/czdPdchN+j8n
+              9PqT+Pz0v+HurN12jUFA
+          8.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              GmmpvB2pQUBUyJV6FoT1vxODwMqhhfo/uXU3T3WI9b88/DVZo/ZBQPZ698d7lfS/PnXlszyP+j8L
+              IHwo0ZL0vyibcoV3lUFA
+          9.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              k8ZoHVWrQUCyo3Go32X1vxKSBUzglvo/KyzxgLJp9b987ZklAfpBQNYhN8MNePS/cFrwoq+g+j+3
+              fY/663X0v/nVHCCYl0FA
+          10.0: null
+          11.0: null
+        values:
+        - 5.0
+        - 6.0
+        - 7.0
+        - 8.0
+        - 9.0
+        - 10.0
+        - 11.0
+    *id006:
+      field_conv:
+        converged: true
+        converged_value: 0.01
+        label: field_int
+        results:
+          0.0005: null
+          0.001: null
+          0.005: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              lbpkHCMHQUAiFjHsMGb8vx5dM/lmm/Y/zLK1vkho/L/OGVHaGyhBQKQg6j4AKfu/sjic+dWc9j/Q
+              d7eyRCf7v5Rqn47H9kBA
+          0.01: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              T5KumXwVQUC1jqomiFr8v8FM27+y0vY/4o5wWvBi/L+y0qQUdDNBQDIge737I/u/m1Wfq63Y9j9s
+              CmR2Fh37v7Q8D+7OBEFA
+        values: *id010
+      gs_conv:
+        converged: true
+        converged_value: 5.0
+        label: rmult
+        results:
+          3.0: -29.359406898623728
+          4.0: -29.414161166495113
+          5.0: -29.419137538235066
+          6.0: -29.419644697790158
+          7.0: null
+          8.0: null
+          9.0: null
+          10.0: null
+          11.0: null
+        values:
+        - 3.0
+        - 4.0
+        - 5.0
+        - 6.0
+        - 7.0
+        - 8.0
+        - 9.0
+        - 10.0
+        - 11.0
+      rmult_conv:
+        converged: true
+        converged_value: 8.0
+        label: rmult
+        results:
+          5.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              T5KumXwVQUC1jqomiFr8v8FM27+y0vY/4o5wWvBi/L+y0qQUdDNBQDIge737I/u/m1Wfq63Y9j9s
+              CmR2Fh37v7Q8D+7OBEFA
+          6.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              FJZ4QNl8QUB2hqktdZD3v8N8eQH2Efk/YDdsW5SZ97+VK7zLRbxBQFkE/1vJjva/71pCPugZ+T9Y
+              pIl3gIf2vzHrxVBOakFA
+          7.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              UAEwnkGbQUA1Qj9Tr/v1v9Y+HY8Z6Pk/i2Nd3EYD9r/1Zz9SROZBQHwnZr0YCvW/xHJLqyHx+T+/
+              t+nPfgT1vwMhWcAEiEFA
+          8.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              L/oK0oyjQUCEQZlGk4v1v2HuWkI+KPo/G/onuFiR9b/1udqK/fFBQDzQCgxZnfS/U35S7dMx+j98
+              dOrKZ5n0v6omiLoPkEFA
+          9.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              6N7DJcelQUCnlNdK6G71vyWDo+TVOfo/bWXCL/Vz9b/98V61MvVBQHB87ZklgfS/Foczv5pD+j9I
+              pkOn5330v66ek943kkFA
+          10.0: null
+          11.0: null
+        values:
+        - 5.0
+        - 6.0
+        - 7.0
+        - 8.0
+        - 9.0
+        - 10.0
+        - 11.0
   study:
   - *id004
   - *id005
@@ -25630,6 +27296,532 @@ PH3:
     - 4.511
     - 4.511
     - 4.779
+  results:
+    *id004:
+      field_conv:
+        converged: true
+        converged_value: 0.001
+        label: field_int
+        results:
+          0.0005: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              1jkGZK8PP0AYFpKCXQNhvwCOdQKaCHs/YBQDJJpAYb/ikuNO6RA/QACOdQKaCHs/kaUwSisZez9e
+              0947xQV7P1T8GHPXQkBA
+          0.001: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              B84ZUdoPP0Djub4PBwlhvwARdQKaCHs/7+UXb3VKYb9+qZ83FRE/QACPIY51cXs/Fl70FaQZez+k
+              i6IHPgZ7P0gu/yH9QkBA
+          0.005: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              MGmM1lEVP0D5g5B/qCxhv4AD/reSHXs/HQs9BztqYb91JJf/kBY/QIBvio7k8n8/YPbDGQ0qez9R
+              T/0ojxN7PzV7oBUYSEBA
+          0.01: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              nx9GCI8mP0C8KPEUzV5hv8B1Nqs+V3s/f8vFrbzDYb8xychZ2Cc/QCBGFjCBW4c/s3OZuxJYez8N
+              cXLgUTp7P41+NJwyWEBA
+        values: *id010
+      gs_conv:
+        converged: true
+        converged_value: 5.0
+        label: rmult
+        results:
+          3.0: -8.282767546969872
+          4.0: -8.322407177333757
+          5.0: -8.32623077152035
+          6.0: -8.32662181349355
+          7.0: null
+          8.0: null
+          9.0: null
+          10.0: null
+          11.0: null
+        values:
+        - 3.0
+        - 4.0
+        - 5.0
+        - 6.0
+        - 7.0
+        - 8.0
+        - 9.0
+        - 10.0
+        - 11.0
+      rmult_conv:
+        converged: true
+        converged_value: 7.0
+        label: rmult
+        results:
+          5.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              B84ZUdoPP0Djub4PBwlhvwARdQKaCHs/7+UXb3VKYb9+qZ83FRE/QACPIY51cXs/Fl70FaQZez+k
+              i6IHPgZ7P0gu/yH9QkBA
+          6.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              6DV2ieqNP0B/yIV3d2w9vwCIf0i/fV0/4kxQ/WI6Pb+t2F92T44/QACMJjEIrFw/bz+1bkG+XT+q
+              nkN0Y9VbP3Foke1810BA
+          7.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              e+2ZJQGqP0AX7U1ngjwWvwCYG+viNjo/5OV54sy+Eb+S7Xw/Nao/QACcuY0G8EY/tOZCcFJUOj9p
+              Te0eNhdDP+LplbIM/UBA
+          8.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              0L2HS46vP0CoOGHHIRDPvgCAH+viNho/QAY5LxuL8L7koISZtq8/QACYG+viNjo/hVndhw8uFT9q
+              ux81ugM0Pw0CK4cWBUFA
+          9.0: null
+          10.0: null
+          11.0: null
+        values:
+        - 5.0
+        - 6.0
+        - 7.0
+        - 8.0
+        - 9.0
+        - 10.0
+        - 11.0
+    *id005:
+      field_conv:
+        converged: true
+        converged_value: 0.001
+        label: field_int
+        results:
+          0.0005: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              yk+qfTp+PkCKk/3zNGBgvwAQyXa+n3o/vZj091J4YL+rkPKTan8+QACTyHa+n3o/jYWj9QGSej/a
+              3r8euG96PzbNO07R0T9A
+          0.001: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              Jt9sc2N+PkC6GnlqP2Ngv4CS8rBQa3o/CKtoYnCDYL8IILWJk38+QIAQnzws1Ho/wftbXanCej/5
+              /5n37kV6P4mO5PIf0j9A
+          0.005: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              wVYJFoeDPkDiwl84fHdgv4C4yHa+n3o/IOdHDbeNYL8F9S1zuoQ+QAAyzJcXYH8/ZedtbHakej9A
+              KTmrLnV6Pz9xAP2+2z9A
+          0.01: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              j6omiLqTPkDR3AphNZZgv4CxPA/uzno/0/6DHwfrYL+U3je+9pQ+QGDzyB8MPIc/GaXY8ka9ej9J
+              +OeasJp6P2B2Tx4W+j9A
+        values: *id010
+      gs_conv:
+        converged: true
+        converged_value: 5.0
+        label: rmult
+        results:
+          3.0: -8.303549018525398
+          4.0: -8.342552343328338
+          5.0: -8.346372521200342
+          6.0: -8.346770993724462
+          7.0: null
+          8.0: null
+          9.0: null
+          10.0: null
+          11.0: null
+        values:
+        - 3.0
+        - 4.0
+        - 5.0
+        - 6.0
+        - 7.0
+        - 8.0
+        - 9.0
+        - 10.0
+        - 11.0
+      rmult_conv:
+        converged: true
+        converged_value: 7.0
+        label: rmult
+        results:
+          5.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              Jt9sc2N+PkC6GnlqP2Ngv4CS8rBQa3o/CKtoYnCDYL8IILWJk38+QIAQnzws1Ho/wftbXanCej/5
+              /5n37kV6P4mO5PIf0j9A
+          6.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              hV/q5039PkCmckSEoB89vwB+2V92T14/L9WXAFcNPb/gfyvZsf0+QACCgEi/fV0/n/wfWDySXj8O
+              ShKdyEBcPyWgibDhfUBA
+          7.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              PDHrxVAaP0BFkjtsIjMXvwCYG+viNjo/76tinlOYEL8JhQg4hBo/QACot40G8EY/eArRpajIOz9x
+              WHGvbupDP8dtNIC3pEBA
+          8.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              3YDPDyMgP0ACoJFCOOrxvgCAH+viNgo/2V+EMISK9L6qtwa2SiA/QACIf0i/fT0/QNRfqvcmFj9/
+              DGFYpcQzP8SPMXctrUBA
+          9.0: null
+          10.0: null
+          11.0: null
+        values:
+        - 5.0
+        - 6.0
+        - 7.0
+        - 8.0
+        - 9.0
+        - 10.0
+        - 11.0
+    *id006:
+      field_conv:
+        converged: true
+        converged_value: 0.001
+        label: field_int
+        results:
+          0.0005: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              idf1C3ZzPkDuI55HILlgvwARdQKaCHs/ShMt1PWfYL9pGD4ipnQ+QAARdQKaCHs/uuXeDbPhej/V
+              YKNRJtp6P4cvTKYKxj9A
+          0.001: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              5Ga4AZ9zPkD9U8a/z7hgv4BPdQKaCHs/3taH9UatYL/FpwAYz3Q+QIBPdQKaCHs/zVCpbR7iej/6
+              H0Qy5Nh6P3KTGARWxj9A
+          0.005: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              jSjtDb54PkC/M1gGD7JgvwBE7Eyh83o/Zm10ShfNYL9hH5268nk+QAAjPX5v038/5LswRuLtej8U
+              S+w1mOF6P74Qct7/zz9A
+          0.01: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              N4lBYOWIPkDPa/dhc8Rgv8AJ/reSHXs/6eLj0ZUhYb81mIbhI4o+QACcY0D2eoc/9f320JkPez/0
+              8RKUifh6Pwwh5/1/7j9A
+        values: *id010
+      gs_conv:
+        converged: true
+        converged_value: 5.0
+        label: rmult
+        results:
+          3.0: -12.470884858891463
+          4.0: -12.510040644932657
+          5.0: -12.513877974000716
+          6.0: -12.514278709484898
+          7.0: null
+          8.0: null
+          9.0: null
+          10.0: null
+          11.0: null
+        values:
+        - 3.0
+        - 4.0
+        - 5.0
+        - 6.0
+        - 7.0
+        - 8.0
+        - 9.0
+        - 10.0
+        - 11.0
+      rmult_conv:
+        converged: true
+        converged_value: 7.0
+        label: rmult
+        results:
+          5.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              5Ga4AZ9zPkD9U8a/z7hgv4BPdQKaCHs/3taH9UatYL/FpwAYz3Q+QIBPdQKaCHs/zVCpbR7iej/6
+              H0Qy5Nh6P3KTGARWxj9A
+          6.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              yeU/pN/yPkD+kKnt7Ew9vwCAMXctIV8/3kUsvZHUPb9QATCeQfM+QACGJzEIrFw/PmpGq/8YXz9V
+              p7Kks/5cP+wENBE2eEBA
+          7.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              uXAgJAsQP0Bb11PETE8WvwCIf0i/fT0/5BvIo+kmEL8VHcnlPxA/QACot40G8EY/DYF98LEmPD+d
+              LXH7HT5EP+VhodY0n0BA
+          8.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              7lpCPugVP0Bxahne6ST0vgCAH+viNho/QFvaq7oH+76Zu5aQDxY/QACYG+viNjo/LKmVB76pFT/e
+              s+PDQmY0PyYofoy5p0BA
+          9.0: null
+          10.0: null
+          11.0: null
+        values:
+        - 5.0
+        - 6.0
+        - 7.0
+        - 8.0
+        - 9.0
+        - 10.0
+        - 11.0
   study:
   - *id004
   - *id005
@@ -25649,6 +27841,532 @@ PH3O:
     - 4.175
     - 4.175
     - 4.957
+  results:
+    *id004:
+      field_conv:
+        converged: true
+        converged_value: 0.001
+        label: field_int
+        results:
+          0.0005: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              0a5Cyk9SPUCQngQ25+BZvwDAqkfhenQ/EDUQJiCBWr+1SrA4nFE9QACAKDEIrHw/bgiNYOP6dz/L
+              cRk3NdB8P4+VQ4tsd0FA
+          0.001: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              Lj4FwHhSPUAuGcl5WtlZvwCgabx0k3g/VBciTPZ0Wr+nV8oyxFE9QACMJjEIrHw/xTL4oAz6dz9V
+              6X3ja898P2c730+Nd0FA
+          0.005: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              1uJTAIxXPUBqlAFW/QBavwB8io7k8n8/Aob+S0ooWr8sJjYf11Y9QADwJjEIrHw/+c5wHNvfdz8n
+              5MYEZ7Z8PwtoImx4ekFA
+          0.01: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              QYLix5hnPUBE00Wvq25avwCLeqUsQ4w/DN4BnrRwWb8tQxzr4mY9QAByeqUsQ3w/590/s3eIdz9J
+              zScjFWN8P7Kd76fGg0FA
+        values: *id010
+      gs_conv:
+        converged: true
+        converged_value: 5.0
+        label: rmult
+        results:
+          3.0: -24.291946519841776
+          4.0: -24.352000883575577
+          5.0: -24.357624106322895
+          6.0: -24.35820664491633
+          7.0: null
+          8.0: null
+          9.0: null
+          10.0: null
+          11.0: null
+        values:
+        - 3.0
+        - 4.0
+        - 5.0
+        - 6.0
+        - 7.0
+        - 8.0
+        - 9.0
+        - 10.0
+        - 11.0
+      rmult_conv:
+        converged: true
+        converged_value: 7.0
+        label: rmult
+        results:
+          5.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              Lj4FwHhSPUAuGcl5WtlZvwCgabx0k3g/VBciTPZ0Wr+nV8oyxFE9QACMJjEIrHw/xTL4oAz6dz9V
+              6X3ja898P2c730+Nd0FA
+          6.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              kPeqlQm/PUBgKi8iHy4ovwCgabx0k1g/2NiDYo6SNb9l3xXB/749QADI79JNYmA/G9p4C3/hUD90
+              2ZaePG5gPwctsp3vz0FA
+          7.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              /8pKk1LYPUCbSGwU5RQFvwAAAAAAAAAASMZ33p3nBb/4/DBCeNg9QADg69JNYkA/c51s2vduJL95
+              neYNxVc6P0nhehSu50FA
+          8.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              4bTgRV/dPUAA6FsKO9HdPgCA+9JNYkC/gH7kxXiD3j5gGoaPiN09QAAAAAAAAAAAFL6dyLwjPb+H
+              WPZXod4SP7+fGi/d7EFA
+          9.0: null
+          10.0: null
+          11.0: null
+        values:
+        - 5.0
+        - 6.0
+        - 7.0
+        - 8.0
+        - 9.0
+        - 10.0
+        - 11.0
+    *id005:
+      field_conv:
+        converged: true
+        converged_value: 0.001
+        label: field_int
+        results:
+          0.0005: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              WmQ730/dPECAW58ov/tZvwCIbbx0k3g/tGjy3mKPWr/NO07Rkdw8QACAKDEIrHw/PsFlX8MdeT/g
+              09v6RPl9PzReukkMQkFA
+          0.001: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              mULnNXbdPEC0Hb2Ghf9ZvwCgabx0k3g/QO8wkuKIWr/qQxfUt9w8QAAIhOtRuH4/VuvQn+wceT+G
+              sE3PYPh9Py8xCKwcQkFA
+          0.005: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              Ne84RUfiPEBY9kW+IipavwDix5i7loA/Vnh+7ldDWr+oxks3ieE8QAA4LNSa5n0/10znWBgBeT8Y
+              1kFWnt19P04VjErqREFA
+          0.01: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              NgLxun7xPEDMcmy5CpRavwBC6Nms+ow/frmNYamJWb+p2QOtwPA8QACUqYJRSX0/p16GGBKkeD9L
+              M4qjeoR9P2Hl0CLbTUFA
+        values: *id010
+      gs_conv:
+        converged: true
+        converged_value: 5.0
+        label: rmult
+        results:
+          3.0: -24.326271144257337
+          4.0: -24.38584470080317
+          5.0: -24.391552691996395
+          6.0: -24.39217178436933
+          7.0: null
+          8.0: null
+          9.0: null
+          10.0: null
+          11.0: null
+        values:
+        - 3.0
+        - 4.0
+        - 5.0
+        - 6.0
+        - 7.0
+        - 8.0
+        - 9.0
+        - 10.0
+        - 11.0
+      rmult_conv:
+        converged: true
+        converged_value: 7.0
+        label: rmult
+        results:
+          5.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              mULnNXbdPEC0Hb2Ghf9ZvwCgabx0k3g/QO8wkuKIWr/qQxfUt9w8QAAIhOtRuH4/VuvQn+wceT+G
+              sE3PYPh9Py8xCKwcQkFA
+          6.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              z0nvG19PPUCnrHH0AC82vwCw89JNYlA/Za+ytikeN7+5vaQxWk89QADI79JNYmA/f6Hhg42hUj9j
+              kShykCliP5jtfD81nkFA
+          7.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              kBSRYRVrPUAQgEV+/RALvwAAAAAAAAAAcJLlPTFfDL9Q5EnSNWs9QADg69JNYkA/EYurZ5RwKb/I
+              aOTziqc+PxpaZDvft0FA
+          8.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              VOOlm8RwPUD82BNx+2TDPgDg69JNYkC/gK823+sYxT4wZHWr53A9QAAAAAAAAAAAs3mLyRPvPb8G
+              +axH7qQWPwqDwMqhvUFA
+          9.0: null
+          10.0: null
+          11.0: null
+        values:
+        - 5.0
+        - 6.0
+        - 7.0
+        - 8.0
+        - 9.0
+        - 10.0
+        - 11.0
+    *id006:
+      field_conv:
+        converged: true
+        converged_value: 0.001
+        label: field_int
+        results:
+          0.0005: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              dcjNcAPWPECQe5PwzutZvwCgabx0k3g/UIzas52lWr89syRATdU8QACAKDEIrHw/ExJLyt3neD8J
+              Oyndp/R9PxKuR+F6REFA
+          0.001: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              +1I/byrWPEBMmYHK+PdZvwAQyXa+n3o/wDoHKj6ZWr9+kdCWc9U8QAD8hetRuH4/ajy2CgfneD/u
+              F5uxw/N9Pw2BlUOLREFA
+          0.005: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              pWYPtALbPEDELSsDvSZavwDix5i7loA/tAO3B4RKWr/g+NozS9o8QAA4LNSa5n0/TD/8HQbKeD9U
+              LLj+4dd9P1d9rrZiR0FA
+          0.01: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              g92wbVHqPED7ScHoLJJavwCUqYJRSY0/3tQBtb2CWb+9b3ztmek8QACUqYJRSX0/zJon8LFoeD/A
+              naeuOnp9PzEIrBxaUEFA
+        values: *id010
+      gs_conv:
+        converged: true
+        converged_value: 5.0
+        label: rmult
+        results:
+          3.0: -29.354653429756528
+          4.0: -29.414398884882637
+          5.0: -29.4201574563577
+          6.0: -29.420768967488613
+          7.0: null
+          8.0: null
+          9.0: null
+          10.0: null
+          11.0: null
+        values:
+        - 3.0
+        - 4.0
+        - 5.0
+        - 6.0
+        - 7.0
+        - 8.0
+        - 9.0
+        - 10.0
+        - 11.0
+      rmult_conv:
+        converged: true
+        converged_value: 7.0
+        label: rmult
+        results:
+          5.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              +1I/byrWPEBMmYHK+PdZvwAQyXa+n3o/wDoHKj6ZWr9+kdCWc9U8QAD8hetRuH4/ajy2CgfneD/u
+              F5uxw/N9Pw2BlUOLREFA
+          6.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              PnRBfctIPUDOu/NhSfsnvwCgabx0k1g/JgBrevWWN7/+z2G+vEg9QADI79JNYmA/HAzq+Lu5UD/P
+              UroNzelgP/+nxks3oUFA
+          7.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              DBr6J7hkPUB+KmZrGmcVPwCA+9JNYkA/PMbz36TlB79bJVgczmQ9QACA+9JNYkA/wD0PpEHA8D4X
+              PepUnuU+PywzMzMzu0FA
+          8.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              p9B5jV1qPUCUvOvCyPjLPgAAAAAAAAAAIFI1H3zN176tad5ximo9QAAAAAAAAAAADJAEjsL9Ob9P
+              oaZCrmcXPwDVeOkmwUFA
+          9.0: null
+          10.0: null
+          11.0: null
+        values:
+        - 5.0
+        - 6.0
+        - 7.0
+        - 8.0
+        - 9.0
+        - 10.0
+        - 11.0
   study:
   - *id004
   - *id005
@@ -25668,6 +28386,293 @@ S2H2:
     - 5.757
     - 8.442
     - 5.727
+  results:
+    *id004:
+      field_conv:
+        converged: true
+        converged_value: 0.01
+        label: field_int
+        results:
+          0.0005: null
+          0.001: null
+          0.005: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              KcsQx7oYREAWvr7WpaYEQAC4iO/ErHe/JVex+E2hBEDMr+YAwUxNQABj64uEtny/N49gNkOid78j
+              KxrGONp8v7/snjws9ENA
+          0.01: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              YwtBDkoqRECtxDwracUEQIBHCI82jni/ec4WEFqvBECOtFTejmZNQICsCP63kn2/UjO9J4NheL94
+              F9YqTYx9v+KsiJroBERA
+        values: *id010
+      gs_conv:
+        converged: true
+        converged_value: 6.0
+        label: rmult
+        results:
+          3.0: -21.44894263493128
+          4.0: -21.58896981498089
+          5.0: -21.602821147195794
+          6.0: -21.604341576568896
+          7.0: -21.604516382328683
+          8.0: null
+          9.0: null
+          10.0: null
+          11.0: null
+        values:
+        - 3.0
+        - 4.0
+        - 5.0
+        - 6.0
+        - 7.0
+        - 8.0
+        - 9.0
+        - 10.0
+        - 11.0
+      rmult_conv:
+        converged: true
+        converged_value: 8.0
+        label: rmult
+        results:
+          6.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              YwtBDkoqRECtxDwracUEQIBHCI82jni/ec4WEFqvBECOtFTejmZNQICsCP63kn2/UjO9J4NheL94
+              F9YqTYx9v+KsiJroBERA
+          7.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              uywmNh9lRECiLedSXNUDQAAMV89J71u/MO4G0VqxA0B1mC8vwKhNQACJeohGd2C/2bN6lgbPW7+p
+              7f4v2aNgv/Kv5ZXrRkRA
+          8.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              LUMc6+J0RED7B5EMOZYDQAAgOZz51Ty/f74tWKprA0CKWS+GcrpNQAAkAz4/jEC/YHZxCAX/PL/5
+              LBw3JhNBvy0oDMo0WURA
+          9.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              /kP67et4REBmoDL+fYYDQADgVU0QdR+/LgH4p1RZA0Dl7QinBb9NQADAN38TCiG/EmcYCp4aHb9Z
+              NTJDLNUgvyyazk4GXkRA
+          10.0: null
+          11.0: null
+        values:
+        - 6.0
+        - 7.0
+        - 8.0
+        - 9.0
+        - 10.0
+        - 11.0
+    *id005:
+      field_conv:
+        converged: true
+        converged_value: 0.01
+        label: field_int
+        results:
+          0.0005: null
+          0.001: null
+          0.005: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              3BFOC17cQ0DXa3pQUEoEQAAoHaz/c3i//OB86lhFBEBq9kArMBRNQAATzVg0nX2/aqebm6F+eL/p
+              uq5nIWR9v7+V7NgIuENA
+          0.01: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              mQgbnl7tQ0ApkUQvo2gEQIAqYabtX3m/fAvrxrtTBEApCvSJPC1NQIB16spneX6/b0q7yVY0eb/9
+              SnwosIR+v5ZcxeI3yENA
+        values: *id010
+      gs_conv:
+        converged: true
+        converged_value: 6.0
+        label: rmult
+        results:
+          3.0: -21.44939513616313
+          4.0: -21.58800311855727
+          5.0: -21.601920231023232
+          6.0: -21.603487217280044
+          7.0: -21.6036717665092
+          8.0: null
+          9.0: null
+          10.0: null
+          11.0: null
+        values:
+        - 3.0
+        - 4.0
+        - 5.0
+        - 6.0
+        - 7.0
+        - 8.0
+        - 9.0
+        - 10.0
+        - 11.0
+      rmult_conv:
+        converged: true
+        converged_value: 8.0
+        label: rmult
+        results:
+          6.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              mQgbnl7tQ0ApkUQvo2gEQIAqYabtX3m/fAvrxrtTBEApCvSJPC1NQIB16spneX6/b0q7yVY0eb/9
+              SnwosIR+v5ZcxeI3yENA
+          7.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              YRqGj4grREBeglMfSG4DQAAetYmT+12/yvs4miNLA0C9MJkqGHNNQAAqzTtO0WG/IdYgbnxdXr9v
+              oSGfNC1hv73GLlG9DURA
+          8.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              5j+k3748REDutgvNdSoDQADodyPzyD+/3j8WokMAA0AqxvmbUIZNQAAYDoRkAUO/RzSRu4eJP78d
+              5YJpD/FDv8eePZepIURA
+          9.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              c9cS8kFBREBQGJRpNBkDQAAg8tJNYiC/j/rrFRbsAkDk1TkGZItNQABQDYRkASO/ZfR97tdyIL9h
+              TJOnTNUiv026LZELJ0RA
+          10.0: null
+          11.0: null
+        values:
+        - 6.0
+        - 7.0
+        - 8.0
+        - 9.0
+        - 10.0
+        - 11.0
   study: *id008
 SCl2:
   ref_results:
@@ -25683,6 +28688,263 @@ SCl2:
     - 5.683
     - 10.218
     - 7.129
+  results:
+    *id004:
+      field_conv:
+        converged: true
+        converged_value: 0.01
+        label: field_int
+        results:
+          0.0005: null
+          0.001: null
+          0.005: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              CaLuA5CmQ0DozcicPm06vwDzVs9J72u/cPnZIy/GO78i2/l+atZRQADev7LSpFQ/iBjL9EvEa786
+              xHGFHABWP1N5O8JpgUhA
+          0.01: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              9Wc/UkSwQ0DocTRHVn45v4BFBBxClWq/eApLl1nfO78VqTC2EOFRQIDXH+9VK1M/illXu9wWa78u
+              z34owbBWP8qOjUC8jEhA
+        values: *id010
+      gs_conv:
+        converged: true
+        converged_value: 6.0
+        label: rmult
+        results:
+          3.0: -39.773337608969086
+          4.0: -40.149408192355736
+          5.0: -40.187162117148105
+          6.0: -40.19156391050072
+          7.0: -40.19210114030732
+          8.0: null
+          9.0: null
+          10.0: null
+          11.0: null
+        values:
+        - 3.0
+        - 4.0
+        - 5.0
+        - 6.0
+        - 7.0
+        - 8.0
+        - 9.0
+        - 10.0
+        - 11.0
+      rmult_conv:
+        converged: true
+        converged_value: 7.0
+        label: rmult
+        results:
+          6.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              9Wc/UkSwQ0DocTRHVn45v4BFBBxClWq/eApLl1nfO78VqTC2EOFRQIDXH+9VK1M/illXu9wWa78u
+              z34owbBWP8qOjUC8jEhA
+          7.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              1bK1vkggREDuiwISh0sivwAZjpJX51i/rOOd6F83Ib/SUnk7whxSQACIOH8TChE/jp6364QbWb+A
+              kKOUa2UtP1mLTwEw8EhA
+          8.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              mbZ/ZaVBREACsPPj7RAIvwCwMVpHVUO/KoMn0et/C7866X3jay5SQAD4qUNuhhu/DaLok3J9Q7+v
+              vo+q85YVv2wm32xzDUlA
+          9.0: null
+          10.0: null
+          11.0: null
+        values:
+        - 6.0
+        - 7.0
+        - 8.0
+        - 9.0
+        - 10.0
+        - 11.0
+    *id005:
+      field_conv:
+        converged: true
+        converged_value: 0.01
+        label: field_int
+        results:
+          0.0005: null
+          0.001: null
+          0.005: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              vJF55A96Q0CQYcksrUw5v4BnM/lmm2u/4MFnkCfuPb+oaoKo+7JRQABGnNzvUFQ/ns30XPCza7/w
+              WiQOVQhWP+1kcJS8VkhA
+          0.01: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              i9toAG+DQ0CELvMlbQ05v4Bfe2ZJgGq/2C7POS6ZOb8jhEcbR71RQICjMVpHVVM/Rzu4hfjRar9p
+              kAADeytWP2ez6nO1YUhA
+        values: *id010
+      gs_conv:
+        converged: true
+        converged_value: 6.0
+        label: rmult
+        results:
+          3.0: -39.760383829497144
+          4.0: -40.13225426325155
+          5.0: -40.170099441202794
+          6.0: -40.17462696206351
+          7.0: -40.1751940970228
+          8.0: null
+          9.0: null
+          10.0: null
+          11.0: null
+        values:
+        - 3.0
+        - 4.0
+        - 5.0
+        - 6.0
+        - 7.0
+        - 8.0
+        - 9.0
+        - 10.0
+        - 11.0
+      rmult_conv:
+        converged: true
+        converged_value: 7.0
+        label: rmult
+        results:
+          6.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              i9toAG+DQ0CELvMlbQ05v4Bfe2ZJgGq/2C7POS6ZOb8jhEcbR71RQICjMVpHVVM/Rzu4hfjRar9p
+              kAADeytWP2ez6nO1YUhA
+          7.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              CHJQwkz5Q0CuH/aduk0jvwDGP8HFilq/hhhiDuW4Ib/lCu9yEfxRQACQN5z51Qw/wkFKBXh/Wr9I
+              U+pQVbouP4asbvWcykhA
+          8.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              i6azk8EdRED6iFGEktEKvwDBGMqJdkW/dBmFfWvCDr8lI2dhTw9SQAC88dJNYiC/4kkhfGc1Rr+0
+              /VljOO0Vv4rNx7Wh6khA
+          9.0: null
+          10.0: null
+          11.0: null
+        values:
+        - 6.0
+        - 7.0
+        - 8.0
+        - 9.0
+        - 10.0
+        - 11.0
   study: *id008
 SF2:
   ref_results:
@@ -25698,6 +28960,293 @@ SF2:
     - 3.334
     - 3.851
     - 3.51
+  results:
+    *id004:
+      field_conv:
+        converged: true
+        converged_value: 0.01
+        label: field_int
+        results:
+          0.0005: null
+          0.001: null
+          0.005: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              Vg4tsp0/N0CYjEfKkhAnvwAWti3KbIA/4PyEWKJYI78D7KNTV/Y6QACcIxCv61c/F5Lm0YU/gD9m
+              DymjHXlYP1N0JJf/gDhA
+          0.01: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              aXQHsTNZN0DcZHeaL6Mmv0CO+E7MeoE/EOpZ77sSJr/ir8ka9fw6QAD+n/1IEVk/DHWBYMjJgD9J
+              MZKgbIhZP8+c9SnHijhA
+        values: *id010
+      gs_conv:
+        converged: true
+        converged_value: 6.0
+        label: rmult
+        results:
+          3.0: -58.39065540852493
+          4.0: -58.57278161193118
+          5.0: -58.590998216531446
+          6.0: -58.59307557098127
+          7.0: -58.593392112278195
+          8.0: null
+          9.0: null
+          10.0: null
+          11.0: null
+        values:
+        - 3.0
+        - 4.0
+        - 5.0
+        - 6.0
+        - 7.0
+        - 8.0
+        - 9.0
+        - 10.0
+        - 11.0
+      rmult_conv:
+        converged: true
+        converged_value: 8.0
+        label: rmult
+        results:
+          6.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              aXQHsTNZN0DcZHeaL6Mmv0CO+E7MeoE/EOpZ77sSJr/ir8ka9fw6QAD+n/1IEVk/DHWBYMjJgD9J
+              MZKgbIhZP8+c9SnHijhA
+          7.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              cFrwoq8QOEDEGb/m2B4GvwAKnnsPl2w/EEuEeOqyBL+N0Tqqmjg7QACweCPzyD8/Gb0iEX3raT9E
+              l5ZCNHs/P+yDLAsm3jhA
+          8.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              P3RBfctQOEBhkMFSqU4BvwDKqKROQFM/spd5zr1X8r7waOOItUg7QACAx/SEJR4/cSpZG1FEUD+2
+              X7vX8MQhP6xWJvxS9zhA
+          9.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              KPIk6ZplOEAoLzSbK7HAvgBgHOviNjo/vG9bbVsa0z4oyxDHukw7QAAAw9eeWQI/XdFRQnzdMz/f
+              9psTt6YCP5BKsaNx/jhA
+          10.0: null
+          11.0: null
+        values:
+        - 6.0
+        - 7.0
+        - 8.0
+        - 9.0
+        - 10.0
+        - 11.0
+    *id005:
+      field_conv:
+        converged: true
+        converged_value: 0.01
+        label: field_int
+        results:
+          0.0005: null
+          0.001: null
+          0.005: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              y7kUV5U1N0D4KFRglrAlvwA45QrvcoE/ADt4HsMAJb+q9ul4zAA7QABkw9MrZVk/o1ny24Q5gT8D
+              Dt7TrJ5ZP07MejGUizhA
+          0.01: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              CVBTy9ZON0BUJtaQVZ0nvwCHdhVSfoI/UNs1W1i7Jr/sF+yGbQc7QACUCoDxDFo/heOW4uzOgT/M
+              aLt0WW1aP2LaN/dXlThA
+        values: *id010
+      gs_conv:
+        converged: true
+        converged_value: 6.0
+        label: rmult
+        results:
+          3.0: -58.45283444876096
+          4.0: -58.634898751127935
+          5.0: -58.65360628879999
+          6.0: -58.655835554498
+          7.0: -58.65625794824405
+          8.0: null
+          9.0: null
+          10.0: null
+          11.0: null
+        values:
+        - 3.0
+        - 4.0
+        - 5.0
+        - 6.0
+        - 7.0
+        - 8.0
+        - 9.0
+        - 10.0
+        - 11.0
+      rmult_conv:
+        converged: true
+        converged_value: 8.0
+        label: rmult
+        results:
+          6.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              CVBTy9ZON0BUJtaQVZ0nvwCHdhVSfoI/UNs1W1i7Jr/sF+yGbQc7QACUCoDxDFo/heOW4uzOgT/M
+              aLt0WW1aP2LaN/dXlThA
+          7.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              RC+jWG4VOEAI04bpmWMLvwB9Adnr3W8/UF6RZ7AMDr+EmbZ/ZUk7QACIOH8TCkE/oMcgXnQFbT8u
+              MbGHY05BPz6QvHMo8ThA
+          8.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              PGagMv5dOEDqw4QVymn/vgCiuI0G8FY/0Nf6XEy39b6BfXTqyls7QACAVDAqqSM/5YSP3CgfUz+b
+              S2ycHw8lP/pCyHn/DTlA
+          9.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              n+V5cHd2OED0xUcmCKDmvgAkzvxqDkA/AJhpxGRbqr5pwYu+gmA7QAAAw9eeWQI/9wnqXFS5Nz9u
+              82CwNp0IP/OKpx5pFjlA
+          10.0: null
+          11.0: null
+        values:
+        - 6.0
+        - 7.0
+        - 8.0
+        - 9.0
+        - 10.0
+        - 11.0
   study: *id008
 SH2:
   ref_results:
@@ -25713,6 +29262,327 @@ SH2:
     - 3.792
     - 3.653
     - 3.653
+  results:
+    *id004:
+      field_conv:
+        converged: true
+        converged_value: 0.01
+        label: field_int
+        results:
+          0.0005: null
+          0.001: null
+          0.005: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              FqkwthC8OECAUImp/IQmvwBEmGn7V4Y/AOU1r+qsJr8FHEKVmgU5QABcC0EOSng/cz0bA/xkhj8k
+              FlL6GUl4PyveyDzyvzhA
+          0.01: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              gjl6/N7OOECocxiC0gYmv0DVJaq3BoY/4MXQRZ5/Jr+r1OyBVhA5QIBoC0EOSng/q3tTR31Ihj9+
+              gIMwlm14P4jcDDfgyzhA
+        values: *id010
+      gs_conv:
+        converged: true
+        converged_value: 5.0
+        label: rmult
+        results:
+          3.0: -11.30015221090624
+          4.0: -11.372679400060221
+          5.0: -11.380551489903866
+          6.0: -11.381475651995146
+          7.0: null
+          8.0: null
+          9.0: null
+          10.0: null
+          11.0: null
+        values:
+        - 3.0
+        - 4.0
+        - 5.0
+        - 6.0
+        - 7.0
+        - 8.0
+        - 9.0
+        - 10.0
+        - 11.0
+      rmult_conv:
+        converged: true
+        converged_value: 8.0
+        label: rmult
+        results:
+          5.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              gjl6/N7OOECocxiC0gYmv0DVJaq3BoY/4MXQRZ5/Jr+r1OyBVhA5QIBoC0EOSng/q3tTR31Ihj9+
+              gIMwlm14P4jcDDfgyzhA
+          6.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              eU563/iuOkCkXCXoxxAUv4Awbf/KSnM/KFWcMIJCFL9Hisiwio85QADCmNh8XFs/V0tL9hlhcz9d
+              2MUtGdlbPyveyDzyozlA
+          7.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              o5I6AU1UO0CoflGoxeX6vgAw1T4dj1k/cCJ70+D1+r7z/dR46bI5QACQY5eo3jo/JAKC910qWT/9
+              BckexL47P4IExY8x4zlA
+          8.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              51dzgGCGO0Cp3zbTfA7evgC4xvSEJT4/PLy6/c4D474AxjNo6Ls5QADg4oi1+BQ/PbziB7kbPD9l
+              4uN937IYP2or9pfd8zlA
+          9.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              6JrJN9uUO0DS6WHOr/DDvgDgVU0QdR8/QCcX1UdEdj7uztptF745QAAA5oi1+PQ+QUGqbA2hGT/7
+              PqSR0PH2Ppy/CYUI+DlA
+          10.0: null
+          11.0: null
+        values:
+        - 5.0
+        - 6.0
+        - 7.0
+        - 8.0
+        - 9.0
+        - 10.0
+        - 11.0
+    *id005:
+      field_conv:
+        converged: true
+        converged_value: 0.01
+        label: field_int
+        results:
+          0.0005: null
+          0.001: null
+          0.005: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              A3gLJCheOEAIVVRYBFolvwD5Yign2oU/QGZITiZuJb9N845TdKw4QAAR1v85zHc//EuzL4/rhT//
+              6yeM+8l3P0xZhjjWXThA
+          0.01: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              BmSvd39wOEBsPAEkBdwkv4C9UpYhjoU/IDXv7rcsJb8XQznRrrY4QACeEaW9wXc/Enm0zH3NhT+F
+              GBoVWed3P3ahuU4jaThA
+        values: *id010
+      gs_conv:
+        converged: true
+        converged_value: 5.0
+        label: rmult
+        results:
+          3.0: -11.314550352356559
+          4.0: -11.386330449551817
+          5.0: -11.39423559351308
+          6.0: -11.395186505618824
+          7.0: null
+          8.0: null
+          9.0: null
+          10.0: null
+          11.0: null
+        values:
+        - 3.0
+        - 4.0
+        - 5.0
+        - 6.0
+        - 7.0
+        - 8.0
+        - 9.0
+        - 10.0
+        - 11.0
+      rmult_conv:
+        converged: true
+        converged_value: 8.0
+        label: rmult
+        results:
+          5.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              BmSvd39wOEBsPAEkBdwkv4C9UpYhjoU/IDXv7rcsJb8XQznRrrY4QACeEaW9wXc/Enm0zH3NhT+F
+              GBoVWed3P3ahuU4jaThA
+          6.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              oXprYKtUOkDcDNiWgOYTvwD7Zpsb03M/GBfGq+YYFL9/3lSkwjg5QACmaDo7GVw/A8613Fftcz8W
+              29LanJlcP5DaxMn9QjlA
+          7.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              VgT/W8kCO0CkbW6564b8vgB0M/lmm1s/oC50poLq/L60GhL3WF45QADAFMYWgjw/SflG/cAYWz+U
+              DVz/XYg9P6HWNO84hTlA
+          8.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              J5tyhXc5O0A1nsILD5PhvgDwFKkwtkA/LO9DaWV+4r6xogbTMGg5QAAAjpJX5xg/AWfDdgQrPz8j
+              I3Ec4uIbP07kSdI1lzlA
+          9.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id009
+            - true
+            - !!binary |
+              MG6jAbxJO0DNnuREhqPPvgAgxteeWSI/4CTkiFeHg770T3Cxomo5QAAAWU0Qde8+1elF2CzqHj8/
+              MM6rLNH3PgexM4XOmzlA
+          10.0: null
+          11.0: null
+        values:
+        - 5.0
+        - 6.0
+        - 7.0
+        - 8.0
+        - 9.0
+        - 10.0
+        - 11.0
   study: *id008
 SO2:
   ref_results:
@@ -25728,6 +29598,280 @@ SO2:
     - 2.906
     - 4.932
     - 3.387
+  results:
+    *id004:
+      field_conv:
+        converged: true
+        converged_value: 0.01
+        label: field_int
+        results:
+          0.0005: null
+          0.001: null
+          0.005: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - &id011 !!python/object/apply:numpy.dtype
+              args:
+              - f8
+              - 0
+              - 1
+              state: !!python/tuple
+              - 3
+              - <
+              - null
+              - null
+              - null
+              - -1
+              - -1
+              - 0
+            - true
+            - !!binary |
+              sacd/poUNEAU+6mWGdsgvwCAVDAqqTM/SFK90oWaGb98J2a9GApBQADgrUfhelS/EFwm3I4dMj/W
+              lx/RZ7RTv0zzjlN0rDdA
+          0.01: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id011
+            - true
+            - !!binary |
+              eR7cnbUbNEDMEbDrUZcgvwCAgCvZsTE//Gdnh676Ir+ygAncug9BQACsinH+JlS/5JU+tl1PMT9s
+              nbgcr0BUv6eMf59xuTdA
+        values: &id012
+        - 0.01
+        - 0.005
+        - 0.001
+        - 0.0005
+      gs_conv:
+        converged: true
+        converged_value: 6.0
+        label: rmult
+        results:
+          3.0: -42.09104267003529
+          4.0: -42.2306304825387
+          5.0: -42.24402769386124
+          6.0: -42.245483268835585
+          7.0: -42.24559190310177
+          8.0: null
+          9.0: null
+          10.0: null
+          11.0: null
+        values:
+        - 3.0
+        - 4.0
+        - 5.0
+        - 6.0
+        - 7.0
+        - 8.0
+        - 9.0
+        - 10.0
+        - 11.0
+      rmult_conv:
+        converged: true
+        converged_value: 7.0
+        label: rmult
+        results:
+          6.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id011
+            - true
+            - !!binary |
+              eR7cnbUbNEDMEbDrUZcgvwCAgCvZsTE//Gdnh676Ir+ygAncug9BQACsinH+JlS/5JU+tl1PMT9s
+              nbgcr0BUv6eMf59xuTdA
+          7.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id011
+            - true
+            - !!binary |
+              71UrE35NNEA60DdnGekCvwCAgCvZsSE/zMIiHDkmCb/D8BExJTBBQADAqkNuhiu/pReQ6xbpJD/X
+              6owxqB0rv1J+Uu3TBThA
+          8.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id011
+            - true
+            - !!binary |
+              kwA1tWxZNEBgMV2Os/7hvgAA5oi1+AQ/YJiJ54qg2j5xj6UPXThBQAAA5oi1+OS+suy9toZrCD+o
+              MgJcn6HnvgwfEVMiGThA
+          9.0: null
+          10.0: null
+          11.0: null
+        values:
+        - 6.0
+        - 7.0
+        - 8.0
+        - 9.0
+        - 10.0
+        - 11.0
+    *id005:
+      field_conv:
+        converged: true
+        converged_value: 0.01
+        label: field_int
+        results:
+          0.0005: null
+          0.001: null
+          0.005: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id011
+            - true
+            - !!binary |
+              eEZblUQKNEBgMuXgJXohvwBAceFASDY/gFl1TpqjGr8z/n3GhRdBQAAQKjV7oFW/QIb6wAJWNj9v
+              dIqfEEtUv6W4quy7sjdA
+          0.01: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id011
+            - true
+            - !!binary |
+              8P54r1oRNEBYxCzNEDshvwAQwLLSpDQ/bPssQ9rOIL96GcVySx1BQACQWtO841S/LkBgDlBUNT9F
+              kNekV9pUv47HDFTGvzdA
+        values: *id012
+      gs_conv:
+        converged: true
+        converged_value: 6.0
+        label: rmult
+        results:
+          3.0: -42.109820147916125
+          4.0: -42.24922246775222
+          5.0: -42.2629442913648
+          6.0: -42.264558436628604
+          7.0: -42.264586184240784
+          8.0: null
+          9.0: null
+          10.0: null
+          11.0: null
+        values:
+        - 3.0
+        - 4.0
+        - 5.0
+        - 6.0
+        - 7.0
+        - 8.0
+        - 9.0
+        - 10.0
+        - 11.0
+      rmult_conv:
+        converged: true
+        converged_value: 7.0
+        label: rmult
+        results:
+          6.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id011
+            - true
+            - !!binary |
+              8P54r1oRNEBYxCzNEDshvwAQwLLSpDQ/bPssQ9rOIL96GcVySx1BQACQWtO841S/LkBgDlBUNT9F
+              kNekV9pUv47HDFTGvzdA
+          7.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id011
+            - true
+            - !!binary |
+              ou4DkNpINEAysrPUuSMFvwBAReaRPyg/0B84v0VN4r65pdWQuEFBQABAEKFKzS6/w8O9l5q7KD/1
+              C+XNrGgtv+gTeZJ0FThA
+          8.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id011
+            - true
+            - !!binary |
+              pmH4iJhWNECo1UvBDqvlvgAAWU0QdQ8/uouU4Ccr6r4WTWcng0tBQAAAzYi1+PS+lF8Vac9eDj/e
+              QsMF0fjkvnOFd7mIKzhA
+          9.0: null
+          10.0: null
+          11.0: null
+        values:
+        - 6.0
+        - 7.0
+        - 8.0
+        - 9.0
+        - 10.0
+        - 11.0
   study: *id008
 SiH3Cl:
   ref_results:
@@ -25743,6 +29887,487 @@ SiH3Cl:
     - 5.811
     - 5.811
     - 7.349
+  results:
+    *id004:
+      field_conv:
+        converged: true
+        converged_value: 0.005
+        label: field_int
+        results:
+          0.0005: null
+          0.001: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id011
+            - true
+            - !!binary |
+              F9S3zOlEREC4eWlAc4w6P4A0B84ZUYo/yF5jl6jeOj8fhetRuEREQACLeqUsQ4w/f6rAf6lVij8g
+              d7F60WiMP4SnV8oyjElA
+          0.005: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id011
+            - true
+            - !!binary |
+              HPD5YYRIREBo/DMHMWU6PwBaB84ZUYo/IOgJ8IItOz9GdxA7U0hEQAAxAWpq2Yo/loz/r/hVij/K
+              UdNwwmuMPymRRC+jkElA
+          0.01: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id011
+            - true
+            - !!binary |
+              lUOLbOdTRECG6Vchgv05P8Cz4EVfQYo/iEoPOzpLPD8gByXMtFNEQEC7rl+wG4Y/Nse5TbhXij+Z
+              0n6UpnuMP62m64munklA
+        values: *id012
+      gs_conv:
+        converged: true
+        converged_value: 5.0
+        label: rmult
+        results:
+          3.0: -20.559080548586874
+          4.0: -20.6891582028302
+          5.0: -20.700765651001277
+          6.0: -20.701790659123787
+          7.0: null
+          8.0: null
+          9.0: null
+          10.0: null
+          11.0: null
+        values:
+        - 3.0
+        - 4.0
+        - 5.0
+        - 6.0
+        - 7.0
+        - 8.0
+        - 9.0
+        - 10.0
+        - 11.0
+      rmult_conv:
+        converged: true
+        converged_value: 7.0
+        label: rmult
+        results:
+          5.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id011
+            - true
+            - !!binary |
+              HPD5YYRIREBo/DMHMWU6PwBaB84ZUYo/IOgJ8IItOz9GdxA7U0hEQAAxAWpq2Yo/loz/r/hVij/K
+              UdNwwmuMPymRRC+jkElA
+          6.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id011
+            - true
+            - !!binary |
+              mioYldSlREB+y9OOIjgMvwDESGjLuWQ/aHQVjeA/EL82donqraVEQACM8e8zLlw/MR+zLa/OZD+d
+              rVQBCyFmP8Tm49pQJUpA
+          7.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id011
+            - true
+            - !!binary |
+              7dgIxOu2REBAHxQxeNryvgBAceFASDY/AIXH4q5KuD6XxcTm47ZEQAD4P8HFikq/g2Lr3vGCND+G
+              suY6I4c1PzANw0fESEpA
+          8.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id011
+            - true
+            - !!binary |
+              zO7Jw0K5REAAgJmsWYCJvgAA5oi1+AQ/L6siQ65q4T7FrBdDOblEQABUSuoENFG/V5u1nuggBT+J
+              lLoIVBgdP2e4AZ8fTkpA
+          9.0: null
+          10.0: null
+          11.0: null
+        values:
+        - 5.0
+        - 6.0
+        - 7.0
+        - 8.0
+        - 9.0
+        - 10.0
+        - 11.0
+    *id005:
+      field_conv:
+        converged: true
+        converged_value: 0.005
+        label: field_int
+        results:
+          0.0005: null
+          0.001: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id011
+            - true
+            - !!binary |
+              DAdCsoDbQ0CgCnDV0GE5PwA0MQisHIo/EAJk+QSaOT/6J7hYUdtDQABMpN++Dow/DjQ+3YoOij8f
+              IdD0bRyMP8kQx7q4FUlA
+          0.005: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id011
+            - true
+            - !!binary |
+              UBn/PuPeQ0C41ZN1Dzs5PwBOqFKzB4o/mGGf5+zwOT8J+aBns95DQIC4yHa+n4o/Gb0ZVm0Oij9v
+              NgRkOyGMP5Jc/kP6GUlA
+          0.01: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id011
+            - true
+            - !!binary |
+              VfFG5pHpQ0Dyt8Muo7s4PwCVgcr494k/9B/47ywHOz/ajxSRYelDQIARwqONI4Y/C0cdPmUMij/2
+              9im/8yiMP6iJPh9lJ0lA
+        values: *id012
+      gs_conv:
+        converged: true
+        converged_value: 5.0
+        label: rmult
+        results:
+          3.0: -20.576738682720087
+          4.0: -20.705497888078227
+          5.0: -20.717163155832196
+          6.0: -20.71821803782801
+          7.0: null
+          8.0: null
+          9.0: null
+          10.0: null
+          11.0: null
+        values:
+        - 3.0
+        - 4.0
+        - 5.0
+        - 6.0
+        - 7.0
+        - 8.0
+        - 9.0
+        - 10.0
+        - 11.0
+      rmult_conv:
+        converged: true
+        converged_value: 7.0
+        label: rmult
+        results:
+          5.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id011
+            - true
+            - !!binary |
+              UBn/PuPeQ0C41ZN1Dzs5PwBOqFKzB4o/mGGf5+zwOT8J+aBns95DQIC4yHa+n4o/Gb0ZVm0Oij9v
+              NgRkOyGMP5Jc/kP6GUlA
+          6.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id011
+            - true
+            - !!binary |
+              /WoOEMw9RECG9TYXLpQEvwCkceFASGY/2ILrkdPFEL/ohxHCoz1EQACE2F92T14/FPjF0KrJZT+l
+              9/pLbO1mP1Z4l4v4rklA
+          7.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id011
+            - true
+            - !!binary |
+              a/EpAMZPRECwZWxkLtv0vgDQRuaRPzg/gk631E9k9745tMh2vk9EQABwuI0G8Ea/8JWgBThrNj+C
+              oKigJf42P8+I0t7g00lA
+          8.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id011
+            - true
+            - !!binary |
+              fJv+7EdSREAAkIg1jdSYPgCAH+viNgo/QyTXWEsO3j6ZLy/APlJEQADw32dcOFC/6W6IBX8+CD9/
+              GaYcbmwfP1Lt0/GY2UlA
+          9.0: null
+          10.0: null
+          11.0: null
+        values:
+        - 5.0
+        - 6.0
+        - 7.0
+        - 8.0
+        - 9.0
+        - 10.0
+        - 11.0
+    *id006:
+      field_conv:
+        converged: true
+        converged_value: 0.005
+        label: field_int
+        results:
+          0.0005: null
+          0.001: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id011
+            - true
+            - !!binary |
+              Su8bX3vIQ0D4tJlUfmM5P4DVb18Hzok/cKqTfaGROT9c5nRZTMhDQIDt4jYawIs/mNoZprbUiT9C
+              UCorl9eLPyUxCKwc9khA
+          0.005: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id011
+            - true
+            - !!binary |
+              Tnrf+NrLQ0AYEXaC5Do5P4DVb18Hzok/KFql7NvmOT9PBkfJq8tDQIDZyyiWW4o/+m5vjqXViT/X
+              56xHyN2LPy/nUlxV+khA
+          0.01: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id011
+            - true
+            - !!binary |
+              TRB1H4DWQ0BstEaxmrY4P4BiqwSLw4k/vF9d04vzOj88MevFUNZDQABQAtTUsoU/BF6IMNnTiT9V
+              JfwYlOWLPwQ8aeGyB0lA
+        values: *id012
+      gs_conv:
+        converged: true
+        converged_value: 5.0
+        label: rmult
+        results:
+          3.0: -26.185730383625437
+          4.0: -26.314925354311
+          5.0: -26.326606362572505
+          6.0: -26.327660544045976
+          7.0: null
+          8.0: null
+          9.0: null
+          10.0: null
+          11.0: null
+        values:
+        - 3.0
+        - 4.0
+        - 5.0
+        - 6.0
+        - 7.0
+        - 8.0
+        - 9.0
+        - 10.0
+        - 11.0
+      rmult_conv:
+        converged: true
+        converged_value: 7.0
+        label: rmult
+        results:
+          5.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id011
+            - true
+            - !!binary |
+              Tnrf+NrLQ0AYEXaC5Do5P4DVb18Hzok/KFql7NvmOT9PBkfJq8tDQIDZyyiWW4o/+m5vjqXViT/X
+              56xHyN2LPy/nUlxV+khA
+          6.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id011
+            - true
+            - !!binary |
+              ytsRTgsqRECiYhuLgu0LvwCOoX+Ci2U/DOVcoUdAEL8ge7374ylEQACEox6i0V0/SDJ0hL2dZT8e
+              wpj3r+FmP5HtfD81jklA
+          7.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id011
+            - true
+            - !!binary |
+              AKlNnNw7RECA4hBxcyrZvgBQDYRkATM/oEJa2JRh3L7Oa+wS1TtEQABgHOviNkq/IFmIoy4/Nz8T
+              YlyYpjs4P1DfMqfLsklA
+          8.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id011
+            - true
+            - !!binary |
+              J8KGp1c+REAAFQP60EfBvgAAWU0Qdf8+lZyYf9hXxz5DVrd6Tj5EQADsOH8TClG/6SvEm8UNBT9I
+              rfFEhkUYP0bOwp52uElA
+          9.0: null
+          10.0: null
+          11.0: null
+        values:
+        - 5.0
+        - 6.0
+        - 7.0
+        - 8.0
+        - 9.0
+        - 10.0
+        - 11.0
   study:
   - *id004
   - *id005
@@ -25762,6 +30387,352 @@ SiH3F:
     - 4.381
     - 4.381
     - 3.983
+  results:
+    *id004:
+      field_conv:
+        converged: true
+        converged_value: 0.01
+        label: field_int
+        results:
+          0.0005: null
+          0.001: null
+          0.005: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id011
+            - true
+            - !!binary |
+              KjV7oBU4P0BgU+nlfwsVPwAgox6i0U0/MHrKpGUoFz9j0XR2Mjg/QACsv7LSpFQ/Z2NQ+RkPTT+J
+              03HrJBFQPx3O/GoOWDxA
+          0.01: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id011
+            - true
+            - !!binary |
+              FprrNNJOP0CAmGD+K6cUPwDWaB1VTVA/3MJzQiq9HT+dB3dn7U4/QADcZ1w4EGI/ugOURP6yTj/9
+              fx8fPvpQPyUGgZVDYzxA
+        values: *id012
+      gs_conv:
+        converged: true
+        converged_value: 5.0
+        label: rmult
+        results:
+          3.0: -29.874108152612962
+          4.0: -29.92832330982145
+          5.0: -29.931696897895463
+          6.0: -29.9318701473561
+          7.0: null
+          8.0: null
+          9.0: null
+          10.0: null
+          11.0: null
+        values:
+        - 3.0
+        - 4.0
+        - 5.0
+        - 6.0
+        - 7.0
+        - 8.0
+        - 9.0
+        - 10.0
+        - 11.0
+      rmult_conv:
+        converged: true
+        converged_value: 5.0
+        label: rmult
+        results:
+          5.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id011
+            - true
+            - !!binary |
+              FprrNNJOP0CAmGD+K6cUPwDWaB1VTVA/3MJzQiq9HT+dB3dn7U4/QADcZ1w4EGI/ugOURP6yTj/9
+              fx8fPvpQPyUGgZVDYzxA
+          6.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id011
+            - true
+            - !!binary |
+              vw6cM6KYP0C0lgYbKggmvwDYlLcjnDY/yAMCUbtVI7+4BrZKsJg/QAAWXvQVpFk//a6tREVBNT9B
+              yXE1H8g7P4bJVMGooDxA
+          7.0: null
+          8.0: null
+          9.0: null
+          10.0: null
+          11.0: null
+        values:
+        - 5.0
+        - 6.0
+        - 7.0
+        - 8.0
+        - 9.0
+        - 10.0
+        - 11.0
+    *id005:
+      field_conv:
+        converged: true
+        converged_value: 0.01
+        label: field_int
+        results:
+          0.0005: null
+          0.001: null
+          0.005: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id011
+            - true
+            - !!binary |
+              luzYCMR7PkDgRFyt0XoBPwAAjpJX50g/EPM+6Z87DD+y9KEL6ns+QABwuI0G8FY/NEhMs+1yST/G
+              FzjJJF1SP9LB+j+H6TtA
+          0.01: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id011
+            - true
+            - !!binary |
+              sHJoke2QPkDg/mvMLaUFPwC8OJz51Uw/IBHSCVf2Ez8+IqZEEpE+QAAYDoRkAWM/xgsBROoLSz+W
+              yOt/iCZTPxuZR/5g9DtA
+        values: *id012
+      gs_conv:
+        converged: true
+        converged_value: 5.0
+        label: rmult
+        results:
+          3.0: -29.93050235022327
+          4.0: -29.984744243338
+          5.0: -29.98826392045612
+          6.0: -29.98846104191638
+          7.0: null
+          8.0: null
+          9.0: null
+          10.0: null
+          11.0: null
+        values:
+        - 3.0
+        - 4.0
+        - 5.0
+        - 6.0
+        - 7.0
+        - 8.0
+        - 9.0
+        - 10.0
+        - 11.0
+      rmult_conv:
+        converged: true
+        converged_value: 5.0
+        label: rmult
+        results:
+          5.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id011
+            - true
+            - !!binary |
+              sHJoke2QPkDg/mvMLaUFPwC8OJz51Uw/IBHSCVf2Ez8+IqZEEpE+QAAYDoRkAWM/xgsBROoLSz+W
+              yOt/iCZTPxuZR/5g9DtA
+          6.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id011
+            - true
+            - !!binary |
+              poP1fw7bPkCwFWUdK4QnvwAQKjV7oDU/qUIreTosJL97pSxDHNs+QAAAjpJX51g/c9zRG8hcND+e
+              MnpFIvo2P7+fGi/dNDxA
+          7.0: null
+          8.0: null
+          9.0: null
+          10.0: null
+          11.0: null
+        values:
+        - 5.0
+        - 6.0
+        - 7.0
+        - 8.0
+        - 9.0
+        - 10.0
+        - 11.0
+    *id006:
+      field_conv:
+        converged: true
+        converged_value: 0.01
+        label: field_int
+        results:
+          0.0005: null
+          0.001: null
+          0.005: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id011
+            - true
+            - !!binary |
+              CmgibHhyPkAgrQjU7pn9PgAw1T4dj0k/UOF56/RqDT/C2EKQg3I+QABUSuoENFE/+Lf+AubGST+2
+              KO0NvjBJP+FFX0Ga6TtA
+          0.01: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id011
+            - true
+            - !!binary |
+              kFN0JJeHPkCgEhg+ZMIGPwBUXHLcKU0/gEkTreR8FD9O6WD9n4c+QAA7FakwtmA/RpKncvthSz/H
+              rUhtXqxKP2J/2T159DtA
+        values: *id012
+      gs_conv:
+        converged: true
+        converged_value: 5.0
+        label: rmult
+        results:
+          3.0: -35.0767271250945
+          4.0: -35.13100169769903
+          5.0: -35.134310693371724
+          6.0: -35.134464060300274
+          7.0: null
+          8.0: null
+          9.0: null
+          10.0: null
+          11.0: null
+        values:
+        - 3.0
+        - 4.0
+        - 5.0
+        - 6.0
+        - 7.0
+        - 8.0
+        - 9.0
+        - 10.0
+        - 11.0
+      rmult_conv:
+        converged: true
+        converged_value: 5.0
+        label: rmult
+        results:
+          5.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id011
+            - true
+            - !!binary |
+              kFN0JJeHPkCgEhg+ZMIGPwBUXHLcKU0/gEkTreR8FD9O6WD9n4c+QAA7FakwtmA/RpKncvthSz/H
+              rUhtXqxKP2J/2T159DtA
+          6.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id011
+            - true
+            - !!binary |
+              910R/G/RPkBI3zveopsmvwBAB1+YTDU/vQpJli4lJL9i/Z/DfNE+QACoIY51cVs/STuNmP+uND+K
+              6Kbm1a08P/4mFCLgNDxA
+          7.0: null
+          8.0: null
+          9.0: null
+          10.0: null
+          11.0: null
+        values:
+        - 5.0
+        - 6.0
+        - 7.0
+        - 8.0
+        - 9.0
+        - 10.0
+        - 11.0
   study:
   - *id004
   - *id005
@@ -25781,6 +30752,397 @@ SiH4:
     - 4.74
     - 4.74
     - 4.74
+  results:
+    *id004:
+      field_conv:
+        converged: true
+        converged_value: 0.01
+        label: field_int
+        results:
+          0.0005: null
+          0.001: null
+          0.005: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id011
+            - true
+            - !!binary |
+              QQ5KmGnXQEDsMMtDS8NFv+wwy0NLw0W/7DDLQ0vDRb9BDkqYaddAQOwwy0NLw0W/7DDLQ0vDRb/s
+              MMtDS8NFv0EOSphp10BA
+          0.01: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id011
+            - true
+            - !!binary |
+              BcWPMXfjQEBeUv3WkLBGv15S/daQsEa/XlL91pCwRr8FxY8xd+NAQF5S/daQsEa/XlL91pCwRr9e
+              Uv3WkLBGvwXFjzF340BA
+        values: *id012
+      gs_conv:
+        converged: true
+        converged_value: 5.0
+        label: rmult
+        results:
+          3.0: -6.2130752027468725
+          4.0: -6.236169343246426
+          5.0: -6.237963497319876
+          6.0: -6.238103842828324
+          7.0: null
+          8.0: null
+          9.0: null
+          10.0: null
+          11.0: null
+        values:
+        - 3.0
+        - 4.0
+        - 5.0
+        - 6.0
+        - 7.0
+        - 8.0
+        - 9.0
+        - 10.0
+        - 11.0
+      rmult_conv:
+        converged: true
+        converged_value: 6.0
+        label: rmult
+        results:
+          5.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id011
+            - true
+            - !!binary |
+              BcWPMXfjQEBeUv3WkLBGv15S/daQsEa/XlL91pCwRr8FxY8xd+NAQF5S/daQsEa/XlL91pCwRr9e
+              Uv3WkLBGvwXFjzF340BA
+          6.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id011
+            - true
+            - !!binary |
+              Jw8LtaYRQUB/5JnUJgcZP5XYn2svBxk/f+SZ1CYHGT8nDwu1phFBQJXYn2svBxk/f+SZ1CYHGT9/
+              5JnUJgcZPycPC7WmEUFA
+          7.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id011
+            - true
+            - !!binary |
+              vJF55A8aQUDfhBw9ebYJP+KEHD15tgk/34QcPXm2CT+8kXnkDxpBQOKEHD15tgk/34QcPXm2CT/f
+              hBw9ebYJP7yReeQPGkFA
+          8.0: null
+          9.0: null
+          10.0: null
+          11.0: null
+        values:
+        - 5.0
+        - 6.0
+        - 7.0
+        - 8.0
+        - 9.0
+        - 10.0
+        - 11.0
+    *id005:
+      field_conv:
+        converged: true
+        converged_value: 0.01
+        label: field_int
+        results:
+          0.0005: null
+          0.001: null
+          0.005: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id011
+            - true
+            - !!binary |
+              LspskElaQEDi3IRz9JVDv+LchHP0lUO/4tyEc/SVQ78uymyQSVpAQOLchHP0lUO/4tyEc/SVQ7/i
+              3IRz9JVDvy7KbJBJWkBA
+          0.01: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id011
+            - true
+            - !!binary |
+              04cuqG9lQEA9Y43EFWFEvz1jjcQVYUS/PWONxBVhRL/Thy6ob2VAQD1jjcQVYUS/PWONxBVhRL89
+              Y43EFWFEv9OHLqhvZUBA
+        values: *id012
+      gs_conv:
+        converged: true
+        converged_value: 5.0
+        label: rmult
+        results:
+          3.0: -6.245575360644499
+          4.0: -6.268034350499572
+          5.0: -6.269803795813714
+          6.0: -6.269943670426087
+          7.0: null
+          8.0: null
+          9.0: null
+          10.0: null
+          11.0: null
+        values:
+        - 3.0
+        - 4.0
+        - 5.0
+        - 6.0
+        - 7.0
+        - 8.0
+        - 9.0
+        - 10.0
+        - 11.0
+      rmult_conv:
+        converged: true
+        converged_value: 6.0
+        label: rmult
+        results:
+          5.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id011
+            - true
+            - !!binary |
+              04cuqG9lQEA9Y43EFWFEvz1jjcQVYUS/PWONxBVhRL/Thy6ob2VAQD1jjcQVYUS/PWONxBVhRL89
+              Y43EFWFEv9OHLqhvZUBA
+          6.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id011
+            - true
+            - !!binary |
+              aam8HeGSQED1dnphD0YcP/V2emEPRhw/9XZ6YQ9GHD9pqbwd4ZJAQPV2emEPRhw/9XZ6YQ9GHD/1
+              dnphD0YcP2mpvB3hkkBA
+          7.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id011
+            - true
+            - !!binary |
+              YWwhyEGbQEDr0rtH4TIKP4rQif/iMgo/69K7R+EyCj9hbCHIQZtAQIrQif/iMgo/69K7R+EyCj/r
+              0rtH4TIKP2FsIchBm0BA
+          8.0: null
+          9.0: null
+          10.0: null
+          11.0: null
+        values:
+        - 5.0
+        - 6.0
+        - 7.0
+        - 8.0
+        - 9.0
+        - 10.0
+        - 11.0
+    *id006:
+      field_conv:
+        converged: true
+        converged_value: 0.01
+        label: field_int
+        results:
+          0.0005: null
+          0.001: null
+          0.005: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id011
+            - true
+            - !!binary |
+              RgiPNo5UQEA22YRJK51DvzbZhEkrnUO/NtmESSudQ79GCI82jlRAQDbZhEkrnUO/NtmESSudQ782
+              2YRJK51Dv0YIjzaOVEBA
+          0.01: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id011
+            - true
+            - !!binary |
+              MlUwKqlfQEDtffu+qHJEv+19+76ockS/7X37vqhyRL8yVTAqqV9AQO19+76ockS/7X37vqhyRL/t
+              ffu+qHJEvzJVMCqpX0BA
+        values: *id012
+      gs_conv:
+        converged: true
+        converged_value: 5.0
+        label: rmult
+        results:
+          3.0: -9.577251337236891
+          4.0: -9.599710543100066
+          5.0: -9.60147714270568
+          6.0: -9.601616546389007
+          7.0: null
+          8.0: null
+          9.0: null
+          10.0: null
+          11.0: null
+        values:
+        - 3.0
+        - 4.0
+        - 5.0
+        - 6.0
+        - 7.0
+        - 8.0
+        - 9.0
+        - 10.0
+        - 11.0
+      rmult_conv:
+        converged: true
+        converged_value: 6.0
+        label: rmult
+        results:
+          5.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id011
+            - true
+            - !!binary |
+              MlUwKqlfQEDtffu+qHJEv+19+76ockS/7X37vqhyRL8yVTAqqV9AQO19+76ockS/7X37vqhyRL/t
+              ffu+qHJEvzJVMCqpX0BA
+          6.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id011
+            - true
+            - !!binary |
+              0ytlGeKMQED4wnqPcrEbP/jCeo9ysRs/+MJ6j3KxGz/TK2UZ4oxAQPjCeo9ysRs/+MJ6j3KxGz/4
+              wnqPcrEbP9MrZRnijEBA
+          7.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id011
+            - true
+            - !!binary |
+              nrXbLjSVQECH6EQFveUJPybmEr2+5Qk/h+hEBb3lCT+etdsuNJVAQCbmEr2+5Qk/h+hEBb3lCT+H
+              6EQFveUJP5612y40lUBA
+          8.0: null
+          9.0: null
+          10.0: null
+          11.0: null
+        values:
+        - 5.0
+        - 6.0
+        - 7.0
+        - 8.0
+        - 9.0
+        - 10.0
+        - 11.0
   study:
   - *id004
   - *id005
@@ -25800,6 +31162,397 @@ SiO:
     - 4.101
     - 4.101
     - 5.013
+  results:
+    *id004:
+      field_conv:
+        converged: true
+        converged_value: 0.01
+        label: field_int
+        results:
+          0.0005: null
+          0.001: null
+          0.005: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id011
+            - true
+            - !!binary |
+              NR/XhoqhO0AoIE6zgtclvwAAE+viNho/KCBOs4LXJb81H9eGiqE7QAAAE+viNho/QJZo+x2rID9A
+              lmj7HasgP0p7gy9MTkFA
+          0.01: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id011
+            - true
+            - !!binary |
+              0jWTb7a1O0D83E4RlmckvwAAAAAAAAAA/NxOEZZnJL/SNZNvtrU7QAAAAAAAAAAAwNxspFP08z7A
+              3GykU/TzPo9wWvCiW0FA
+        values: *id012
+      gs_conv:
+        converged: true
+        converged_value: 5.0
+        label: rmult
+        results:
+          3.0: -19.874814892011806
+          4.0: -19.92999192620842
+          5.0: -19.93424628383135
+          6.0: -19.934516206063904
+          7.0: null
+          8.0: null
+          9.0: null
+          10.0: null
+          11.0: null
+        values:
+        - 3.0
+        - 4.0
+        - 5.0
+        - 6.0
+        - 7.0
+        - 8.0
+        - 9.0
+        - 10.0
+        - 11.0
+      rmult_conv:
+        converged: true
+        converged_value: 6.0
+        label: rmult
+        results:
+          5.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id011
+            - true
+            - !!binary |
+              0jWTb7a1O0D83E4RlmckvwAAAAAAAAAA/NxOEZZnJL/SNZNvtrU7QAAAAAAAAAAAwNxspFP08z7A
+              3GykU/TzPo9wWvCiW0FA
+          6.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id011
+            - true
+            - !!binary |
+              lB0bgXgdPECc91a8QjMAvwAAAAAAAAAAnPdWvEIzAL+UHRuBeB08QAAAAAAAAAAAkN5hh+/M3T6Q
+              3mGH78zdPlafq63YvUFA
+          7.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id011
+            - true
+            - !!binary |
+              Cf63kh0vPEDmZpmIaa3QvgAAE+viNgo/5maZiGmt0L4J/reSHS88QAAAE+viNgo/wM8ul7fgkb7A
+              zy6Xt+CRvuRmuAGfz0FA
+          8.0: null
+          9.0: null
+          10.0: null
+          11.0: null
+        values:
+        - 5.0
+        - 6.0
+        - 7.0
+        - 8.0
+        - 9.0
+        - 10.0
+        - 11.0
+    *id005:
+      field_conv:
+        converged: true
+        converged_value: 0.01
+        label: field_int
+        results:
+          0.0005: null
+          0.001: null
+          0.005: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id011
+            - true
+            - !!binary |
+              ngJgPIPGO0CgKr/SGv8lvwAAE+viNho/oCq/0hr/Jb+eAmA8g8Y7QAAAE+viNho/SJ+i0bqZIz9I
+              n6LRupkjPyf8Uj9vakFA
+          0.01: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id011
+            - true
+            - !!binary |
+              JlMFo5LaO0CY87MmUKMkvwAAAAAAAAAAmPOzJlCjJL8mUwWjkto7QAAAAAAAAAAAAAiejDvvAD8A
+              CJ6MO+8AP4QqNXugd0FA
+        values: *id012
+      gs_conv:
+        converged: true
+        converged_value: 5.0
+        label: rmult
+        results:
+          3.0: -19.87802941975183
+          4.0: -19.933658999098515
+          5.0: -19.93816338593112
+          6.0: -19.93845625517532
+          7.0: null
+          8.0: null
+          9.0: null
+          10.0: null
+          11.0: null
+        values:
+        - 3.0
+        - 4.0
+        - 5.0
+        - 6.0
+        - 7.0
+        - 8.0
+        - 9.0
+        - 10.0
+        - 11.0
+      rmult_conv:
+        converged: true
+        converged_value: 6.0
+        label: rmult
+        results:
+          5.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id011
+            - true
+            - !!binary |
+              JlMFo5LaO0CY87MmUKMkvwAAAAAAAAAAmPOzJlCjJL8mUwWjkto7QAAAAAAAAAAAAAiejDvvAD8A
+              CJ6MO+8AP4QqNXugd0FA
+          6.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id011
+            - true
+            - !!binary |
+              nFWfq61MPEBqBev9G7sBvwAAE+viNgo/agXr/Ru7Ab+cVZ+rrUw8QAAAE+viNgo/HuZhBgIbAj8e
+              5mEGAhsCP73Z5sb04kFA
+          7.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id011
+            - true
+            - !!binary |
+              9zsUBfpgPEC+EbXE9MPbvgAAAAAAAAAAvhG1xPTD2773OxQF+mA8QAAAAAAAAAAA2FJrNt+c6z7Y
+              Ums235zrPh4bgXhd90FA
+          8.0: null
+          9.0: null
+          10.0: null
+          11.0: null
+        values:
+        - 5.0
+        - 6.0
+        - 7.0
+        - 8.0
+        - 9.0
+        - 10.0
+        - 11.0
+    *id006:
+      field_conv:
+        converged: true
+        converged_value: 0.01
+        label: field_int
+        results:
+          0.0005: null
+          0.001: null
+          0.005: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id011
+            - true
+            - !!binary |
+              gkwychbOO0AArnGJZSsmvwAALOviNho/AK5xiWUrJr+CTDJyFs47QAAALOviNho/MC9LOzWXGz8w
+              L0s7NZcbP6QBvAUSbEFA
+          0.01: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id011
+            - true
+            - !!binary |
+              LjnulA7iO0C8w2ssmxgmvwAAE+viNgq/vMNrLJsYJr8uOe6UDuI7QAAAE+viNgq/ABMA2l4k574A
+              EwDaXiTnvlMFo5I6eUFA
+        values: *id012
+      gs_conv:
+        converged: true
+        converged_value: 5.0
+        label: rmult
+        results:
+          3.0: -24.070850086392152
+          4.0: -24.12653325316938
+          5.0: -24.130922403393797
+          6.0: -24.131215273046912
+          7.0: null
+          8.0: null
+          9.0: null
+          10.0: null
+          11.0: null
+        values:
+        - 3.0
+        - 4.0
+        - 5.0
+        - 6.0
+        - 7.0
+        - 8.0
+        - 9.0
+        - 10.0
+        - 11.0
+      rmult_conv:
+        converged: true
+        converged_value: 6.0
+        label: rmult
+        results:
+          5.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id011
+            - true
+            - !!binary |
+              LjnulA7iO0C8w2ssmxgmvwAAE+viNgq/vMNrLJsYJr8uOe6UDuI7QAAAE+viNgq/ABMA2l4k574A
+              EwDaXiTnvlMFo5I6eUFA
+          6.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id011
+            - true
+            - !!binary |
+              gCvZsRFUPEDwkdMyragMvwAAE+viNgo/8JHTMq2oDL+AK9mxEVQ8QAAAE+viNgo/fubTgbFgAD9+
+              5tOBsWAAPxh9BWnG5EFA
+          7.0: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - b
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 3
+              - 3
+            - *id011
+            - true
+            - !!binary |
+              FVeVfVdoPED6rSGqzOrfvgAAAAAAAAAA+q0hqszq374VV5V9V2g8QAAAAAAAAAAAvjdCB2Ax4b5B
+              QQooWTHhvpOMnIU9+UFA
+          8.0: null
+          9.0: null
+          10.0: null
+          11.0: null
+        values:
+        - 5.0
+        - 6.0
+        - 7.0
+        - 8.0
+        - 9.0
+        - 10.0
+        - 11.0
   study:
   - *id004
   - *id005
