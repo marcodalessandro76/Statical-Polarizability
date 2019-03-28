@@ -15,13 +15,14 @@ The (hiercarchically ordered) list of notebooks is:
 * __HG Dataset/Benchmark data__ : perform a parsing of the results of HG and build a dictionary saved in hg_data.yaml. 
   The dictionary contains the reference results for the CCSD(T) method and for the DFT computations with xc = lda,pbe,pbe0.
   Also, for each molecule the type of the study (nsp or sp) is reported.
-* __Calculations and.../Construction of the dataset__ : This notebook reads the hg_data.yaml file and build two dictionaries, one for nsp
-  and one for the sp dataset extraced by the HG data. For each moelcule, the dictionary contains the reference results
-  and the 'study' key. The allowed values of the study type are the tuples lda,pbe,pbe0 with hgh-k psp and the pbe,nlcc (only
-  for the subset of molecules for which the nlcc psp are provided).
-* __Calculations and.../Dataset calculator__ : Read the dataset dictionaries built by 'Construction of the dataset' and compute the statical polarizability
-  for all the molecules and study type. Save the results in the files sp/nsp__results.yaml. This files are the starting point for
-  subsequent data analysis. The statical polarizability is computed according to the methods ps/nsp_workflow defined in the Routines.Py.
-  This building of these methods is described in the notebooks 'Single study sp/nsp calculator'. 
+* __Calculations/Construction of the dataset__ : This notebook reads the hg_data.yaml file and build two dictionaries, one for nsp
+  and one for the sp dataset extraced by the HG data. For each molecule, the dictionary contains the reference results
+  and the 'study' key. The allowed values of the study type are the tuples: (lda_pt,hgh_k),(lda_pw,hgh_k),(pbe,hgh_k),(pbe0,hgh_k). 
+  Moreover, for a subset of molecules also two type of nlcc psp are provided (based on the pbe xc), so for these cases there are two further 
+  studies : (pbe,nlcc_aw) and (pbe,nlcc_ss).
+* __Calculations/Dataset calculator__ : Read the dataset dictionaries built by 'Construction of the dataset' and compute the statical polarizability
+  for all the molecules and study type. Save the results in the files (sp)nsp__results.yaml. This files are the starting point for
+  subsequent data analysis. The statical polarizability is computed according to the methods (sp)nsp_workflow defined in the Routines.Py.
+  The procedures used in these methods are described in the notebooks 'Single study sp/nsp calculator'. 
 
-* __Calculations and.../Data analysis__ : 
+* __Calculations/Data analysis__ : 

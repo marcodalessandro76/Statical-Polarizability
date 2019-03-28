@@ -46,11 +46,17 @@ def molecule_inlist(mol,psp_list):
             break
     return inlist
 
-def xc_lda(inp,molecule):
-    inp.set_xc('LDA')
+def xc_lda_pt(inp,molecule):
+    inp.set_xc(1)
+
+def xc_lda_pw(inp,molecule):
+    inp.set_xc('-025')
+    for atom in get_atoms(molecule):
+        key = 'psppar.'+atom
+        inp[key]={'Pseudopotential XC': 1}
 
 def xc_pbe(inp,molecule):
-    inp.set_xc('PBE')
+    inp.set_xc(11)
 
 def xc_pbe0(inp,molecule):
     inp.set_xc('PBE0')
@@ -59,19 +65,30 @@ def xc_pbe0(inp,molecule):
         inp[key]={'Pseudopotential XC': 11}
 
 basepath = os.getcwd()
-psp_nlcc_path = basepath+'/psp_nlcc'
+psp_nlcc_aw_path = basepath+'/psp_nlcc_aw'
+psp_nlcc_ss_path = basepath+'/psp_nlcc_ss'
 
-print 'Routines basepath :', basepath
+print basepath
 
-def xc_pbe_nlcc(inp,molecule):
-    inp.set_xc('PBE')
+def xc_pbe_nlcc_aw(inp,molecule):
+    inp.set_xc(11)
     for atom in get_atoms(molecule):
-        src = psp_nlcc_path+'/psppar.'+atom
-        dst = basepath+'/Data/'+molecule+'/pbe-nlcc/psppar.'+atom
+        src = psp_nlcc_aw_path+'/psppar.'+atom
+        dst = basepath+'/Data/'+molecule+'/pbe-nlcc_aw/psppar.'+atom
+        #dst = basepath+'/Data/'+molecule+'/pbe-nlcc_aw-test/psppar.'+atom
         copyfile(src,dst)
 
-set_xc = {('lda','hgh-k') : xc_lda, ('pbe','hgh-k') : xc_pbe,\
-          ('pbe0','hgh-k'): xc_pbe0, ('pbe','nlcc'): xc_pbe_nlcc}
+def xc_pbe_nlcc_ss(inp,molecule):
+    inp.set_xc(11)
+    for atom in get_atoms(molecule):
+        src = psp_nlcc_ss_path+'/psppar.'+atom
+        dst = basepath+'/Data/'+molecule+'/pbe-nlcc_ss/psppar.'+atom
+        #dst = basepath+'/Data/'+molecule+'/pbe-nlcc_ss-test/psppar.'+atom
+        copyfile(src,dst)
+
+set_xc = {('lda_pt','hgh_k') : xc_lda_pt,('lda_pw','hgh_k') : xc_lda_pw, \
+         ('pbe','hgh_k') : xc_pbe, ('pbe0','hgh_k'): xc_pbe0, \
+         ('pbe','nlcc_aw'): xc_pbe_nlcc_aw,('pbe','nlcc_ss'): xc_pbe_nlcc_ss}
 
 def nsp_workflow(alpha_conv=1.0e-2,wf_convergence=1.0e-6,hgrids=0.3,rmult_fine=9.0,term_verb=True,**kwargs):
     """
@@ -97,7 +114,6 @@ def nsp_workflow(alpha_conv=1.0e-2,wf_convergence=1.0e-6,hgrids=0.3,rmult_fine=9
     path=study[0]+'-'+study[1]
     if not os.path.isdir(path): os.mkdir(path)
 
-    #print ''
     print 'Compute alpha for : ', molecule,study[0], study[1]
 
     posinp=Molecules.Molecule(molecule)
