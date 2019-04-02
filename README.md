@@ -20,6 +20,11 @@ The (hiercarchically ordered) list of notebooks is:
   and the 'study' key. The allowed values of the study type are the tuples: (lda_pt,hgh_k),(lda_pw,hgh_k),(pbe,hgh_k),(pbe0,hgh_k). 
   Moreover, for a subset of molecules also two type of nlcc psp are provided (based on the pbe xc), so for these cases there are two further 
   studies : (pbe,nlcc_aw) and (pbe,nlcc_ss).
+* __Calculations/Single study nsp calculator__ : Define (and test) the complete procedure to compute the statical polarizability. The procedure contains
+various convergence tests, in order to identify : 
+	* the converged value of rmult for the gs computation, 
+	* the converged value of the field intensity,
+	* the converged value of rmult for the evaluation of the statical polarizability tensor. 
 * __Calculations/Dataset calculator__ : Read the dataset dictionaries built by 'Construction of the dataset' and compute the statical polarizability
   for all the molecules and study type. Save the results in the files (sp)nsp__results.yaml. This files are the starting point for
   subsequent data analysis. The statical polarizability is computed according to the methods (sp)nsp_workflow defined in the Routines.Py.

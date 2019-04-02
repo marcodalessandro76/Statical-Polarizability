@@ -50,7 +50,7 @@ def xc_lda_pt(inp,molecule):
     inp.set_xc(1)
 
 def xc_lda_pw(inp,molecule):
-    inp.set_xc('-025')
+    inp.set_xc('-001012')
     for atom in get_atoms(molecule):
         key = 'psppar.'+atom
         inp[key]={'Pseudopotential XC': 1}
