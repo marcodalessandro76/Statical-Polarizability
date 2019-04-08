@@ -90,7 +90,8 @@ set_xc = {('lda_pt','hgh_k') : xc_lda_pt,('lda_pw','hgh_k') : xc_lda_pw, \
          ('pbe','hgh_k') : xc_pbe, ('pbe0','hgh_k'): xc_pbe0, \
          ('pbe','nlcc_aw'): xc_pbe_nlcc_aw,('pbe','nlcc_ss'): xc_pbe_nlcc_ss}
 
-def nsp_workflow(alpha_conv=1.0e-2,wf_convergence=1.0e-6,hgrids=0.3,rmult_fine=9.0,term_verb=True,**kwargs):
+def nsp_workflow(alpha_conv=1.0e-2,wf_convergence=1.0e-6,hgrids=0.3,\
+                 rmult_fine=9.0,term_verb=True,data_folder='Data',**kwargs):
     """
     Perform the complete nsp workflow to compute the statical polarizability
     of a molecule in a specific study(xc+psp)
@@ -107,8 +108,8 @@ def nsp_workflow(alpha_conv=1.0e-2,wf_convergence=1.0e-6,hgrids=0.3,rmult_fine=9
 
     results = {}
 
-    if not os.path.isdir('Data'): os.mkdir('Data')
-    os.chdir('Data')
+    if not os.path.isdir(data_folder): os.mkdir(data_folder)
+    os.chdir(data_folder)
     if not os.path.isdir(molecule): os.mkdir(molecule)
     os.chdir(molecule)
     path=study[0]+'-'+study[1]
