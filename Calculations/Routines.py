@@ -1,8 +1,10 @@
 from BigDFT.Database import Molecules
 from BigDFT import Datasets as D, Calculators as C, Inputfiles as I, Logfiles as lf
 import StatPol as SP
-import os, sys
+import os, sys, numpy as np
 from shutil import copyfile
+
+AuToA = 0.5291772085**3
 
 def get_atoms(mol):
     """
@@ -68,7 +70,7 @@ basepath = os.getcwd()
 psp_nlcc_aw_path = basepath+'/psp_nlcc_aw'
 psp_nlcc_ss_path = basepath+'/psp_nlcc_ss'
 
-print basepath
+#print basepath
 
 def xc_pbe_nlcc_aw(inp,molecule):
     inp.set_xc(11)
@@ -161,3 +163,104 @@ def nsp_workflow(alpha_conv=1.0e-2,wf_convergence=1.0e-6,hgrids=0.3,\
 
     os.chdir('../../')
     return results
+
+# Routines for data analysis
+
+def build_computed_mol_list(dataset):
+    """
+    Build the list of molecules for which the 'results' key is provided
+    """
+    computed_mol = []
+    for mol,data in dataset.iteritems():
+        if 'results' in data:
+            computed_mol.append(mol)
+    computed_mol.sort()
+    return computed_mol
+
+def get_study_alpha_diag(data,xc,psp):
+    """
+    Extract the diagonal part of the polarizability associated to the study xc,psp taking the
+    dictionary data as input. If xcx,psp is not in the computed study returns None.
+
+    Args:
+        data : is of the form nsp_results[molecule]['results']
+    """
+    study = data.keys()
+    alpha = None
+    if (xc,psp) in study:
+        results = data[xc,psp]['rmult_conv']
+        rmult = results['converged_value']
+        alpha = results['results'][rmult]
+        alpha = np.diag(alpha)
+    return alpha
+
+def eval_relative_error(dataset,molecule,xc,psp):
+    """"
+    Compute the relative error associated to the selected molecule in given
+    study. Return an array built as
+    eps_i = (alpha_ii -alpha_ref_ii)/alpha_ref_ii * 100
+    If the reference results for the selected xc and/or the the results for
+    the given study (xc+psp) are absent it returns None.
+    """
+    eps = None
+    ref_data = dataset[molecule]['ref_results']
+    data = dataset[molecule]['results']
+    if xc in ref_data and (xc,psp) in data :
+        alpha_ii = get_study_alpha_diag(data,xc,psp)
+        alpha_ref_ii = np.array(ref_data[xc])/AuToA
+        eps = 100.0 * (alpha_ii-alpha_ref_ii)/alpha_ref_ii
+
+    return eps
+
+def eval_sre_molecule(dataset,mol,xc,psp):
+    """
+    Compute the (averageed) squared relative error for a single molecule, associated
+    to the study xc+psp.
+    """
+    sre = None
+    eps = eval_relative_error(dataset,mol,xc,psp)
+    if not (eps is None):
+        sre = sum(eps**2)/3.
+    return sre
+
+def eval_re_molecule(dataset,mol,xc,psp):
+    """
+    Compute the (average) relative error for a single molecule, associated
+    to the study xc+psp.
+    """
+    re = None
+    eps = eval_relative_error(dataset,mol,xc,psp)
+    if not (eps is None):
+        re = sum(eps)/3.
+    return re
+
+def eval_rmsre(dataset,xc,psp):
+    """
+    Compute the RMSRE, as defined in the paper of HG, associated
+    to the study xc+psp.
+    """
+    rmsre = 0.
+    N = 0
+    for mol in build_computed_mol_list(dataset):
+        sre = eval_sre_molecule(dataset,mol,xc,psp)
+        if not (sre is None):
+            rmsre+=sre
+            N+=1
+    if N>0 : rmsre = rmsre/N
+    return np.sqrt(rmsre)
+
+def eval_mre(dataset,xc,psp):
+    """
+    Compute the MRE, as defined in the paper of HG, associated
+    to the study xc+psp.
+    """
+    mre = 0.
+    N = 0
+    for mol in build_computed_mol_list(dataset):
+        re = eval_re_molecule(dataset,mol,xc,psp)
+        if not (re is None):
+            mre+=re
+            N+=1
+    if N>0 : mre = mre/N
+    return mre
+    

@@ -30,4 +30,9 @@ various convergence tests, in order to identify :
   subsequent data analysis. The statical polarizability is computed according to the methods (sp)nsp_workflow defined in the Routines.Py.
   The procedures used in these methods are described in the notebooks 'Single study sp/nsp calculator'. 
 
-* __Calculations/Data analysis__ : 
+* __Calculations/Data analysis__ : Load the dictionary with the results written in the (sp)nsp_results.yaml file and perform data analysis and
+  post processing. Actually the data analysis consists in:
+	* check if the all the studies have produced _converged_ results.
+	* display the converged value of the field intensity and of rmult
+	* compute the RMSRE and the MRE, as defined in the paper of HG and build one table that collects the effects of the choice of the various classes
+	of psp on the statical polarizability.
