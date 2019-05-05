@@ -29,13 +29,13 @@ for ind in range(int(len(molecules)/subset_length)+1):
 for ind,mol in enumerate(molecules):
     subset[int(ind/subset_length)].append(mol)
 
-reduced_study_set = [('lda_pt','hgh_k')]#,('pbe0','hgh_k')]
-#('lda_pw','hgh_k'),('pbe','hgh_k'),('pbe','nlcc_aw'),('pbe','nlcc_ss')]
+reduced_study_set = [('pbe0','hgh_k')]
+#('lda_pt','hgh_k')],('lda_pw','hgh_k'),('pbe','hgh_k'),('pbe','nlcc_aw'),('pbe','nlcc_ss')
 
 # mpi and omp are set from above exporting the asscoiated variables
-code=C.SystemCalculator(skip=True,verbose=False)
+code=C.SystemCalculator(skip=True,verbose=True)
 
-for mol in ['CO']:# subset[0]:
+for mol in subset[0]:
     data = nsp_dataset[mol]
     data['results'] = {}
     for study in data['study']:
