@@ -7,7 +7,6 @@ from BigDFT import Datasets as D, Calculators as C, Inputfiles as I, Logfiles as
 from BigDFT.Database import Molecules
 from futile.Utils import write
 import numpy as np
-import matplotlib.pyplot as plt
 import os, sys, yaml
 sys.path.insert(0,'../')
 import StatPol as SP, Routines as R
