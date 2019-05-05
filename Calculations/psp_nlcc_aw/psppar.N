@@ -1,0 +1,9 @@
+HGH for nitrogen (N) in PBE with NLCC
+    7    5  051012 zatom, zion, date (ddmmyy)
+   12 -101130 1 0 2002 0     pspcod, IXC, lmax, lloc, mmax, r2well
+        0.24179589  2    -10.04328500      1.39719020 rloc nloc c1 c2
+   2                                       nsep
+        0.25696561  1     12.96801666      s-projector
+        0.15685548  1     -0.73452991      p-projector
+                           0.00000000
+        0.24611547         0.66036677      rcore, qcore (NLCC width and fraction)

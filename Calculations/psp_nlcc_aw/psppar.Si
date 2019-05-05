@@ -1,0 +1,12 @@
+HGH for silicon (Si) in PBE with NLCC
+   14    4  051512 zatom, zion, date (ddmmyy)
+   12 -101130 1 0 2002 0     pspcod, IXC, lmax, lloc, mmax, r2well
+        0.33000000  2     -0.07845999     -0.79378214 rloc nloc c1 c2
+   2                                                       nsep
+        0.42179461  2      2.87392223      0.02558827      s-projector
+                                           2.59458148
+        0.48800255  1      2.47962806      p-projector
+                           0.00000000
+        0.44279208         0.41540214      rcore, qcore (NLCC width and fraction)
+
+
