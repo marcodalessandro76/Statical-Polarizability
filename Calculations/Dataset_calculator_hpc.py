@@ -33,11 +33,10 @@ for ind,mol in enumerate(molecules):
 reduced_study_set = [('lda_pt','hgh_k')]#,('pbe0','hgh_k')]
 #('lda_pw','hgh_k'),('pbe','hgh_k'),('pbe','nlcc_aw'),('pbe','nlcc_ss')]
 
-reload(R)
 # mpi and omp are set from above exporting the asscoiated variables
 code=C.SystemCalculator(skip=True,verbose=False)
 
-for mol in ['CO']# subset[0]:
+for mol in ['CO']:# subset[0]:
     data = nsp_dataset[mol]
     data['results'] = {}
     for study in data['study']:
