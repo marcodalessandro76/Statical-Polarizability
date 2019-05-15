@@ -1,4 +1,4 @@
-# Before calling this script (for istance in the launcher slurm script), perform the operatotions:
+# Before calling this script (for istance in the launcher slurm script), perform the operations:
 # export OMP_NUM_THREADS=$SLURM_CPUS_PER_TASK
 # export BIGDFT_MPIRUN='mpirun -np $value$'
 

@@ -10,7 +10,7 @@ if the completeness of the basis is sufficient). As ulterior benchmark we can al
 (when available), since they perform all electron computations in a wavelet basis.
 
 The analysis is structured in a set of notebooks built in a sort of top-down approach. 
-The (hiercarchically ordered) list of notebooks is: 
+The (hierarchycally ordered) list of notebooks is: 
 
 * __HG Dataset/Benchmark data__ : perform a parsing of the results of HG and build a dictionary saved in hg_data.yaml. 
   The dictionary contains the reference results for the CCSD(T) method and for the DFT computations with xc = lda,pbe,pbe0.

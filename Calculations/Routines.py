@@ -214,7 +214,7 @@ def eval_relative_error(dataset,molecule,xc,psp):
 
 def eval_sre_molecule(dataset,mol,xc,psp):
     """
-    Compute the (averageed) squared relative error for a single molecule, associated
+    Compute the (averaged) squared relative error for a single molecule, associated
     to the study xc+psp.
     """
     sre = None
@@ -263,4 +263,3 @@ def eval_mre(dataset,xc,psp):
             N+=1
     if N>0 : mre = mre/N
     return mre
-    

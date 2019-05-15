@@ -11,21 +11,21 @@ def get_dipole(dataset):
     dipole = dataset.fetch_results(attribute='dipole')
     return dipole
 
-def get_molecule_database():
-    """
-    Scan the working directory and store in a list the name of folder.
-    During the scan the file and the "service" directories are neglected
-
-    Todo : improve this method when the flow for the construction of the GS
-    will be defined
-    """
-    mol_database = os.listdir('.')
-    for f in reversed(mol_database):
-        if os.path.isdir(f) == False:
-            mol_database.remove(f)
-    if os.path.isdir('.ipynb_checkpoints'):
-        mol_database.remove('.ipynb_checkpoints')
-    return mol_database
+# def get_molecule_database():
+#     """
+#     Scan the working directory and store in a list the name of folder.
+#     During the scan the file and the "service" directories are neglected
+#
+#     Todo : improve this method when the flow for the construction of the GS
+#     will be defined
+#     """
+#     mol_database = os.listdir('.')
+#     for f in reversed(mol_database):
+#         if os.path.isdir(f) == False:
+#             mol_database.remove(f)
+#     if os.path.isdir('.ipynb_checkpoints'):
+#         mol_database.remove('.ipynb_checkpoints')
+#     return mol_database
 
 def build_alpha_dataset(**kwargs):
     """
@@ -84,7 +84,7 @@ def iterate_parameter(**kwargs):
     Args:
         kwargs['label']     : the name of the parameter
         kwargs['values']    : the array with the values of the parameter
-        kwargs['data']      : the array with the dataset buit with kwargs['values']
+        kwargs['data']      : the array with the datasets buit with kwargs['values']
     """
 
     label = kwargs['label']
@@ -107,9 +107,9 @@ def seek_convergence(at=1e-3,rt=1e-2,term_verb=True,**kwargs):
     The convergence is performed by comparing the results associated to two (subsequent) values of the
     parameter. The procedures stop if the difference between the result is below a given tolerance, if not
     further run are performed using the values of the parameter in the list.
-    The method returns a dictionary with the input parameters, the results of all the computation performed,
-    the value of the convergence parameter and a boolean that states if the convergence procedure succeeds
-    or not.
+    The method returns a dictionary with the input parameters, the relative tolerance, the results of all
+    the computation performed, the value of the convergence parameter and a boolean that states if the
+    convergence procedure succeeds or not.
 
     Args:
         kwargs['label']     : the name of the convergence parameter
@@ -123,7 +123,7 @@ def seek_convergence(at=1e-3,rt=1e-2,term_verb=True,**kwargs):
     results = {}
     for v in values:
         results[v] = None
-    out = {'label':label,'values':values}
+    out = {'label':label,'values':values,'tolerance' : rt}
 
     if term_verb: print 'Perform the run with', label, values[0]
     results[values[0]] = data[0].run()
