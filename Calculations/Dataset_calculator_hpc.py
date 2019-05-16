@@ -20,7 +20,7 @@ nsp_dataset = yaml.load(open('nsp_dataset.yaml')) #load the dataset with the lis
 
 # For testing and computation purposes we split the dataset into several subset made of
 # 10 molecules each (molecules are sorted in alphabetical order before the splitting). So we have
-# 8 subsets (the last one with 5 molecules)
+# 8 subsets (the last one with 4 molecules)
 
 molecules = nsp_dataset.keys()
 molecules.sort()
@@ -37,8 +37,8 @@ for arg in sys.argv[1:]:
 print 'Compute molecules'
 print calc
 
-reduced_study_set = [('pbe0','hgh_k')]
-#('lda_pt','hgh_k')],('lda_pw','hgh_k'),('pbe','hgh_k'),('pbe','nlcc_aw'),('pbe','nlcc_ss')
+reduced_study_set = [('lda_pt','hgh_k')],('lda_pw','hgh_k'),('pbe','hgh_k'),('pbe','nlcc_aw'),\
+                     ('pbe','nlcc_ss'),('pbe0','hgh_k')]
 
 # mpi and omp are set from above exporting the asscoiated variables
 code=C.SystemCalculator(skip=True,verbose=True)
@@ -49,5 +49,9 @@ for mol in calc:
     for study in data['study']:
         if study in reduced_study_set:
             data['results'][study] = {}
-            data['results'][study] = R.nsp_workflow(term_verb=True,molecule=mol,study=study,code=code,data_folder='data_hpc')
+            data['results'][study] = R.nsp_workflow(alpha_conv=1.0e-3,term_verb=True,molecule=mol,study=study,code=code,data_folder='Data')
             print ''
+
+# Save the dataset as yaml file
+#with open('nsp_results_tol=1em3.yaml', 'w') as outfile:
+#    yaml.dump(nsp_dataset, outfile, default_flow_style=False)

@@ -150,8 +150,8 @@ def nsp_workflow(alpha_conv=1.0e-2,wf_convergence=1.0e-6,hgrids=0.3,\
     gs_conv = results['gs_conv']['converged_value']
     inp.set_rmult(coarse=gs_conv,fine=rmult_fine)
     if term_verb : print 'Convergence on the field intensity'
-    results['field_conv']=SP.perform_field_convergence(term_verb=term_verb,rt=alpha_conv,\
-    run_dir=path,input=inp,runner=code,posinp=posinp,ppf=SP.eval_alpha)
+    results['field_conv']=SP.perform_field_convergence(term_verb=term_verb,field_int=[1e-2,5e-3,1e-3,5e-4,1e-4],\
+                         rt=alpha_conv,run_dir=path,input=inp,runner=code,posinp=posinp,ppf=SP.eval_alpha)
     f=results['field_conv']['converged_value']
 
     # rmult convergence
