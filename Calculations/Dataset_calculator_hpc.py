@@ -37,7 +37,7 @@ for arg in sys.argv[1:]:
 print 'Compute molecules'
 print calc
 
-reduced_study_set = [('lda_pt','hgh_k')],('lda_pw','hgh_k'),('pbe','hgh_k'),('pbe','nlcc_aw'),\
+reduced_study_set = [('lda_pt','hgh_k'),('lda_pw','hgh_k'),('pbe','hgh_k'),('pbe','nlcc_aw'),\
                      ('pbe','nlcc_ss'),('pbe0','hgh_k')]
 
 # mpi and omp are set from above exporting the asscoiated variables
