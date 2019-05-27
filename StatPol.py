@@ -27,36 +27,6 @@ def get_dipole(dataset):
 #         mol_database.remove('.ipynb_checkpoints')
 #     return mol_database
 
-def build_alpha_dataset(**kwargs):
-    """
-    Create the dataset and append the runs needed to compute the statical polarizability
-    for a specific choice of the input parameters. Set also a postprocessing function
-    to extract the value of alpha.
-
-    Args:
-        kwargs['run_dir']   : th run_dir
-        kwargs['intensity'] : the intensity of the field
-        kwargs['input']     : the input file
-        kwargs['posinp']    : the posinp
-        kwargs['ppf']       : the postprocessing function
-        kwargs['runner']    : the instance of SystemCalculator
-    """
-    lbl = 'alpha_'+str(kwargs['intensity'])
-    study = D.Dataset(label=lbl,run_dir=kwargs['run_dir'],intensity=kwargs['intensity'],posinp=kwargs['posinp'])
-    study.set_postprocessing_function(kwargs['ppf'])
-
-    f = kwargs['intensity']
-    inp = kwargs['input']
-    for ind,sign in enumerate(['+','-']):
-        for idir,coord in enumerate(['x','y','z']):
-            el=np.zeros(3)
-            el[idir]=(1-2*ind)*f
-            inp.apply_electric_field(el.tolist())
-            idd = {'rmult':inp['dft']['rmult'][0],'dir':coord,'sign':sign,'F':f}
-            study.append_run(id=idd,runner=kwargs['runner'],input=inp)
-
-    return study
-
 def eval_alpha(study):
     """"
     Extract the statical polarizability tensor from the study dataset.
@@ -68,7 +38,47 @@ def eval_alpha(study):
     for ind in range(3):
         alpha[ind] = np.array(dipoles[ind])-np.array(dipoles[ind+3])
     alpha = alpha.T / (2.0*f)
+    return np.diag(alpha)
+
+def eval_alpha_from_energy(study):
+    energies = study.fetch_results(attribute = 'energy')
+    alpha=np.zeros(3)
+    e0=study.get_global_option('E0')
+    f = study.get_global_option('intensity')
+    for ind in range(3):
+        alpha[ind] = abs(energies[ind] + energies[ind+3] - 2.0 * e0)
+    alpha = alpha/f**2
     return alpha
+
+def build_alpha_dataset(**kwargs):
+    """
+    Create the dataset and append the runs needed to compute the statical polarizability
+    for a specific choice of the input parameters. Set also a postprocessing function
+    to extract the value of alpha. The postprocessing function is set to the :py:func:`eval_alpha` function
+
+    Args:
+        kwargs['run_dir']   : th run_dir
+        kwargs['intensity'] : the intensity of the field
+        kwargs['input']     : the input file
+        kwargs['posinp']    : the posinp
+        kwargs['runner']    : the instance of SystemCalculator
+    """
+    from BigDFT import InputActions as A, Datasets as D
+    lbl = 'alpha_'+str(kwargs['intensity'])
+    study = D.Dataset(label=lbl,**kwargs)#run_dir=kwargs['run_dir'],intensity=kwargs['intensity'],posinp=kwargs['posinp'])
+    study.set_postprocessing_function(eval_alpha)
+    #study.set_postprocessing_function(eval_alpha_from_energy)
+
+    f = kwargs['intensity']
+    inp = kwargs['input']
+    for ind,sign in enumerate(['+','-']):
+        for idir,coord in enumerate(['x','y','z']):
+            el=np.zeros(3)
+            el[idir]=(1-2*ind)*f
+            inp.apply_electric_field(el.tolist())
+            idd = {'rmult':inp['dft']['rmult'][0],'dir':coord,'sign':sign,'F':f}
+            study.append_run(id=idd,runner=kwargs['runner'],input=inp)
+    return study
 
 def eval_alpha_avg(a):
     """
