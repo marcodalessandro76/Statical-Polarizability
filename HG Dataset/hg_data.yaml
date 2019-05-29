@@ -2873,7 +2873,7 @@ SH2:
   - 3.653
   - 3.653
   spin_pol: nsp
-SO-trip:
+SO:
   CCSD(T):
   - 2.942
   - 2.942
