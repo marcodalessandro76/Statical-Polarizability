@@ -202,6 +202,8 @@ for mol in HG_data:
         nsp_dataset.append(mol)
     else :
         sp_dataset.append(mol)
+ind =  sp_dataset.index('H2O-Li')
+del sp_dataset[ind]
 sp_dataset.sort()
 nsp_dataset.sort()
 sp_split = split_dataset(sp_dataset)
