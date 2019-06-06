@@ -202,7 +202,13 @@ for mol in HG_data:
         nsp_dataset.append(mol)
     else :
         sp_dataset.append(mol)
+# remove some molecules that gives error due to name scheme H2O-Li and FH-OH, or convergence problems in the
+# gs, Li2
 ind =  sp_dataset.index('H2O-Li')
+del sp_dataset[ind]
+ind =  sp_dataset.index('Li2')
+del sp_dataset[ind]
+ind =  sp_dataset.index('FH-OH')
 del sp_dataset[ind]
 sp_dataset.sort()
 nsp_dataset.sort()
