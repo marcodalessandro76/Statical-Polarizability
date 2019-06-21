@@ -138,7 +138,6 @@ def extract_statical_polarizability(label,rtol,atol,path,input_for_alpha,posinp,
         data_final=None
     return {'alpha_convergence': data_final, 'dataset_field': alpha_field, 'dataset_rmult': alpha_rmult}
 
-
 def alpha_study(gs_data,code,options):
     """"
     Workflow for the convergence analysis for the computation of alpha.
@@ -174,18 +173,25 @@ def data_to_save(data,options):
     Define the dictionary to be saved on file for data analysis
     """
     from copy import deepcopy
-    save_data = deepcopy(data)
-    results = {}
-    for study,values in save_data.iteritems():
-        results[study] = {}
-        results[study]['alpha_convergence'] = values['alpha_convergence']
-        results[study]['input_gs'] = values['input_gs']
-        results[study]['posinp'] = values['posinp']
+    res = {}
+    for s,values in data.iteritems():
+        res[s] = {}
+        res[s]['alpha_convergence'] = (values['alpha_convergence'][0],values['alpha_convergence'][1].tolist())
+
+        res[s]['posinp'] = {}
+        pos = values['posinp']
+        for key in pos:
+            res[s]['posinp'][key] = pos[key]
+
+        res[s]['input_gs'] = {}
+        inp = values['input_gs']
+        for key in inp:
+            res[s]['input_gs'][key] = inp[key]
 
     save_options = deepcopy(options)
     save_options.pop('reference_data')
-    results['options'] = save_options
-    return results
+    res['options'] = save_options
+    return res
 
 #Dataset analysis
 import yaml
@@ -195,40 +201,60 @@ HG_data['H']['spin_pol'] = 'sp'
 
 # for computational reason it can be useful to split the complete dataset into the sp and the nsp ones.
 # Moreover, each dataset can be divided into groups.
-sp_dataset = []
-nsp_dataset = []
-for mol in HG_data:
-    if HG_data[mol]['spin_pol'] == 'nsp':
-        nsp_dataset.append(mol)
-    else :
-        sp_dataset.append(mol)
-# remove some molecules that gives error due to name scheme H2O-Li and FH-OH, or convergence problems in the
-# gs, Li2
-ind =  sp_dataset.index('H2O-Li')
-del sp_dataset[ind]
-ind =  sp_dataset.index('Li2')
-del sp_dataset[ind]
-ind =  sp_dataset.index('FH-OH')
-del sp_dataset[ind]
-sp_dataset.sort()
-nsp_dataset.sort()
-sp_split = split_dataset(sp_dataset)
-nsp_split = split_dataset(nsp_dataset)
+# sp_dataset = []
+# nsp_dataset = []
+# for mol in HG_data:
+#     if HG_data[mol]['spin_pol'] == 'nsp':
+#         nsp_dataset.append(mol)
+#     else :
+#         sp_dataset.append(mol)
+# # remove some molecules that gives error due to name scheme H2O-Li and FH-OH, or convergence problems in the
+# # gs, Li2
+# ind =  sp_dataset.index('H2O-Li')
+# del sp_dataset[ind]
+# ind =  sp_dataset.index('Li2')
+# del sp_dataset[ind]
+# ind =  sp_dataset.index('FH-OH')
+# del sp_dataset[ind]
+# sp_dataset.sort()
+# nsp_dataset.sort()
+# sp_split = split_dataset(sp_dataset)
+# nsp_split = split_dataset(nsp_dataset)
+#
+# to_compute = []
+# for arg in sys.argv[1:]:
+#     to_compute += sp_split[int(arg)]
+# print 'Compute molecules'
+# print to_compute
 
-to_compute = []
-for arg in sys.argv[1:]:
-    to_compute += sp_split[int(arg)]
-print 'Compute molecules'
-print to_compute
+# we also build a complete dataset useful to be run to write
+# all the results on file
+full_dataset = []
+for mol in HG_data:
+        full_dataset.append(mol)
+# remove the H2O-Li molecule because we are not able to treat it with the
+# current implementation of the functions
+ind =  full_dataset.index('H2O-Li')
+del full_dataset[ind]
+# remove also Li2 because the gs calculation does not converge with the
+# actual range of parameters
+ind =  full_dataset.index('Li2')
+del full_dataset[ind]
+# remove the FH-OH molecule because we are not able to treat it with the
+# current implementation of the functions
+ind =  full_dataset.index('FH-OH')
+del full_dataset[ind]
+full_dataset.sort()
 
 options={'wf_convergence':1.e-6,'hgrids':0.3,'rmult_fine':9.0,'rtol':1.e-3,'atol':1.e-3,\
-'reference_data':HG_data,'data_directory':'Data_sp'}
+'reference_data':HG_data,'data_directory':'Data'}
 
 # mpi and omp are set from above exporting the asscoiated variables
 code=C.SystemCalculator(skip=True,verbose=True)
 
 full_data = {}
-for molecule in to_compute:
+#for molecule in to_compute:
+for molecule in full_dataset:
     for xc in ['lda_pw','pbe','pbe0']:
         psp = ['hgh_k'] if xc != 'pbe' else get_psp(molecule)
         for p in psp:
@@ -238,8 +264,6 @@ for molecule in to_compute:
             full_data[(molecule,xc,p)]=alpha_study(gs_data,code,options)
             full_data[(molecule,xc,p)].update(gs_data)
 
-#results = {}
-#results = yaml.load(open('results.yaml'))
-#results.update(data_to_save(full_data,options))
-#with open('results.yaml', 'w') as outfile:
-#    yaml.dump(results, outfile, default_flow_style=False)
+results = data_to_save(full_data,options)
+with open('full_results.yaml', 'w') as outfile:
+    yaml.dump(results, outfile, default_flow_style=False)
