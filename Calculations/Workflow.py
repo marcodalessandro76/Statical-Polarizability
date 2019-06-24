@@ -176,7 +176,10 @@ def data_to_save(data,options):
     res = {}
     for s,values in data.iteritems():
         res[s] = {}
-        res[s]['alpha_convergence'] = (values['alpha_convergence'][0],values['alpha_convergence'][1].tolist())
+        if not (values['alpha_convergence'] is None):
+            res[s]['alpha_convergence'] = (values['alpha_convergence'][0],values['alpha_convergence'][1].tolist())
+        else :
+            res[s]['alpha_convergence'] = values['alpha_convergence']
 
         res[s]['posinp'] = {}
         pos = values['posinp']
@@ -264,6 +267,6 @@ for molecule in full_dataset:
             full_data[(molecule,xc,p)]=alpha_study(gs_data,code,options)
             full_data[(molecule,xc,p)].update(gs_data)
 
-results = data_to_save(full_data,options)
+full_results = data_to_save(full_data,options)
 with open('full_results.yaml', 'w') as outfile:
-    yaml.dump(results, outfile, default_flow_style=False)
+    yaml.dump(full_results, outfile, default_flow_style=False)

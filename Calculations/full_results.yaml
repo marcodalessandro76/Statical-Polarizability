@@ -6,350 +6,2222 @@ options:
   rtol: 0.001
   wf_convergence: 1.0e-06
 ? !!python/tuple
-- CO
+- AlF
 - lda_pw
 - hgh_k
 : alpha_convergence: !!python/tuple
-  - f: 0.005
-    rmult: 7.0
-  - - 12.628823
-    - 12.628823
-    - 15.864130000000001
+  - f: 0.001
+    rmult: 6.0
+  - - 41.06699
+    - 41.06699
+    - 37.28989999999999
   input_gs:
     dft:
       gnrm_cv: 1.0e-06
       hgrids: 0.3
       ixc: '-001012'
       rmult:
-      - 5.0
+      - 4.0
       - 9.0
-    psppar.C:
+    psppar.Al:
       Pseudopotential XC: 1
-    psppar.O:
+    psppar.F:
       Pseudopotential XC: 1
   posinp:
     positions:
-    - C:
+    - Al:
       - 0.0
       - 0.0
       - 0.0
       frag:
       - molecule
       - '0'
-    - O:
+    - F:
       - 0.0
       - 0.0
-      - 1.1282
+      - 1.6544
       frag:
       - molecule
       - '0'
     units: angstroem
 ? !!python/tuple
-- CO
+- AlF
 - pbe
 - hgh_k
 : alpha_convergence: !!python/tuple
-  - f: 0.005
-    rmult: 7.0
-  - - 12.509689000000002
-    - 12.509689000000002
-    - 15.9052996
+  - f: 0.001
+    rmult: 6.0
+  - - 41.668985000000006
+    - 41.668985000000006
+    - 37.625850000000014
   input_gs:
     dft:
       gnrm_cv: 1.0e-06
       hgrids: 0.3
       ixc: 11
       rmult:
-      - 5.0
+      - 4.0
       - 9.0
   posinp:
     positions:
-    - C:
+    - Al:
       - 0.0
       - 0.0
       - 0.0
       frag:
       - molecule
       - '0'
-    - O:
+    - F:
       - 0.0
       - 0.0
-      - 1.1282
+      - 1.6544
       frag:
       - molecule
       - '0'
     units: angstroem
 ? !!python/tuple
-- CO
+- AlF
 - pbe
 - nlcc_aw
 : alpha_convergence: !!python/tuple
-  - f: 0.005
-    rmult: 7.0
-  - - 12.540765999999998
-    - 12.540765999999998
-    - 15.889695000000001
+  - f: 0.001
+    rmult: 6.0
+  - - 42.33359
+    - 42.33359
+    - 37.919099999999986
   input_gs:
     dft:
       gnrm_cv: 1.0e-06
       hgrids: 0.3
       ixc: 11
       rmult:
-      - 5.0
+      - 4.0
       - 9.0
   posinp:
     positions:
-    - C:
+    - Al:
       - 0.0
       - 0.0
       - 0.0
       frag:
       - molecule
       - '0'
-    - O:
+    - F:
       - 0.0
       - 0.0
-      - 1.1282
+      - 1.6544
       frag:
       - molecule
       - '0'
     units: angstroem
 ? !!python/tuple
-- CO
+- AlF
 - pbe
 - nlcc_ss
 : alpha_convergence: !!python/tuple
-  - f: 0.005
-    rmult: 7.0
-  - - 12.52568
-    - 12.52568
-    - 15.922475000000002
+  - f: 0.001
+    rmult: 6.0
+  - - 41.769105
+    - 41.769105
+    - 37.68190000000005
   input_gs:
     dft:
       gnrm_cv: 1.0e-06
       hgrids: 0.3
       ixc: 11
       rmult:
-      - 5.0
+      - 4.0
       - 9.0
   posinp:
     positions:
-    - C:
+    - Al:
       - 0.0
       - 0.0
       - 0.0
       frag:
       - molecule
       - '0'
-    - O:
+    - F:
       - 0.0
       - 0.0
-      - 1.1282
+      - 1.6544
       frag:
       - molecule
       - '0'
     units: angstroem
 ? !!python/tuple
-- CO
+- AlF
 - pbe0
 - hgh_k
 : alpha_convergence: !!python/tuple
-  - f: 0.005
-    rmult: 7.0
-  - - 12.010788999999999
-    - 12.010788999999999
-    - 15.320584
+  - f: 0.001
+    rmult: 6.0
+  - - 41.405985
+    - 41.405985
+    - 35.90985000000002
   input_gs:
     dft:
       gnrm_cv: 1.0e-06
       hgrids: 0.3
       ixc: PBE0
       rmult:
-      - 5.0
+      - 4.0
       - 9.0
-    psppar.C:
+    psppar.Al:
       Pseudopotential XC: 11
-    psppar.O:
+    psppar.F:
       Pseudopotential XC: 11
   posinp:
     positions:
-    - C:
+    - Al:
       - 0.0
       - 0.0
       - 0.0
       frag:
       - molecule
       - '0'
-    - O:
+    - F:
       - 0.0
       - 0.0
-      - 1.1282
+      - 1.6544
       frag:
       - molecule
       - '0'
     units: angstroem
 ? !!python/tuple
-- 'NO'
+- Ar
 - lda_pw
 - hgh_k
 : alpha_convergence: !!python/tuple
   - f: 0.01
     rmult: 9.0
-  - - 9.832377000000001
-    - 9.832377000000001
-    - 16.064303499999998
+  - - 12.081915
+    - 12.081915
+    - 12.081915
   input_gs:
     dft:
       gnrm_cv: 1.0e-06
       hgrids: 0.3
       ixc: '-001012'
-      mpol: 1
-      nspin: 2
       rmult:
-      - 5.0
+      - 6.0
       - 9.0
-    psppar.N:
-      Pseudopotential XC: 1
-    psppar.O:
+    psppar.Ar:
       Pseudopotential XC: 1
   posinp:
     positions:
-    - N:
+    - Ar:
       - 0.0
       - 0.0
       - 0.0
-      frag:
-      - molecule
-      - '0'
-    - O:
-      - 0.0
-      - 0.0
-      - 1.1538
       frag:
       - molecule
       - '0'
     units: angstroem
 ? !!python/tuple
-- 'NO'
+- Ar
 - pbe
 - hgh_k
 : alpha_convergence: !!python/tuple
   - f: 0.01
     rmult: 9.0
-  - - 9.782249499999999
-    - 9.782249499999999
-    - 16.222198
+  - - 12.028105
+    - 12.028105
+    - 12.028105
   input_gs:
     dft:
       gnrm_cv: 1.0e-06
       hgrids: 0.3
       ixc: 11
-      mpol: 1
-      nspin: 2
       rmult:
-      - 5.0
+      - 6.0
       - 9.0
   posinp:
     positions:
-    - N:
+    - Ar:
       - 0.0
       - 0.0
       - 0.0
-      frag:
-      - molecule
-      - '0'
-    - O:
-      - 0.0
-      - 0.0
-      - 1.1538
       frag:
       - molecule
       - '0'
     units: angstroem
 ? !!python/tuple
-- 'NO'
-- pbe
-- nlcc_aw
-: alpha_convergence: !!python/tuple
-  - f: 0.01
-    rmult: 9.0
-  - - 9.8164885
-    - 9.8164885
-    - 16.25603
-  input_gs:
-    dft:
-      gnrm_cv: 1.0e-06
-      hgrids: 0.3
-      ixc: 11
-      mpol: 1
-      nspin: 2
-      rmult:
-      - 5.0
-      - 9.0
-  posinp:
-    positions:
-    - N:
-      - 0.0
-      - 0.0
-      - 0.0
-      frag:
-      - molecule
-      - '0'
-    - O:
-      - 0.0
-      - 0.0
-      - 1.1538
-      frag:
-      - molecule
-      - '0'
-    units: angstroem
-? !!python/tuple
-- 'NO'
-- pbe
-- nlcc_ss
-: alpha_convergence: !!python/tuple
-  - f: 0.01
-    rmult: 9.0
-  - - 9.801582999999999
-    - 9.801582999999999
-    - 16.308307499999998
-  input_gs:
-    dft:
-      gnrm_cv: 1.0e-06
-      hgrids: 0.3
-      ixc: 11
-      mpol: 1
-      nspin: 2
-      rmult:
-      - 5.0
-      - 9.0
-  posinp:
-    positions:
-    - N:
-      - 0.0
-      - 0.0
-      - 0.0
-      frag:
-      - molecule
-      - '0'
-    - O:
-      - 0.0
-      - 0.0
-      - 1.1538
-      frag:
-      - molecule
-      - '0'
-    units: angstroem
-? !!python/tuple
-- 'NO'
+- Ar
 - pbe0
 - hgh_k
 : alpha_convergence: !!python/tuple
   - f: 0.01
+    rmult: 9.0
+  - - 11.48641
+    - 11.48641
+    - 11.48641
+  input_gs:
+    dft:
+      gnrm_cv: 1.0e-06
+      hgrids: 0.3
+      ixc: PBE0
+      rmult:
+      - 6.0
+      - 9.0
+    psppar.Ar:
+      Pseudopotential XC: 11
+  posinp:
+    positions:
+    - Ar:
+      - 0.0
+      - 0.0
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    units: angstroem
+? !!python/tuple
+- BF
+- lda_pw
+- hgh_k
+: alpha_convergence: !!python/tuple
+  - f: 0.005
+    rmult: 7.0
+  - - 22.38675
+    - 22.38675
+    - 20.158250000000006
+  input_gs:
+    dft:
+      gnrm_cv: 1.0e-06
+      hgrids: 0.3
+      ixc: '-001012'
+      rmult:
+      - 4.0
+      - 9.0
+    psppar.B:
+      Pseudopotential XC: 1
+    psppar.F:
+      Pseudopotential XC: 1
+  posinp:
+    positions:
+    - B:
+      - 0.0
+      - 0.0
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    - F:
+      - 0.0
+      - 0.0
+      - 1.2669
+      frag:
+      - molecule
+      - '0'
+    units: angstroem
+? !!python/tuple
+- BF
+- pbe
+- hgh_k
+: alpha_convergence: !!python/tuple
+  - f: 0.005
+    rmult: 7.0
+  - - 22.05501
+    - 22.05501
+    - 19.998540000000002
+  input_gs:
+    dft:
+      gnrm_cv: 1.0e-06
+      hgrids: 0.3
+      ixc: 11
+      rmult:
+      - 4.0
+      - 9.0
+  posinp:
+    positions:
+    - B:
+      - 0.0
+      - 0.0
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    - F:
+      - 0.0
+      - 0.0
+      - 1.2669
+      frag:
+      - molecule
+      - '0'
+    units: angstroem
+? !!python/tuple
+- BF
+- pbe
+- nlcc_aw
+: alpha_convergence: !!python/tuple
+  - f: 0.005
+    rmult: 7.0
+  - - 22.08693
+    - 22.08693
+    - 20.064950000000003
+  input_gs:
+    dft:
+      gnrm_cv: 1.0e-06
+      hgrids: 0.3
+      ixc: 11
+      rmult:
+      - 4.0
+      - 9.0
+  posinp:
+    positions:
+    - B:
+      - 0.0
+      - 0.0
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    - F:
+      - 0.0
+      - 0.0
+      - 1.2669
+      frag:
+      - molecule
+      - '0'
+    units: angstroem
+? !!python/tuple
+- BF
+- pbe
+- nlcc_ss
+: alpha_convergence: !!python/tuple
+  - f: 0.005
+    rmult: 7.0
+  - - 22.05502
+    - 22.05502
+    - 20.177510000000005
+  input_gs:
+    dft:
+      gnrm_cv: 1.0e-06
+      hgrids: 0.3
+      ixc: 11
+      rmult:
+      - 4.0
+      - 9.0
+  posinp:
+    positions:
+    - B:
+      - 0.0
+      - 0.0
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    - F:
+      - 0.0
+      - 0.0
+      - 1.2669
+      frag:
+      - molecule
+      - '0'
+    units: angstroem
+? !!python/tuple
+- BF
+- pbe0
+- hgh_k
+: alpha_convergence: !!python/tuple
+  - f: 0.005
+    rmult: 7.0
+  - - 21.36866
+    - 21.36866
+    - 18.774789999999996
+  input_gs:
+    dft:
+      gnrm_cv: 1.0e-06
+      hgrids: 0.3
+      ixc: PBE0
+      rmult:
+      - 4.0
+      - 9.0
+    psppar.B:
+      Pseudopotential XC: 11
+    psppar.F:
+      Pseudopotential XC: 11
+  posinp:
+    positions:
+    - B:
+      - 0.0
+      - 0.0
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    - F:
+      - 0.0
+      - 0.0
+      - 1.2669
+      frag:
+      - molecule
+      - '0'
+    units: angstroem
+? !!python/tuple
+- BH2
+- lda_pw
+- hgh_k
+: alpha_convergence: !!python/tuple
+  - f: 0.001
     rmult: 8.0
-  - - 9.3536805
-    - 9.3536805
-    - 15.465535
+  - - 20.938660000000002
+    - 23.799649999999993
+    - 21.522434999999998
+  input_gs:
+    dft:
+      gnrm_cv: 1.0e-06
+      hgrids: 0.3
+      ixc: '-001012'
+      mpol: 1
+      nspin: 2
+      rmult:
+      - 4.0
+      - 9.0
+    psppar.B:
+      Pseudopotential XC: 1
+    psppar.H:
+      Pseudopotential XC: 1
+  posinp:
+    positions:
+    - B:
+      - 0.0
+      - 0.0
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.0
+      - 0.489
+      - 1.074
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.0
+      - 0.489
+      - -1.074
+      frag:
+      - molecule
+      - '0'
+    units: angstroem
+? !!python/tuple
+- BH2
+- pbe
+- hgh_k
+: alpha_convergence: !!python/tuple
+  - f: 0.001
+    rmult: 8.0
+  - - 20.319975
+    - 22.84404999999999
+    - 21.011025000000004
+  input_gs:
+    dft:
+      gnrm_cv: 1.0e-06
+      hgrids: 0.3
+      ixc: 11
+      mpol: 1
+      nspin: 2
+      rmult:
+      - 4.0
+      - 9.0
+  posinp:
+    positions:
+    - B:
+      - 0.0
+      - 0.0
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.0
+      - 0.489
+      - 1.074
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.0
+      - 0.489
+      - -1.074
+      frag:
+      - molecule
+      - '0'
+    units: angstroem
+? !!python/tuple
+- BH2
+- pbe
+- nlcc_aw
+: alpha_convergence: !!python/tuple
+  - f: 0.001
+    rmult: 8.0
+  - - 20.52066
+    - 23.361500000000007
+    - 21.2116
+  input_gs:
+    dft:
+      gnrm_cv: 1.0e-06
+      hgrids: 0.3
+      ixc: 11
+      mpol: 1
+      nspin: 2
+      rmult:
+      - 4.0
+      - 9.0
+  posinp:
+    positions:
+    - B:
+      - 0.0
+      - 0.0
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.0
+      - 0.489
+      - 1.074
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.0
+      - 0.489
+      - -1.074
+      frag:
+      - molecule
+      - '0'
+    units: angstroem
+? !!python/tuple
+- BH2
+- pbe
+- nlcc_ss
+: alpha_convergence: !!python/tuple
+  - f: 0.001
+    rmult: 8.0
+  - - 20.631259999999997
+    - 23.585850000000004
+    - 21.288175
+  input_gs:
+    dft:
+      gnrm_cv: 1.0e-06
+      hgrids: 0.3
+      ixc: 11
+      mpol: 1
+      nspin: 2
+      rmult:
+      - 4.0
+      - 9.0
+  posinp:
+    positions:
+    - B:
+      - 0.0
+      - 0.0
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.0
+      - 0.489
+      - 1.074
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.0
+      - 0.489
+      - -1.074
+      frag:
+      - molecule
+      - '0'
+    units: angstroem
+? !!python/tuple
+- BH2
+- pbe0
+- hgh_k
+: alpha_convergence: !!python/tuple
+  - f: 0.001
+    rmult: 7.0
+  - - 19.620804999999997
+    - 21.296999999999997
+    - 20.13033
+  input_gs:
+    dft:
+      gnrm_cv: 1.0e-06
+      hgrids: 0.3
+      ixc: PBE0
+      mpol: 1
+      nspin: 2
+      rmult:
+      - 4.0
+      - 9.0
+    psppar.B:
+      Pseudopotential XC: 11
+    psppar.H:
+      Pseudopotential XC: 11
+  posinp:
+    positions:
+    - B:
+      - 0.0
+      - 0.0
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.0
+      - 0.489
+      - 1.074
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.0
+      - 0.489
+      - -1.074
+      frag:
+      - molecule
+      - '0'
+    units: angstroem
+? !!python/tuple
+- BH2Cl
+- lda_pw
+- hgh_k
+: alpha_convergence: !!python/tuple
+  - f: 0.005
+    rmult: 7.0
+  - - 25.56473
+    - 29.30294
+    - 40.244994
+  input_gs:
+    dft:
+      gnrm_cv: 1.0e-06
+      hgrids: 0.3
+      ixc: '-001012'
+      rmult:
+      - 5.0
+      - 9.0
+    psppar.B:
+      Pseudopotential XC: 1
+    psppar.Cl:
+      Pseudopotential XC: 1
+    psppar.H:
+      Pseudopotential XC: 1
+  posinp:
+    positions:
+    - B:
+      - 0.0
+      - 0.0
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    - Cl:
+      - 0.0
+      - 0.0
+      - 1.7353
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.0
+      - 1.0532
+      - -0.5574
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.0
+      - -1.0532
+      - -0.5574
+      frag:
+      - molecule
+      - '0'
+    units: angstroem
+? !!python/tuple
+- BH2Cl
+- pbe
+- hgh_k
+: alpha_convergence: !!python/tuple
+  - f: 0.005
+    rmult: 7.0
+  - - 25.29978
+    - 28.97577
+    - 39.732834
+  input_gs:
+    dft:
+      gnrm_cv: 1.0e-06
+      hgrids: 0.3
+      ixc: 11
+      rmult:
+      - 5.0
+      - 9.0
+  posinp:
+    positions:
+    - B:
+      - 0.0
+      - 0.0
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    - Cl:
+      - 0.0
+      - 0.0
+      - 1.7353
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.0
+      - 1.0532
+      - -0.5574
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.0
+      - -1.0532
+      - -0.5574
+      frag:
+      - molecule
+      - '0'
+    units: angstroem
+? !!python/tuple
+- BH2Cl
+- pbe
+- nlcc_aw
+: alpha_convergence: !!python/tuple
+  - f: 0.005
+    rmult: 7.0
+  - - 25.177150000000005
+    - 28.84143
+    - 39.512213
+  input_gs:
+    dft:
+      gnrm_cv: 1.0e-06
+      hgrids: 0.3
+      ixc: 11
+      rmult:
+      - 5.0
+      - 9.0
+  posinp:
+    positions:
+    - B:
+      - 0.0
+      - 0.0
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    - Cl:
+      - 0.0
+      - 0.0
+      - 1.7353
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.0
+      - 1.0532
+      - -0.5574
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.0
+      - -1.0532
+      - -0.5574
+      frag:
+      - molecule
+      - '0'
+    units: angstroem
+? !!python/tuple
+- BH2Cl
+- pbe
+- nlcc_ss
+: alpha_convergence: !!python/tuple
+  - f: 0.005
+    rmult: 7.0
+  - - 25.15253
+    - 28.788259999999998
+    - 39.514319
+  input_gs:
+    dft:
+      gnrm_cv: 1.0e-06
+      hgrids: 0.3
+      ixc: 11
+      rmult:
+      - 5.0
+      - 9.0
+  posinp:
+    positions:
+    - B:
+      - 0.0
+      - 0.0
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    - Cl:
+      - 0.0
+      - 0.0
+      - 1.7353
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.0
+      - 1.0532
+      - -0.5574
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.0
+      - -1.0532
+      - -0.5574
+      frag:
+      - molecule
+      - '0'
+    units: angstroem
+? !!python/tuple
+- BH2Cl
+- pbe0
+- hgh_k
+: alpha_convergence: !!python/tuple
+  - f: 0.005
+    rmult: 7.0
+  - - 24.479279999999996
+    - 27.91786
+    - 37.889169
+  input_gs:
+    dft:
+      gnrm_cv: 1.0e-06
+      hgrids: 0.3
+      ixc: PBE0
+      rmult:
+      - 5.0
+      - 9.0
+    psppar.B:
+      Pseudopotential XC: 11
+    psppar.Cl:
+      Pseudopotential XC: 11
+    psppar.H:
+      Pseudopotential XC: 11
+  posinp:
+    positions:
+    - B:
+      - 0.0
+      - 0.0
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    - Cl:
+      - 0.0
+      - 0.0
+      - 1.7353
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.0
+      - 1.0532
+      - -0.5574
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.0
+      - -1.0532
+      - -0.5574
+      frag:
+      - molecule
+      - '0'
+    units: angstroem
+? !!python/tuple
+- BH2F
+- lda_pw
+- hgh_k
+: alpha_convergence: !!python/tuple
+  - f: 0.005
+    rmult: 6.0
+  - - 15.402773
+    - 19.553890000000003
+    - 19.459300000000002
+  input_gs:
+    dft:
+      gnrm_cv: 1.0e-06
+      hgrids: 0.3
+      ixc: '-001012'
+      rmult:
+      - 4.0
+      - 9.0
+    psppar.B:
+      Pseudopotential XC: 1
+    psppar.F:
+      Pseudopotential XC: 1
+    psppar.H:
+      Pseudopotential XC: 1
+  posinp:
+    positions:
+    - B:
+      - 0.0
+      - 0.0
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    - F:
+      - 0.0
+      - 0.0
+      - 1.3157
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.0
+      - 1.0599
+      - -0.5569
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.0
+      - -1.0599
+      - -0.5569
+      frag:
+      - molecule
+      - '0'
+    units: angstroem
+? !!python/tuple
+- BH2F
+- pbe
+- hgh_k
+: alpha_convergence: !!python/tuple
+  - f: 0.005
+    rmult: 6.0
+  - - 15.194047999999999
+    - 19.304130999999998
+    - 19.27034
+  input_gs:
+    dft:
+      gnrm_cv: 1.0e-06
+      hgrids: 0.3
+      ixc: 11
+      rmult:
+      - 4.0
+      - 9.0
+  posinp:
+    positions:
+    - B:
+      - 0.0
+      - 0.0
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    - F:
+      - 0.0
+      - 0.0
+      - 1.3157
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.0
+      - 1.0599
+      - -0.5569
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.0
+      - -1.0599
+      - -0.5569
+      frag:
+      - molecule
+      - '0'
+    units: angstroem
+? !!python/tuple
+- BH2F
+- pbe
+- nlcc_aw
+: alpha_convergence: !!python/tuple
+  - f: 0.005
+    rmult: 6.0
+  - - 15.185134
+    - 19.293643999999997
+    - 19.235830000000004
+  input_gs:
+    dft:
+      gnrm_cv: 1.0e-06
+      hgrids: 0.3
+      ixc: 11
+      rmult:
+      - 4.0
+      - 9.0
+  posinp:
+    positions:
+    - B:
+      - 0.0
+      - 0.0
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    - F:
+      - 0.0
+      - 0.0
+      - 1.3157
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.0
+      - 1.0599
+      - -0.5569
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.0
+      - -1.0599
+      - -0.5569
+      frag:
+      - molecule
+      - '0'
+    units: angstroem
+? !!python/tuple
+- BH2F
+- pbe
+- nlcc_ss
+: alpha_convergence: !!python/tuple
+  - f: 0.005
+    rmult: 6.0
+  - - 15.165212
+    - 19.242955
+    - 19.22975
+  input_gs:
+    dft:
+      gnrm_cv: 1.0e-06
+      hgrids: 0.3
+      ixc: 11
+      rmult:
+      - 4.0
+      - 9.0
+  posinp:
+    positions:
+    - B:
+      - 0.0
+      - 0.0
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    - F:
+      - 0.0
+      - 0.0
+      - 1.3157
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.0
+      - 1.0599
+      - -0.5569
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.0
+      - -1.0599
+      - -0.5569
+      frag:
+      - molecule
+      - '0'
+    units: angstroem
+? !!python/tuple
+- BH2F
+- pbe0
+- hgh_k
+: alpha_convergence: !!python/tuple
+  - f: 0.005
+    rmult: 6.0
+  - - 14.526619000000002
+    - 18.395607
+    - 18.159049999999997
+  input_gs:
+    dft:
+      gnrm_cv: 1.0e-06
+      hgrids: 0.3
+      ixc: PBE0
+      rmult:
+      - 4.0
+      - 9.0
+    psppar.B:
+      Pseudopotential XC: 11
+    psppar.F:
+      Pseudopotential XC: 11
+    psppar.H:
+      Pseudopotential XC: 11
+  posinp:
+    positions:
+    - B:
+      - 0.0
+      - 0.0
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    - F:
+      - 0.0
+      - 0.0
+      - 1.3157
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.0
+      - 1.0599
+      - -0.5569
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.0
+      - -1.0599
+      - -0.5569
+      frag:
+      - molecule
+      - '0'
+    units: angstroem
+? !!python/tuple
+- BH3
+- lda_pw
+- hgh_k
+: alpha_convergence: !!python/tuple
+  - f: 0.005
+    rmult: 6.0
+  - - 20.141409999999997
+    - 20.14128
+    - 15.444965999999999
+  input_gs:
+    dft:
+      gnrm_cv: 1.0e-06
+      hgrids: 0.3
+      ixc: '-001012'
+      rmult:
+      - 4.0
+      - 9.0
+    psppar.B:
+      Pseudopotential XC: 1
+    psppar.H:
+      Pseudopotential XC: 1
+  posinp:
+    positions:
+    - B:
+      - 0.0
+      - 0.0
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.0
+      - 1.19
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 1.0306
+      - -0.595
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - -1.0306
+      - -0.595
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    units: angstroem
+? !!python/tuple
+- BH3
+- pbe
+- hgh_k
+: alpha_convergence: !!python/tuple
+  - f: 0.005
+    rmult: 6.0
+  - - 19.70391
+    - 19.703689
+    - 15.104486999999999
+  input_gs:
+    dft:
+      gnrm_cv: 1.0e-06
+      hgrids: 0.3
+      ixc: 11
+      rmult:
+      - 4.0
+      - 9.0
+  posinp:
+    positions:
+    - B:
+      - 0.0
+      - 0.0
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.0
+      - 1.19
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 1.0306
+      - -0.595
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - -1.0306
+      - -0.595
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    units: angstroem
+? !!python/tuple
+- BH3
+- pbe
+- nlcc_aw
+: alpha_convergence: !!python/tuple
+  - f: 0.005
+    rmult: 6.0
+  - - 19.715138999999997
+    - 19.715008
+    - 15.084821999999997
+  input_gs:
+    dft:
+      gnrm_cv: 1.0e-06
+      hgrids: 0.3
+      ixc: 11
+      rmult:
+      - 4.0
+      - 9.0
+  posinp:
+    positions:
+    - B:
+      - 0.0
+      - 0.0
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.0
+      - 1.19
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 1.0306
+      - -0.595
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - -1.0306
+      - -0.595
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    units: angstroem
+? !!python/tuple
+- BH3
+- pbe
+- nlcc_ss
+: alpha_convergence: !!python/tuple
+  - f: 0.005
+    rmult: 6.0
+  - - 19.670547
+    - 19.67042
+    - 15.054596
+  input_gs:
+    dft:
+      gnrm_cv: 1.0e-06
+      hgrids: 0.3
+      ixc: 11
+      rmult:
+      - 4.0
+      - 9.0
+  posinp:
+    positions:
+    - B:
+      - 0.0
+      - 0.0
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.0
+      - 1.19
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 1.0306
+      - -0.595
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - -1.0306
+      - -0.595
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    units: angstroem
+? !!python/tuple
+- BH3
+- pbe0
+- hgh_k
+: alpha_convergence: !!python/tuple
+  - f: 0.005
+    rmult: 6.0
+  - - 19.000491999999998
+    - 19.000272000000002
+    - 14.626370999999999
+  input_gs:
+    dft:
+      gnrm_cv: 1.0e-06
+      hgrids: 0.3
+      ixc: PBE0
+      rmult:
+      - 4.0
+      - 9.0
+    psppar.B:
+      Pseudopotential XC: 11
+    psppar.H:
+      Pseudopotential XC: 11
+  posinp:
+    positions:
+    - B:
+      - 0.0
+      - 0.0
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.0
+      - 1.19
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 1.0306
+      - -0.595
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - -1.0306
+      - -0.595
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    units: angstroem
+? !!python/tuple
+- BHF2
+- lda_pw
+- hgh_k
+: alpha_convergence: !!python/tuple
+  - f: 0.005
+    rmult: 6.0
+  - - 15.228747999999998
+    - 19.510796000000003
+    - 18.67956
+  input_gs:
+    dft:
+      gnrm_cv: 1.0e-06
+      hgrids: 0.3
+      ixc: '-001012'
+      rmult:
+      - 4.0
+      - 9.0
+    psppar.B:
+      Pseudopotential XC: 1
+    psppar.F:
+      Pseudopotential XC: 1
+    psppar.H:
+      Pseudopotential XC: 1
+  posinp:
+    positions:
+    - B:
+      - 0.0
+      - 0.0
+      - 0.4547
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.0
+      - 0.0
+      - 1.6437
+      frag:
+      - molecule
+      - '0'
+    - F:
+      - 0.0
+      - 1.1255
+      - -0.2176
+      frag:
+      - molecule
+      - '0'
+    - F:
+      - 0.0
+      - -1.1255
+      - -0.2176
+      frag:
+      - molecule
+      - '0'
+    units: angstroem
+? !!python/tuple
+- BHF2
+- pbe
+- hgh_k
+: alpha_convergence: !!python/tuple
+  - f: 0.005
+    rmult: 6.0
+  - - 15.133664000000001
+    - 19.383938
+    - 18.62882
+  input_gs:
+    dft:
+      gnrm_cv: 1.0e-06
+      hgrids: 0.3
+      ixc: 11
+      rmult:
+      - 4.0
+      - 9.0
+  posinp:
+    positions:
+    - B:
+      - 0.0
+      - 0.0
+      - 0.4547
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.0
+      - 0.0
+      - 1.6437
+      frag:
+      - molecule
+      - '0'
+    - F:
+      - 0.0
+      - 1.1255
+      - -0.2176
+      frag:
+      - molecule
+      - '0'
+    - F:
+      - 0.0
+      - -1.1255
+      - -0.2176
+      frag:
+      - molecule
+      - '0'
+    units: angstroem
+? !!python/tuple
+- BHF2
+- pbe
+- nlcc_aw
+: alpha_convergence: !!python/tuple
+  - f: 0.005
+    rmult: 6.0
+  - - 15.123767999999998
+    - 19.366324000000002
+    - 18.5695
+  input_gs:
+    dft:
+      gnrm_cv: 1.0e-06
+      hgrids: 0.3
+      ixc: 11
+      rmult:
+      - 4.0
+      - 9.0
+  posinp:
+    positions:
+    - B:
+      - 0.0
+      - 0.0
+      - 0.4547
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.0
+      - 0.0
+      - 1.6437
+      frag:
+      - molecule
+      - '0'
+    - F:
+      - 0.0
+      - 1.1255
+      - -0.2176
+      frag:
+      - molecule
+      - '0'
+    - F:
+      - 0.0
+      - -1.1255
+      - -0.2176
+      frag:
+      - molecule
+      - '0'
+    units: angstroem
+? !!python/tuple
+- BHF2
+- pbe
+- nlcc_ss
+: alpha_convergence: !!python/tuple
+  - f: 0.005
+    rmult: 6.0
+  - - 15.105197999999998
+    - 19.39332
+    - 18.53741
+  input_gs:
+    dft:
+      gnrm_cv: 1.0e-06
+      hgrids: 0.3
+      ixc: 11
+      rmult:
+      - 4.0
+      - 9.0
+  posinp:
+    positions:
+    - B:
+      - 0.0
+      - 0.0
+      - 0.4547
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.0
+      - 0.0
+      - 1.6437
+      frag:
+      - molecule
+      - '0'
+    - F:
+      - 0.0
+      - 1.1255
+      - -0.2176
+      frag:
+      - molecule
+      - '0'
+    - F:
+      - 0.0
+      - -1.1255
+      - -0.2176
+      frag:
+      - molecule
+      - '0'
+    units: angstroem
+? !!python/tuple
+- BHF2
+- pbe0
+- hgh_k
+: alpha_convergence: !!python/tuple
+  - f: 0.005
+    rmult: 6.0
+  - - 14.276068
+    - 18.032867999999997
+    - 17.395950000000003
+  input_gs:
+    dft:
+      gnrm_cv: 1.0e-06
+      hgrids: 0.3
+      ixc: PBE0
+      rmult:
+      - 4.0
+      - 9.0
+    psppar.B:
+      Pseudopotential XC: 11
+    psppar.F:
+      Pseudopotential XC: 11
+    psppar.H:
+      Pseudopotential XC: 11
+  posinp:
+    positions:
+    - B:
+      - 0.0
+      - 0.0
+      - 0.4547
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.0
+      - 0.0
+      - 1.6437
+      frag:
+      - molecule
+      - '0'
+    - F:
+      - 0.0
+      - 1.1255
+      - -0.2176
+      frag:
+      - molecule
+      - '0'
+    - F:
+      - 0.0
+      - -1.1255
+      - -0.2176
+      frag:
+      - molecule
+      - '0'
+    units: angstroem
+? !!python/tuple
+- BN
+- lda_pw
+- hgh_k
+: alpha_convergence: !!python/tuple
+  - f: 0.0001
+    rmult: 7.0
+  - - 18.20028
+    - 18.20028
+    - 31.32599999999985
+  input_gs:
+    dft:
+      gnrm_cv: 1.0e-06
+      hgrids: 0.3
+      ixc: '-001012'
+      mpol: 2
+      nspin: 2
+      rmult:
+      - 5.0
+      - 9.0
+    psppar.B:
+      Pseudopotential XC: 1
+    psppar.N:
+      Pseudopotential XC: 1
+  posinp:
+    positions:
+    - B:
+      - 0.0
+      - 0.0
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    - N:
+      - 0.0
+      - 0.0
+      - 1.325
+      frag:
+      - molecule
+      - '0'
+    units: angstroem
+? !!python/tuple
+- BN
+- pbe
+- hgh_k
+: alpha_convergence: !!python/tuple
+  - f: 0.0001
+    rmult: 7.0
+  - - 17.98925
+    - 17.98925
+    - 30.12899999999985
+  input_gs:
+    dft:
+      gnrm_cv: 1.0e-06
+      hgrids: 0.3
+      ixc: 11
+      mpol: 2
+      nspin: 2
+      rmult:
+      - 5.0
+      - 9.0
+  posinp:
+    positions:
+    - B:
+      - 0.0
+      - 0.0
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    - N:
+      - 0.0
+      - 0.0
+      - 1.325
+      frag:
+      - molecule
+      - '0'
+    units: angstroem
+? !!python/tuple
+- BN
+- pbe
+- nlcc_aw
+: alpha_convergence: !!python/tuple
+  - f: 0.0001
+    rmult: 8.0
+  - - 18.560209999999998
+    - 18.560209999999998
+    - 30.75300000000003
+  input_gs:
+    dft:
+      gnrm_cv: 1.0e-06
+      hgrids: 0.3
+      ixc: 11
+      mpol: 2
+      nspin: 2
+      rmult:
+      - 5.0
+      - 9.0
+  posinp:
+    positions:
+    - B:
+      - 0.0
+      - 0.0
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    - N:
+      - 0.0
+      - 0.0
+      - 1.325
+      frag:
+      - molecule
+      - '0'
+    units: angstroem
+? !!python/tuple
+- BN
+- pbe
+- nlcc_ss
+: alpha_convergence: !!python/tuple
+  - f: 0.0001
+    rmult: 7.0
+  - - 18.11405
+    - 18.11405
+    - 31.297499999999864
+  input_gs:
+    dft:
+      gnrm_cv: 1.0e-06
+      hgrids: 0.3
+      ixc: 11
+      mpol: 2
+      nspin: 2
+      rmult:
+      - 5.0
+      - 9.0
+  posinp:
+    positions:
+    - B:
+      - 0.0
+      - 0.0
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    - N:
+      - 0.0
+      - 0.0
+      - 1.325
+      frag:
+      - molecule
+      - '0'
+    units: angstroem
+? !!python/tuple
+- BN
+- pbe0
+- hgh_k
+: alpha_convergence: !!python/tuple
+  - f: 0.0001
+    rmult: 7.0
+  - - 17.373234999999998
+    - 17.373234999999998
+    - 27.76599999999962
+  input_gs:
+    dft:
+      gnrm_cv: 1.0e-06
+      hgrids: 0.3
+      ixc: PBE0
+      mpol: 2
+      nspin: 2
+      rmult:
+      - 5.0
+      - 9.0
+    psppar.B:
+      Pseudopotential XC: 11
+    psppar.N:
+      Pseudopotential XC: 11
+  posinp:
+    positions:
+    - B:
+      - 0.0
+      - 0.0
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    - N:
+      - 0.0
+      - 0.0
+      - 1.325
+      frag:
+      - molecule
+      - '0'
+    units: angstroem
+? !!python/tuple
+- BO
+- lda_pw
+- hgh_k
+: alpha_convergence: !!python/tuple
+  - f: 0.005
+    rmult: 6.0
+  - - 16.545959999999997
+    - 16.545959999999997
+    - 20.359379999999994
+  input_gs:
+    dft:
+      gnrm_cv: 1.0e-06
+      hgrids: 0.3
+      ixc: '-001012'
+      mpol: 1
+      nspin: 2
+      rmult:
+      - 4.0
+      - 9.0
+    psppar.B:
+      Pseudopotential XC: 1
+    psppar.O:
+      Pseudopotential XC: 1
+  posinp:
+    positions:
+    - B:
+      - 0.0
+      - 0.0
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    - O:
+      - 0.0
+      - 0.0
+      - 1.2045
+      frag:
+      - molecule
+      - '0'
+    units: angstroem
+? !!python/tuple
+- BO
+- pbe
+- hgh_k
+: alpha_convergence: !!python/tuple
+  - f: 0.005
+    rmult: 6.0
+  - - 16.365688
+    - 16.365688
+    - 20.298609999999993
+  input_gs:
+    dft:
+      gnrm_cv: 1.0e-06
+      hgrids: 0.3
+      ixc: 11
+      mpol: 1
+      nspin: 2
+      rmult:
+      - 4.0
+      - 9.0
+  posinp:
+    positions:
+    - B:
+      - 0.0
+      - 0.0
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    - O:
+      - 0.0
+      - 0.0
+      - 1.2045
+      frag:
+      - molecule
+      - '0'
+    units: angstroem
+? !!python/tuple
+- BO
+- pbe
+- nlcc_aw
+: alpha_convergence: !!python/tuple
+  - f: 0.005
+    rmult: 6.0
+  - - 16.484253
+    - 16.484253
+    - 20.454320000000003
+  input_gs:
+    dft:
+      gnrm_cv: 1.0e-06
+      hgrids: 0.3
+      ixc: 11
+      mpol: 1
+      nspin: 2
+      rmult:
+      - 4.0
+      - 9.0
+  posinp:
+    positions:
+    - B:
+      - 0.0
+      - 0.0
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    - O:
+      - 0.0
+      - 0.0
+      - 1.2045
+      frag:
+      - molecule
+      - '0'
+    units: angstroem
+? !!python/tuple
+- BO
+- pbe
+- nlcc_ss
+: alpha_convergence: !!python/tuple
+  - f: 0.005
+    rmult: 6.0
+  - - 16.549296
+    - 16.549296
+    - 20.667860000000005
+  input_gs:
+    dft:
+      gnrm_cv: 1.0e-06
+      hgrids: 0.3
+      ixc: 11
+      mpol: 1
+      nspin: 2
+      rmult:
+      - 4.0
+      - 9.0
+  posinp:
+    positions:
+    - B:
+      - 0.0
+      - 0.0
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    - O:
+      - 0.0
+      - 0.0
+      - 1.2045
+      frag:
+      - molecule
+      - '0'
+    units: angstroem
+? !!python/tuple
+- BO
+- pbe0
+- hgh_k
+: alpha_convergence: !!python/tuple
+  - f: 0.005
+    rmult: 6.0
+  - - 15.508094999999999
+    - 15.508094999999999
+    - 19.037019999999995
+  input_gs:
+    dft:
+      gnrm_cv: 1.0e-06
+      hgrids: 0.3
+      ixc: PBE0
+      mpol: 1
+      nspin: 2
+      rmult:
+      - 4.0
+      - 9.0
+    psppar.B:
+      Pseudopotential XC: 11
+    psppar.O:
+      Pseudopotential XC: 11
+  posinp:
+    positions:
+    - B:
+      - 0.0
+      - 0.0
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    - O:
+      - 0.0
+      - 0.0
+      - 1.2045
+      frag:
+      - molecule
+      - '0'
+    units: angstroem
+? !!python/tuple
+- BS
+- lda_pw
+- hgh_k
+: alpha_convergence: !!python/tuple
+  - f: 0.001
+    rmult: 7.0
+  - - 31.18982
+    - 31.18982
+    - 44.71289999999998
+  input_gs:
+    dft:
+      gnrm_cv: 1.0e-06
+      hgrids: 0.3
+      ixc: '-001012'
+      mpol: 1
+      nspin: 2
+      rmult:
+      - 5.0
+      - 9.0
+    psppar.B:
+      Pseudopotential XC: 1
+    psppar.S:
+      Pseudopotential XC: 1
+  posinp:
+    positions:
+    - B:
+      - 0.0
+      - 0.0
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    - S:
+      - 0.0
+      - 0.0
+      - 1.6092
+      frag:
+      - molecule
+      - '0'
+    units: angstroem
+? !!python/tuple
+- BS
+- pbe
+- hgh_k
+: alpha_convergence: !!python/tuple
+  - f: 0.001
+    rmult: 7.0
+  - - 30.861884999999997
+    - 30.861884999999997
+    - 44.37159999999998
+  input_gs:
+    dft:
+      gnrm_cv: 1.0e-06
+      hgrids: 0.3
+      ixc: 11
+      mpol: 1
+      nspin: 2
+      rmult:
+      - 5.0
+      - 9.0
+  posinp:
+    positions:
+    - B:
+      - 0.0
+      - 0.0
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    - S:
+      - 0.0
+      - 0.0
+      - 1.6092
+      frag:
+      - molecule
+      - '0'
+    units: angstroem
+? !!python/tuple
+- BS
+- pbe
+- nlcc_aw
+: alpha_convergence: !!python/tuple
+  - f: 0.001
+    rmult: 7.0
+  - - 30.831829999999997
+    - 30.831829999999997
+    - 44.47955
+  input_gs:
+    dft:
+      gnrm_cv: 1.0e-06
+      hgrids: 0.3
+      ixc: 11
+      mpol: 1
+      nspin: 2
+      rmult:
+      - 5.0
+      - 9.0
+  posinp:
+    positions:
+    - B:
+      - 0.0
+      - 0.0
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    - S:
+      - 0.0
+      - 0.0
+      - 1.6092
+      frag:
+      - molecule
+      - '0'
+    units: angstroem
+? !!python/tuple
+- BS
+- pbe0
+- hgh_k
+: alpha_convergence: !!python/tuple
+  - f: 0.005
+    rmult: 7.0
+  - - 29.990700000000004
+    - 29.990700000000004
+    - 43.046389999999995
   input_gs:
     dft:
       gnrm_cv: 1.0e-06
@@ -360,23 +2232,2078 @@ options:
       rmult:
       - 5.0
       - 9.0
-    psppar.N:
+    psppar.B:
       Pseudopotential XC: 11
-    psppar.O:
+    psppar.S:
       Pseudopotential XC: 11
   posinp:
     positions:
-    - N:
+    - B:
       - 0.0
       - 0.0
       - 0.0
       frag:
       - molecule
       - '0'
-    - O:
+    - S:
       - 0.0
       - 0.0
-      - 1.1538
+      - 1.6092
+      frag:
+      - molecule
+      - '0'
+    units: angstroem
+? !!python/tuple
+- Be
+- lda_pw
+- hgh_k
+: alpha_convergence: !!python/tuple
+  - f: 0.001
+    rmult: 9.0
+  - - 43.868095
+    - 43.868095
+    - 43.868095
+  input_gs:
+    dft:
+      gnrm_cv: 1.0e-06
+      hgrids: 0.3
+      ixc: '-001012'
+      rmult:
+      - 6.0
+      - 9.0
+    psppar.Be:
+      Pseudopotential XC: 1
+  posinp:
+    positions:
+    - Be:
+      - 0.0
+      - 0.0
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    units: angstroem
+? !!python/tuple
+- Be
+- pbe
+- hgh_k
+: alpha_convergence: !!python/tuple
+  - f: 0.001
+    rmult: 9.0
+  - - 42.87412
+    - 42.87412
+    - 42.87412
+  input_gs:
+    dft:
+      gnrm_cv: 1.0e-06
+      hgrids: 0.3
+      ixc: 11
+      rmult:
+      - 6.0
+      - 9.0
+  posinp:
+    positions:
+    - Be:
+      - 0.0
+      - 0.0
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    units: angstroem
+? !!python/tuple
+- Be
+- pbe
+- nlcc_ss
+: alpha_convergence: !!python/tuple
+  - f: 0.001
+    rmult: 9.0
+  - - 42.572385000000004
+    - 42.572385000000004
+    - 42.572385000000004
+  input_gs:
+    dft:
+      gnrm_cv: 1.0e-06
+      hgrids: 0.3
+      ixc: 11
+      rmult:
+      - 6.0
+      - 9.0
+  posinp:
+    positions:
+    - Be:
+      - 0.0
+      - 0.0
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    units: angstroem
+? !!python/tuple
+- Be
+- pbe0
+- hgh_k
+: alpha_convergence: !!python/tuple
+  - f: 0.001
+    rmult: 9.0
+  - - 42.935095
+    - 42.935095
+    - 42.935095
+  input_gs:
+    dft:
+      gnrm_cv: 1.0e-06
+      hgrids: 0.3
+      ixc: PBE0
+      rmult:
+      - 6.0
+      - 9.0
+    psppar.Be:
+      Pseudopotential XC: 11
+  posinp:
+    positions:
+    - Be:
+      - 0.0
+      - 0.0
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    units: angstroem
+? !!python/tuple
+- BeH
+- lda_pw
+- hgh_k
+: alpha_convergence: !!python/tuple
+  - f: 0.001
+    rmult: 9.0
+  - - 38.644185
+    - 38.644185
+    - 29.04106
+  input_gs:
+    dft:
+      gnrm_cv: 1.0e-06
+      hgrids: 0.3
+      ixc: '-001012'
+      mpol: 1
+      nspin: 2
+      rmult:
+      - 6.0
+      - 9.0
+    psppar.Be:
+      Pseudopotential XC: 1
+    psppar.H:
+      Pseudopotential XC: 1
+  posinp:
+    positions:
+    - H:
+      - 0.0
+      - 0.0
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    - Be:
+      - 0.0
+      - 0.0
+      - 1.3426
+      frag:
+      - molecule
+      - '0'
+    units: angstroem
+? !!python/tuple
+- BeH
+- pbe
+- hgh_k
+: alpha_convergence: null
+  input_gs:
+    dft:
+      gnrm_cv: 1.0e-06
+      hgrids: 0.3
+      ixc: 11
+      mpol: 1
+      nspin: 2
+      rmult:
+      - 6.0
+      - 9.0
+  posinp:
+    positions:
+    - H:
+      - 0.0
+      - 0.0
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    - Be:
+      - 0.0
+      - 0.0
+      - 1.3426
+      frag:
+      - molecule
+      - '0'
+    units: angstroem
+? !!python/tuple
+- BeH
+- pbe
+- nlcc_ss
+: alpha_convergence: null
+  input_gs:
+    dft:
+      gnrm_cv: 1.0e-06
+      hgrids: 0.3
+      ixc: 11
+      mpol: 1
+      nspin: 2
+      rmult:
+      - 6.0
+      - 9.0
+  posinp:
+    positions:
+    - H:
+      - 0.0
+      - 0.0
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    - Be:
+      - 0.0
+      - 0.0
+      - 1.3426
+      frag:
+      - molecule
+      - '0'
+    units: angstroem
+? !!python/tuple
+- BeH
+- pbe0
+- hgh_k
+: alpha_convergence: !!python/tuple
+  - f: 0.001
+    rmult: 9.0
+  - - 37.670455000000004
+    - 37.670455000000004
+    - 27.47714999999999
+  input_gs:
+    dft:
+      gnrm_cv: 1.0e-06
+      hgrids: 0.3
+      ixc: PBE0
+      mpol: 1
+      nspin: 2
+      rmult:
+      - 5.0
+      - 9.0
+    psppar.Be:
+      Pseudopotential XC: 11
+    psppar.H:
+      Pseudopotential XC: 11
+  posinp:
+    positions:
+    - H:
+      - 0.0
+      - 0.0
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    - Be:
+      - 0.0
+      - 0.0
+      - 1.3426
+      frag:
+      - molecule
+      - '0'
+    units: angstroem
+? !!python/tuple
+- BeH2
+- lda_pw
+- hgh_k
+: alpha_convergence: !!python/tuple
+  - f: 0.001
+    rmult: 7.0
+  - - 21.976039999999998
+    - 21.976039999999998
+    - 21.623935
+  input_gs:
+    dft:
+      gnrm_cv: 1.0e-06
+      hgrids: 0.3
+      ixc: '-001012'
+      rmult:
+      - 5.0
+      - 9.0
+    psppar.Be:
+      Pseudopotential XC: 1
+    psppar.H:
+      Pseudopotential XC: 1
+  posinp:
+    positions:
+    - Be:
+      - 0.0
+      - 0.0
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.0
+      - 0.0
+      - 1.3264
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.0
+      - 0.0
+      - -1.3264
+      frag:
+      - molecule
+      - '0'
+    units: angstroem
+? !!python/tuple
+- BeH2
+- pbe
+- hgh_k
+: alpha_convergence: !!python/tuple
+  - f: 0.005
+    rmult: 7.0
+  - - 21.52789
+    - 21.52789
+    - 21.6513
+  input_gs:
+    dft:
+      gnrm_cv: 1.0e-06
+      hgrids: 0.3
+      ixc: 11
+      rmult:
+      - 5.0
+      - 9.0
+  posinp:
+    positions:
+    - Be:
+      - 0.0
+      - 0.0
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.0
+      - 0.0
+      - 1.3264
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.0
+      - 0.0
+      - -1.3264
+      frag:
+      - molecule
+      - '0'
+    units: angstroem
+? !!python/tuple
+- BeH2
+- pbe
+- nlcc_ss
+: alpha_convergence: !!python/tuple
+  - f: 0.005
+    rmult: 7.0
+  - - 21.51527
+    - 21.51527
+    - 21.200950000000002
+  input_gs:
+    dft:
+      gnrm_cv: 1.0e-06
+      hgrids: 0.3
+      ixc: 11
+      rmult:
+      - 5.0
+      - 9.0
+  posinp:
+    positions:
+    - Be:
+      - 0.0
+      - 0.0
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.0
+      - 0.0
+      - 1.3264
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.0
+      - 0.0
+      - -1.3264
+      frag:
+      - molecule
+      - '0'
+    units: angstroem
+? !!python/tuple
+- BeH2
+- pbe0
+- hgh_k
+: alpha_convergence: !!python/tuple
+  - f: 0.005
+    rmult: 7.0
+  - - 20.59909
+    - 20.59909
+    - 20.78859
+  input_gs:
+    dft:
+      gnrm_cv: 1.0e-06
+      hgrids: 0.3
+      ixc: PBE0
+      rmult:
+      - 5.0
+      - 9.0
+    psppar.Be:
+      Pseudopotential XC: 11
+    psppar.H:
+      Pseudopotential XC: 11
+  posinp:
+    positions:
+    - Be:
+      - 0.0
+      - 0.0
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.0
+      - 0.0
+      - 1.3264
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.0
+      - 0.0
+      - -1.3264
+      frag:
+      - molecule
+      - '0'
+    units: angstroem
+? !!python/tuple
+- C2H
+- lda_pw
+- hgh_k
+: alpha_convergence: !!python/tuple
+  - f: 0.001
+    rmult: 7.0
+  - - 25.40469
+    - 25.40469
+    - 27.945699999999988
+  input_gs:
+    dft:
+      gnrm_cv: 1.0e-06
+      hgrids: 0.3
+      ixc: '-001012'
+      mpol: 1
+      nspin: 2
+      rmult:
+      - 5.0
+      - 9.0
+    psppar.C:
+      Pseudopotential XC: 1
+    psppar.H:
+      Pseudopotential XC: 1
+  posinp:
+    positions:
+    - C:
+      - 0.0
+      - 0.0
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    - C:
+      - 0.0
+      - 0.0
+      - -1.2165
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.0
+      - 0.0
+      - 1.0465
+      frag:
+      - molecule
+      - '0'
+    units: angstroem
+? !!python/tuple
+- C2H
+- pbe
+- hgh_k
+: alpha_convergence: null
+  input_gs:
+    dft:
+      gnrm_cv: 1.0e-06
+      hgrids: 0.3
+      ixc: 11
+      mpol: 1
+      nspin: 2
+      rmult:
+      - 5.0
+      - 9.0
+  posinp:
+    positions:
+    - C:
+      - 0.0
+      - 0.0
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    - C:
+      - 0.0
+      - 0.0
+      - -1.2165
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.0
+      - 0.0
+      - 1.0465
+      frag:
+      - molecule
+      - '0'
+    units: angstroem
+? !!python/tuple
+- C2H
+- pbe
+- nlcc_aw
+: alpha_convergence: !!python/tuple
+  - f: 0.001
+    rmult: 8.0
+  - - 26.748315
+    - 26.748315
+    - 27.88600000000002
+  input_gs:
+    dft:
+      gnrm_cv: 1.0e-06
+      hgrids: 0.3
+      ixc: 11
+      mpol: 1
+      nspin: 2
+      rmult:
+      - 5.0
+      - 9.0
+  posinp:
+    positions:
+    - C:
+      - 0.0
+      - 0.0
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    - C:
+      - 0.0
+      - 0.0
+      - -1.2165
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.0
+      - 0.0
+      - 1.0465
+      frag:
+      - molecule
+      - '0'
+    units: angstroem
+? !!python/tuple
+- C2H
+- pbe
+- nlcc_ss
+: alpha_convergence: !!python/tuple
+  - f: 0.001
+    rmult: 9.0
+  - - 26.526435
+    - 26.526435
+    - 27.82145
+  input_gs:
+    dft:
+      gnrm_cv: 1.0e-06
+      hgrids: 0.3
+      ixc: 11
+      mpol: 1
+      nspin: 2
+      rmult:
+      - 5.0
+      - 9.0
+  posinp:
+    positions:
+    - C:
+      - 0.0
+      - 0.0
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    - C:
+      - 0.0
+      - 0.0
+      - -1.2165
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.0
+      - 0.0
+      - 1.0465
+      frag:
+      - molecule
+      - '0'
+    units: angstroem
+? !!python/tuple
+- C2H
+- pbe0
+- hgh_k
+: alpha_convergence: !!python/tuple
+  - f: 0.001
+    rmult: 9.0
+  - - 21.919705
+    - 21.919705
+    - 27.154349999999994
+  input_gs:
+    dft:
+      gnrm_cv: 1.0e-06
+      hgrids: 0.3
+      ixc: PBE0
+      mpol: 1
+      nspin: 2
+      rmult:
+      - 5.0
+      - 9.0
+    psppar.C:
+      Pseudopotential XC: 11
+    psppar.H:
+      Pseudopotential XC: 11
+  posinp:
+    positions:
+    - C:
+      - 0.0
+      - 0.0
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    - C:
+      - 0.0
+      - 0.0
+      - -1.2165
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.0
+      - 0.0
+      - 1.0465
+      frag:
+      - molecule
+      - '0'
+    units: angstroem
+? !!python/tuple
+- C2H2
+- lda_pw
+- hgh_k
+: alpha_convergence: !!python/tuple
+  - f: 0.005
+    rmult: 7.0
+  - - 20.03808
+    - 20.03808
+    - 31.983439999999995
+  input_gs:
+    dft:
+      gnrm_cv: 1.0e-06
+      hgrids: 0.3
+      ixc: '-001012'
+      rmult:
+      - 5.0
+      - 9.0
+    psppar.C:
+      Pseudopotential XC: 1
+    psppar.H:
+      Pseudopotential XC: 1
+  posinp:
+    positions:
+    - C:
+      - 0.0
+      - 0.0
+      - 0.6013
+      frag:
+      - molecule
+      - '0'
+    - C:
+      - 0.0
+      - 0.0
+      - -0.6013
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.0
+      - 0.0
+      - 1.6644
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.0
+      - 0.0
+      - -1.6644
+      frag:
+      - molecule
+      - '0'
+    units: angstroem
+? !!python/tuple
+- C2H2
+- pbe
+- hgh_k
+: alpha_convergence: !!python/tuple
+  - f: 0.005
+    rmult: 8.0
+  - - 20.07217
+    - 20.07217
+    - 32.00181
+  input_gs:
+    dft:
+      gnrm_cv: 1.0e-06
+      hgrids: 0.3
+      ixc: 11
+      rmult:
+      - 5.0
+      - 9.0
+  posinp:
+    positions:
+    - C:
+      - 0.0
+      - 0.0
+      - 0.6013
+      frag:
+      - molecule
+      - '0'
+    - C:
+      - 0.0
+      - 0.0
+      - -0.6013
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.0
+      - 0.0
+      - 1.6644
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.0
+      - 0.0
+      - -1.6644
+      frag:
+      - molecule
+      - '0'
+    units: angstroem
+? !!python/tuple
+- C2H2
+- pbe
+- nlcc_aw
+: alpha_convergence: !!python/tuple
+  - f: 0.005
+    rmult: 8.0
+  - - 20.09073
+    - 20.09073
+    - 31.8863
+  input_gs:
+    dft:
+      gnrm_cv: 1.0e-06
+      hgrids: 0.3
+      ixc: 11
+      rmult:
+      - 5.0
+      - 9.0
+  posinp:
+    positions:
+    - C:
+      - 0.0
+      - 0.0
+      - 0.6013
+      frag:
+      - molecule
+      - '0'
+    - C:
+      - 0.0
+      - 0.0
+      - -0.6013
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.0
+      - 0.0
+      - 1.6644
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.0
+      - 0.0
+      - -1.6644
+      frag:
+      - molecule
+      - '0'
+    units: angstroem
+? !!python/tuple
+- C2H2
+- pbe
+- nlcc_ss
+: alpha_convergence: !!python/tuple
+  - f: 0.005
+    rmult: 8.0
+  - - 20.01439
+    - 20.01439
+    - 31.79434
+  input_gs:
+    dft:
+      gnrm_cv: 1.0e-06
+      hgrids: 0.3
+      ixc: 11
+      rmult:
+      - 5.0
+      - 9.0
+  posinp:
+    positions:
+    - C:
+      - 0.0
+      - 0.0
+      - 0.6013
+      frag:
+      - molecule
+      - '0'
+    - C:
+      - 0.0
+      - 0.0
+      - -0.6013
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.0
+      - 0.0
+      - 1.6644
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.0
+      - 0.0
+      - -1.6644
+      frag:
+      - molecule
+      - '0'
+    units: angstroem
+? !!python/tuple
+- C2H2
+- pbe0
+- hgh_k
+: alpha_convergence: !!python/tuple
+  - f: 0.005
+    rmult: 7.0
+  - - 19.443433
+    - 19.443433
+    - 31.40409
+  input_gs:
+    dft:
+      gnrm_cv: 1.0e-06
+      hgrids: 0.3
+      ixc: PBE0
+      rmult:
+      - 5.0
+      - 9.0
+    psppar.C:
+      Pseudopotential XC: 11
+    psppar.H:
+      Pseudopotential XC: 11
+  posinp:
+    positions:
+    - C:
+      - 0.0
+      - 0.0
+      - 0.6013
+      frag:
+      - molecule
+      - '0'
+    - C:
+      - 0.0
+      - 0.0
+      - -0.6013
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.0
+      - 0.0
+      - 1.6644
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.0
+      - 0.0
+      - -1.6644
+      frag:
+      - molecule
+      - '0'
+    units: angstroem
+? !!python/tuple
+- C2H3
+- lda_pw
+- hgh_k
+: alpha_convergence: !!python/tuple
+  - f: 0.001
+    rmult: 8.0
+  - - 25.20895000000001
+    - 36.51865
+    - 22.69073
+  input_gs:
+    dft:
+      gnrm_cv: 1.0e-06
+      hgrids: 0.3
+      ixc: '-001012'
+      mpol: 1
+      nspin: 2
+      rmult:
+      - 5.0
+      - 9.0
+    psppar.C:
+      Pseudopotential XC: 1
+    psppar.H:
+      Pseudopotential XC: 1
+  posinp:
+    positions:
+    - C:
+      - 0.048799999999999996
+      - 0.7245
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    - C:
+      - 0.048799999999999996
+      - -0.5915
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - -0.6836
+      - 1.5182
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - -0.8763
+      - -1.1584
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.9739
+      - -1.1584
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    units: angstroem
+? !!python/tuple
+- C2H3
+- pbe
+- hgh_k
+: alpha_convergence: !!python/tuple
+  - f: 0.001
+    rmult: 8.0
+  - - 24.746149999999993
+    - 36.035405000000004
+    - 22.545389999999998
+  input_gs:
+    dft:
+      gnrm_cv: 1.0e-06
+      hgrids: 0.3
+      ixc: 11
+      mpol: 1
+      nspin: 2
+      rmult:
+      - 5.0
+      - 9.0
+  posinp:
+    positions:
+    - C:
+      - 0.048799999999999996
+      - 0.7245
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    - C:
+      - 0.048799999999999996
+      - -0.5915
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - -0.6836
+      - 1.5182
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - -0.8763
+      - -1.1584
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.9739
+      - -1.1584
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    units: angstroem
+? !!python/tuple
+- C2H3
+- pbe
+- nlcc_aw
+: alpha_convergence: !!python/tuple
+  - f: 0.001
+    rmult: 8.0
+  - - 24.95649999999999
+    - 36.17435
+    - 22.57737
+  input_gs:
+    dft:
+      gnrm_cv: 1.0e-06
+      hgrids: 0.3
+      ixc: 11
+      mpol: 1
+      nspin: 2
+      rmult:
+      - 5.0
+      - 9.0
+  posinp:
+    positions:
+    - C:
+      - 0.048799999999999996
+      - 0.7245
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    - C:
+      - 0.048799999999999996
+      - -0.5915
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - -0.6836
+      - 1.5182
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - -0.8763
+      - -1.1584
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.9739
+      - -1.1584
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    units: angstroem
+? !!python/tuple
+- C2H3
+- pbe
+- nlcc_ss
+: alpha_convergence: !!python/tuple
+  - f: 0.001
+    rmult: 8.0
+  - - 24.901500000000006
+    - 36.09585
+    - 22.51055
+  input_gs:
+    dft:
+      gnrm_cv: 1.0e-06
+      hgrids: 0.3
+      ixc: 11
+      mpol: 1
+      nspin: 2
+      rmult:
+      - 5.0
+      - 9.0
+  posinp:
+    positions:
+    - C:
+      - 0.048799999999999996
+      - 0.7245
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    - C:
+      - 0.048799999999999996
+      - -0.5915
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - -0.6836
+      - 1.5182
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - -0.8763
+      - -1.1584
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.9739
+      - -1.1584
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    units: angstroem
+? !!python/tuple
+- C2H3
+- pbe0
+- hgh_k
+: alpha_convergence: !!python/tuple
+  - f: 0.005
+    rmult: 7.0
+  - - 23.643649999999997
+    - 34.912836
+    - 21.84402
+  input_gs:
+    dft:
+      gnrm_cv: 1.0e-06
+      hgrids: 0.3
+      ixc: PBE0
+      mpol: 1
+      nspin: 2
+      rmult:
+      - 5.0
+      - 9.0
+    psppar.C:
+      Pseudopotential XC: 11
+    psppar.H:
+      Pseudopotential XC: 11
+  posinp:
+    positions:
+    - C:
+      - 0.048799999999999996
+      - 0.7245
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    - C:
+      - 0.048799999999999996
+      - -0.5915
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - -0.6836
+      - 1.5182
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - -0.8763
+      - -1.1584
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.9739
+      - -1.1584
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    units: angstroem
+? !!python/tuple
+- C2H4
+- lda_pw
+- hgh_k
+: alpha_convergence: !!python/tuple
+  - f: 0.001
+    rmult: 8.0
+  - - 23.423264999999997
+    - 26.570675
+    - 36.53091499999999
+  input_gs:
+    dft:
+      gnrm_cv: 1.0e-06
+      hgrids: 0.3
+      ixc: '-001012'
+      rmult:
+      - 5.0
+      - 9.0
+    psppar.C:
+      Pseudopotential XC: 1
+    psppar.H:
+      Pseudopotential XC: 1
+  posinp:
+    positions:
+    - C:
+      - 0.0
+      - 0.0
+      - 0.6695
+      frag:
+      - molecule
+      - '0'
+    - C:
+      - 0.0
+      - 0.0
+      - -0.6695
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.0
+      - 0.9289
+      - 1.2321
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.0
+      - -0.9289
+      - 1.2321
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.0
+      - 0.9289
+      - -1.2321
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.0
+      - -0.9289
+      - -1.2321
+      frag:
+      - molecule
+      - '0'
+    units: angstroem
+? !!python/tuple
+- C2H4
+- pbe
+- hgh_k
+: alpha_convergence: !!python/tuple
+  - f: 0.001
+    rmult: 8.0
+  - - 23.338555
+    - 26.33617
+    - 36.422444999999996
+  input_gs:
+    dft:
+      gnrm_cv: 1.0e-06
+      hgrids: 0.3
+      ixc: 11
+      rmult:
+      - 5.0
+      - 9.0
+  posinp:
+    positions:
+    - C:
+      - 0.0
+      - 0.0
+      - 0.6695
+      frag:
+      - molecule
+      - '0'
+    - C:
+      - 0.0
+      - 0.0
+      - -0.6695
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.0
+      - 0.9289
+      - 1.2321
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.0
+      - -0.9289
+      - 1.2321
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.0
+      - 0.9289
+      - -1.2321
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.0
+      - -0.9289
+      - -1.2321
+      frag:
+      - molecule
+      - '0'
+    units: angstroem
+? !!python/tuple
+- C2H4
+- pbe
+- nlcc_aw
+: alpha_convergence: !!python/tuple
+  - f: 0.001
+    rmult: 8.0
+  - - 23.321855
+    - 26.28998
+    - 36.21632499999999
+  input_gs:
+    dft:
+      gnrm_cv: 1.0e-06
+      hgrids: 0.3
+      ixc: 11
+      rmult:
+      - 5.0
+      - 9.0
+  posinp:
+    positions:
+    - C:
+      - 0.0
+      - 0.0
+      - 0.6695
+      frag:
+      - molecule
+      - '0'
+    - C:
+      - 0.0
+      - 0.0
+      - -0.6695
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.0
+      - 0.9289
+      - 1.2321
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.0
+      - -0.9289
+      - 1.2321
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.0
+      - 0.9289
+      - -1.2321
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.0
+      - -0.9289
+      - -1.2321
+      frag:
+      - molecule
+      - '0'
+    units: angstroem
+? !!python/tuple
+- C2H4
+- pbe
+- nlcc_ss
+: alpha_convergence: !!python/tuple
+  - f: 0.001
+    rmult: 8.0
+  - - 23.245179999999998
+    - 26.21321
+    - 36.097785
+  input_gs:
+    dft:
+      gnrm_cv: 1.0e-06
+      hgrids: 0.3
+      ixc: 11
+      rmult:
+      - 5.0
+      - 9.0
+  posinp:
+    positions:
+    - C:
+      - 0.0
+      - 0.0
+      - 0.6695
+      frag:
+      - molecule
+      - '0'
+    - C:
+      - 0.0
+      - 0.0
+      - -0.6695
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.0
+      - 0.9289
+      - 1.2321
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.0
+      - -0.9289
+      - 1.2321
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.0
+      - 0.9289
+      - -1.2321
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.0
+      - -0.9289
+      - -1.2321
+      frag:
+      - molecule
+      - '0'
+    units: angstroem
+? !!python/tuple
+- C2H4
+- pbe0
+- hgh_k
+: alpha_convergence: !!python/tuple
+  - f: 0.001
+    rmult: 7.0
+  - - 22.703629999999997
+    - 25.517464999999998
+    - 35.887385
+  input_gs:
+    dft:
+      gnrm_cv: 1.0e-06
+      hgrids: 0.3
+      ixc: PBE0
+      rmult:
+      - 5.0
+      - 9.0
+    psppar.C:
+      Pseudopotential XC: 11
+    psppar.H:
+      Pseudopotential XC: 11
+  posinp:
+    positions:
+    - C:
+      - 0.0
+      - 0.0
+      - 0.6695
+      frag:
+      - molecule
+      - '0'
+    - C:
+      - 0.0
+      - 0.0
+      - -0.6695
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.0
+      - 0.9289
+      - 1.2321
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.0
+      - -0.9289
+      - 1.2321
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.0
+      - 0.9289
+      - -1.2321
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.0
+      - -0.9289
+      - -1.2321
+      frag:
+      - molecule
+      - '0'
+    units: angstroem
+? !!python/tuple
+- CH2
+- lda_pw
+- hgh_k
+: alpha_convergence: !!python/tuple
+  - f: 0.001
+    rmult: 8.0
+  - - 16.478279999999998
+    - 16.953615
+    - 15.589100000000009
+  input_gs:
+    dft:
+      gnrm_cv: 1.0e-06
+      hgrids: 0.3
+      ixc: '-001012'
+      mpol: 2
+      nspin: 2
+      rmult:
+      - 5.0
+      - 9.0
+    psppar.C:
+      Pseudopotential XC: 1
+    psppar.H:
+      Pseudopotential XC: 1
+  posinp:
+    positions:
+    - C:
+      - 0.0
+      - 0.0
+      - 0.1027
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.0
+      - 1.0042
+      - -0.3081
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.0
+      - -1.0042
+      - -0.3081
+      frag:
+      - molecule
+      - '0'
+    units: angstroem
+? !!python/tuple
+- CH2
+- pbe
+- hgh_k
+: alpha_convergence: !!python/tuple
+  - f: 0.001
+    rmult: 8.0
+  - - 16.210755
+    - 16.71568
+    - 15.307899999999998
+  input_gs:
+    dft:
+      gnrm_cv: 1.0e-06
+      hgrids: 0.3
+      ixc: 11
+      mpol: 2
+      nspin: 2
+      rmult:
+      - 5.0
+      - 9.0
+  posinp:
+    positions:
+    - C:
+      - 0.0
+      - 0.0
+      - 0.1027
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.0
+      - 1.0042
+      - -0.3081
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.0
+      - -1.0042
+      - -0.3081
+      frag:
+      - molecule
+      - '0'
+    units: angstroem
+? !!python/tuple
+- CH2
+- pbe
+- nlcc_aw
+: alpha_convergence: !!python/tuple
+  - f: 0.001
+    rmult: 8.0
+  - - 16.611615
+    - 16.861790000000003
+    - 15.568249999999992
+  input_gs:
+    dft:
+      gnrm_cv: 1.0e-06
+      hgrids: 0.3
+      ixc: 11
+      mpol: 2
+      nspin: 2
+      rmult:
+      - 5.0
+      - 9.0
+  posinp:
+    positions:
+    - C:
+      - 0.0
+      - 0.0
+      - 0.1027
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.0
+      - 1.0042
+      - -0.3081
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.0
+      - -1.0042
+      - -0.3081
+      frag:
+      - molecule
+      - '0'
+    units: angstroem
+? !!python/tuple
+- CH2
+- pbe
+- nlcc_ss
+: alpha_convergence: !!python/tuple
+  - f: 0.001
+    rmult: 8.0
+  - - 16.57052
+    - 16.824964999999995
+    - 15.529999999999989
+  input_gs:
+    dft:
+      gnrm_cv: 1.0e-06
+      hgrids: 0.3
+      ixc: 11
+      mpol: 2
+      nspin: 2
+      rmult:
+      - 5.0
+      - 9.0
+  posinp:
+    positions:
+    - C:
+      - 0.0
+      - 0.0
+      - 0.1027
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.0
+      - 1.0042
+      - -0.3081
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.0
+      - -1.0042
+      - -0.3081
+      frag:
+      - molecule
+      - '0'
+    units: angstroem
+? !!python/tuple
+- CH2
+- pbe0
+- hgh_k
+: alpha_convergence: !!python/tuple
+  - f: 0.001
+    rmult: 8.0
+  - - 14.95815
+    - 15.948450000000003
+    - 14.280000000000001
+  input_gs:
+    dft:
+      gnrm_cv: 1.0e-06
+      hgrids: 0.3
+      ixc: PBE0
+      mpol: 2
+      nspin: 2
+      rmult:
+      - 5.0
+      - 9.0
+    psppar.C:
+      Pseudopotential XC: 11
+    psppar.H:
+      Pseudopotential XC: 11
+  posinp:
+    positions:
+    - C:
+      - 0.0
+      - 0.0
+      - 0.1027
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.0
+      - 1.0042
+      - -0.3081
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.0
+      - -1.0042
+      - -0.3081
+      frag:
+      - molecule
+      - '0'
+    units: angstroem
+? !!python/tuple
+- CH2BH
+- lda_pw
+- hgh_k
+: alpha_convergence: !!python/tuple
+  - f: 0.001
+    rmult: 7.0
+  - - 29.81791
+    - 25.94271
+    - 40.862449999999995
+  input_gs:
+    dft:
+      gnrm_cv: 1.0e-06
+      hgrids: 0.3
+      ixc: '-001012'
+      rmult:
+      - 5.0
+      - 9.0
+    psppar.B:
+      Pseudopotential XC: 1
+    psppar.C:
+      Pseudopotential XC: 1
+    psppar.H:
+      Pseudopotential XC: 1
+  posinp:
+    positions:
+    - C:
+      - 0.0
+      - 0.0
+      - 0.594
+      frag:
+      - molecule
+      - '0'
+    - B:
+      - 0.0
+      - 0.0
+      - -0.7886
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.0
+      - 0.9173
+      - 1.1687
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.0
+      - -0.9173
+      - 1.1687
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.0
+      - 0.0
+      - -1.9586
+      frag:
+      - molecule
+      - '0'
+    units: angstroem
+? !!python/tuple
+- CH2BH
+- pbe
+- hgh_k
+: alpha_convergence: !!python/tuple
+  - f: 0.001
+    rmult: 7.0
+  - - 29.866474999999998
+    - 25.695045
+    - 40.72705
+  input_gs:
+    dft:
+      gnrm_cv: 1.0e-06
+      hgrids: 0.3
+      ixc: 11
+      rmult:
+      - 5.0
+      - 9.0
+  posinp:
+    positions:
+    - C:
+      - 0.0
+      - 0.0
+      - 0.594
+      frag:
+      - molecule
+      - '0'
+    - B:
+      - 0.0
+      - 0.0
+      - -0.7886
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.0
+      - 0.9173
+      - 1.1687
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.0
+      - -0.9173
+      - 1.1687
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.0
+      - 0.0
+      - -1.9586
+      frag:
+      - molecule
+      - '0'
+    units: angstroem
+? !!python/tuple
+- CH2BH
+- pbe
+- nlcc_aw
+: alpha_convergence: !!python/tuple
+  - f: 0.001
+    rmult: 7.0
+  - - 29.921694999999996
+    - 25.683795000000003
+    - 40.61265
+  input_gs:
+    dft:
+      gnrm_cv: 1.0e-06
+      hgrids: 0.3
+      ixc: 11
+      rmult:
+      - 5.0
+      - 9.0
+  posinp:
+    positions:
+    - C:
+      - 0.0
+      - 0.0
+      - 0.594
+      frag:
+      - molecule
+      - '0'
+    - B:
+      - 0.0
+      - 0.0
+      - -0.7886
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.0
+      - 0.9173
+      - 1.1687
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.0
+      - -0.9173
+      - 1.1687
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.0
+      - 0.0
+      - -1.9586
+      frag:
+      - molecule
+      - '0'
+    units: angstroem
+? !!python/tuple
+- CH2BH
+- pbe
+- nlcc_ss
+: alpha_convergence: !!python/tuple
+  - f: 0.001
+    rmult: 7.0
+  - - 29.814185
+    - 25.61626
+    - 40.4843
+  input_gs:
+    dft:
+      gnrm_cv: 1.0e-06
+      hgrids: 0.3
+      ixc: 11
+      rmult:
+      - 5.0
+      - 9.0
+  posinp:
+    positions:
+    - C:
+      - 0.0
+      - 0.0
+      - 0.594
+      frag:
+      - molecule
+      - '0'
+    - B:
+      - 0.0
+      - 0.0
+      - -0.7886
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.0
+      - 0.9173
+      - 1.1687
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.0
+      - -0.9173
+      - 1.1687
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.0
+      - 0.0
+      - -1.9586
+      frag:
+      - molecule
+      - '0'
+    units: angstroem
+? !!python/tuple
+- CH2BH
+- pbe0
+- hgh_k
+: alpha_convergence: !!python/tuple
+  - f: 0.001
+    rmult: 7.0
+  - - 28.864245
+    - 24.89148
+    - 39.79579999999999
+  input_gs:
+    dft:
+      gnrm_cv: 1.0e-06
+      hgrids: 0.3
+      ixc: PBE0
+      rmult:
+      - 5.0
+      - 9.0
+    psppar.B:
+      Pseudopotential XC: 11
+    psppar.C:
+      Pseudopotential XC: 11
+    psppar.H:
+      Pseudopotential XC: 11
+  posinp:
+    positions:
+    - C:
+      - 0.0
+      - 0.0
+      - 0.594
+      frag:
+      - molecule
+      - '0'
+    - B:
+      - 0.0
+      - 0.0
+      - -0.7886
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.0
+      - 0.9173
+      - 1.1687
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.0
+      - -0.9173
+      - 1.1687
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.0
+      - 0.0
+      - -1.9586
       frag:
       - molecule
       - '0'
