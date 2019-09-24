@@ -268,10 +268,10 @@ HG_data=yaml.load(open('../HG Dataset/hg_data.yaml'))
 options={'wf_convergence':1.e-6,'hgrids':0.3,'rmult_fine':9.0,'rtol':1.e-3,'atol':1.e-3,\
 'reference_data':HG_data,'data_directory':'Data'}
 
-# mpi and omp are set from above exporting the asscoiated variables
+# mpi and omp are set from above exporting the associated variables
 code=C.SystemCalculator(skip=True,verbose=False)
 
-studies = [('Na','pbe','hgh_k')]
+studies = [('Na','pbe','hgh_k'),('Li','pbe','nlcc_ss')]
 
 study_data = {}
 
