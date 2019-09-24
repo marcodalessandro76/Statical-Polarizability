@@ -1,0 +1,60 @@
+options:
+  atol: 0.001
+  data_directory: Data
+  hgrids: 0.3
+  rmult_fine: 9.0
+  rtol: 0.001
+  wf_convergence: 1.0e-06
+? !!python/tuple
+- Na
+- pbe
+- hgh_k
+: alpha_values:
+    0.001:
+      alpha_convergence: !!python/tuple
+      - f: 0.001
+        rmult: 9.0
+      - - 160.72419999999997
+        - 160.72419999999997
+        - 160.72419999999997
+    0.002:
+      alpha_convergence: !!python/tuple
+      - f: 0.002
+        rmult: 9.0
+      - - 161.286525
+        - 161.286525
+        - 161.286525
+    0.003:
+      alpha_convergence: !!python/tuple
+      - f: 0.003
+        rmult: 9.0
+      - - 162.29523333333333
+        - 162.29523333333333
+        - 162.29523333333333
+    0.004:
+      alpha_convergence: !!python/tuple
+      - f: 0.004
+        rmult: 10.0
+      - - 164.0939625
+        - 164.0939625
+        - 164.0939625
+  input_gs:
+    dft:
+      gnrm_cv: 1.0e-06
+      hgrids: 0.3
+      ixc: 11
+      mpol: 1
+      nspin: 2
+      rmult:
+      - 5.0
+      - 9.0
+  posinp:
+    positions:
+    - Na:
+      - 0.0
+      - 0.0
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    units: angstroem
