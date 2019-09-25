@@ -145,7 +145,7 @@ def extract_statical_polarizability_linearity(label,rtol,atol,path,input_for_alp
     results = {}
     results['alpha_values'] = {}
     rmult_fine=input_for_alpha['dft']['rmult'][1]
-    rmult_list=map(float,range(int(input_for_alpha['dft']['rmult'][0]),12))
+    rmult_list=map(float,range(int(input_for_alpha['dft']['rmult'][0]),15))
     for intensity in ints:
 
         # seek for the rmult convergence
@@ -238,12 +238,12 @@ def data_to_save_linearity(data,options):
         res[s] = {}
         res[s]['alpha_values'] = {}
         alpha_values = values['alpha_values']
-        for int,v in alpha_values.iteritems():
-            res[s]['alpha_values'][int] = {}
+        for f,v in alpha_values.iteritems():
+            res[s]['alpha_values'][f] = {}
             if not (v['alpha_convergence'] is None):
-                res[s]['alpha_values'][int]['alpha_convergence'] = (v['alpha_convergence'][0],v['alpha_convergence'][1].tolist())
+                res[s]['alpha_values'][f]['alpha_convergence'] = (v['alpha_convergence'][0],v['alpha_convergence'][1].tolist())
             else:
-                res[s]['alpha_values'][int]['alpha_convergence'] = values['alpha_convergence']
+                res[s]['alpha_values'][f]['alpha_convergence'] = values['alpha_convergence']
 
         res[s]['posinp'] = {}
         pos = values['posinp']
@@ -271,7 +271,7 @@ options={'wf_convergence':1.e-6,'hgrids':0.3,'rmult_fine':9.0,'rtol':1.e-3,'atol
 # mpi and omp are set from above exporting the associated variables
 code=C.SystemCalculator(skip=True,verbose=False)
 
-studies = [('Na','pbe','hgh_k'),('Li','pbe','nlcc_ss')]
+studies = [('Na','pbe','hgh_k'),('Li','pbe','nlcc_ss'),('NO','pbe','nlcc_ss')]
 
 study_data = {}
 
