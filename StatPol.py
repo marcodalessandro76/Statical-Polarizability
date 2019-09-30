@@ -11,6 +11,22 @@ def get_dipole(dataset):
     dipole = dataset.fetch_results(attribute='dipole')
     return dipole
 
+def process_id_default_values(idd):
+    """
+    Process the idd and remove the keys hgrids and gnrm_cv (if present)
+    if the associated values are the default ones (i.e. 0.3 and 1e-06)
+    """
+    from copy import deepcopy
+    out = deepcopy(idd)
+    if 'hgrids' in out.keys():
+        if out['hgrids'] == 0.3:
+            out.pop('hgrids')
+    if 'gnrm_cv' in out.keys():
+        if out['gnrm_cv'] == 1e-06:
+            out.pop('gnrm_cv')
+
+    return out
+
 # def get_molecule_database():
 #     """
 #     Scan the working directory and store in a list the name of folder.
@@ -65,19 +81,21 @@ def build_alpha_dataset(**kwargs):
     """
     from BigDFT import InputActions as A, Datasets as D
     lbl = 'alpha_'+str(kwargs['intensity'])
-    study = D.Dataset(label=lbl,**kwargs)#run_dir=kwargs['run_dir'],intensity=kwargs['intensity'],posinp=kwargs['posinp'])
+    study = D.Dataset(label=lbl,**kwargs)
     study.set_postprocessing_function(eval_alpha)
     #study.set_postprocessing_function(eval_alpha_from_energy)
 
     f = kwargs['intensity']
     inp = kwargs['input']
+    hgrids = inp['dft']['hgrids']
+    gnrm_cv = inp['dft']['gnrm_cv']
     for ind,sign in enumerate(['+','-']):
         for idir,coord in enumerate(['x','y','z']):
             el=np.zeros(3)
             el[idir]=(1-2*ind)*f
             inp.apply_electric_field(el.tolist())
-            idd = {'rmult':inp['dft']['rmult'][0],'dir':coord,'sign':sign,'F':f}
-            study.append_run(id=idd,runner=kwargs['runner'],input=inp)
+            idd = {'hgrids':hgrids,'gnrm_cv':gnrm_cv,'rmult':inp['dft']['rmult'][0],'dir':coord,'sign':sign,'F':f}
+            study.append_run(process_id_default_values(idd),runner=kwargs['runner'],input=inp)
     return study
 
 def eval_alpha_avg(a):
