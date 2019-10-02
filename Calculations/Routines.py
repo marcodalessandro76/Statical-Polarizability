@@ -8,8 +8,14 @@ AuToA = 0.5291772085**3
 
 def get_atoms(mol):
     """
-    Return a list of string with all the atoms of a molecule
+    Return a list of string with all the atoms of a molecule. For same molecules with
+    a non standard name-scheme the attribution of the atoms is done by hand
     """
+    if mol == 'SO-trip': return(['S','O'])
+    if mol == 'CH2-t': return(['C','H'])
+    if mol == 'FH-OH': return(['F','H','O'])
+    if mol == 'H2O-Li': return(['H','O','Li'])
+
     atoms = []
     # remove numbers from str
     for c in mol:
@@ -81,34 +87,6 @@ set_xc = {('lda_pt','hgh_k') : xc_lda_pt,('lda_pw','hgh_k') : xc_lda_pw, \
 
 
 # Routines for data analysis
-
-# def build_computed_mol_list(dataset):
-#     """
-#     Build the list of molecules for which the 'results' key is provided
-#     """
-#     computed_mol = []
-#     for mol,data in dataset.iteritems():
-#         if 'results' in data:
-#             computed_mol.append(mol)
-#     computed_mol.sort()
-#     return computed_mol
-
-# def get_study_alpha_diag(data,xc,psp):
-#     """
-#     Extract the diagonal part of the polarizability associated to the study xc,psp taking the
-#     dictionary data as input. If xcx,psp is not in the computed study returns None.
-
-#     Args:
-#         data : is of the form nsp_results[molecule]['results']
-#     """
-#     study = data.keys()
-#     alpha = None
-#     if (xc,psp) in study:
-#         results = data[xc,psp]['rmult_conv']
-#         rmult = results['converged_value']
-#         alpha = results['results'][rmult]
-#         alpha = np.diag(alpha)
-#     return alpha
 
 def eval_relative_error(dataset,molecule,xc,psp):
     """"
