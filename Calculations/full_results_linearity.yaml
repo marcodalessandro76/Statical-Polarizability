@@ -1,137 +1,10 @@
 options:
   atol: 0.001
   data_directory: Data
-  hgrids: 0.3
+  hgrids: 0.27
   rmult_fine: 9.0
   rtol: 0.001
   wf_convergence: 1.0e-06
-? !!python/tuple
-- Li
-- pbe
-- nlcc_ss
-: alpha_values:
-    0.001:
-      alpha_convergence: !!python/tuple
-      - f: 0.001
-        rmult: 9.0
-      - - 145.91500000000002
-        - 145.91500000000002
-        - 145.91500000000002
-    0.002:
-      alpha_convergence: !!python/tuple
-      - f: 0.002
-        rmult: 9.0
-      - - 146.310425
-        - 146.310425
-        - 146.310425
-    0.003:
-      alpha_convergence: !!python/tuple
-      - f: 0.003
-        rmult: 9.0
-      - - 146.99598333333333
-        - 146.99598333333333
-        - 146.99598333333333
-    0.004:
-      alpha_convergence: !!python/tuple
-      - f: 0.004
-        rmult: 9.0
-      - - 148.02894999999998
-        - 148.02894999999998
-        - 148.02894999999998
-    0.005:
-      alpha_convergence: !!python/tuple
-      - f: 0.005
-        rmult: 10.0
-      - - 149.70515
-        - 149.70515
-        - 149.70515
-  input_gs:
-    dft:
-      gnrm_cv: 1.0e-06
-      hgrids: 0.3
-      ixc: 11
-      mpol: 1
-      nspin: 2
-      rmult:
-      - 5.0
-      - 9.0
-  posinp:
-    positions:
-    - Li:
-      - 0.0
-      - 0.0
-      - 0.0
-      frag:
-      - molecule
-      - '0'
-    units: angstroem
-? !!python/tuple
-- 'NO'
-- pbe
-- nlcc_ss
-: alpha_values:
-    0.001:
-      alpha_convergence: !!python/tuple
-      - f: 0.001
-        rmult: 9.0
-      - - 9.7790625
-        - 9.7790625
-        - 16.217750000000002
-    0.002:
-      alpha_convergence: !!python/tuple
-      - f: 0.002
-        rmult: 9.0
-      - - 9.7797475
-        - 9.7797475
-        - 16.22077
-    0.003:
-      alpha_convergence: !!python/tuple
-      - f: 0.003
-        rmult: 9.0
-      - - 9.780851666666667
-        - 9.780851666666667
-        - 16.22466
-    0.004:
-      alpha_convergence: !!python/tuple
-      - f: 0.004
-        rmult: 9.0
-      - - 9.78241
-        - 9.78241
-        - 16.23087125
-    0.005:
-      alpha_convergence: !!python/tuple
-      - f: 0.005
-        rmult: 9.0
-      - - 9.784412
-        - 9.784412
-        - 16.238856000000002
-  input_gs:
-    dft:
-      gnrm_cv: 1.0e-06
-      hgrids: 0.3
-      ixc: 11
-      mpol: 1
-      nspin: 2
-      rmult:
-      - 5.0
-      - 9.0
-  posinp:
-    positions:
-    - N:
-      - 0.0
-      - 0.0
-      - 0.0
-      frag:
-      - molecule
-      - '0'
-    - O:
-      - 0.0
-      - 0.0
-      - 1.1538
-      frag:
-      - molecule
-      - '0'
-    units: angstroem
 ? !!python/tuple
 - Na
 - pbe
@@ -141,36 +14,13 @@ options:
       alpha_convergence: !!python/tuple
       - f: 0.001
         rmult: 9.0
-      - - 160.72419999999997
-        - 160.72419999999997
-        - 160.72419999999997
-    0.002:
-      alpha_convergence: !!python/tuple
-      - f: 0.002
-        rmult: 9.0
-      - - 161.286525
-        - 161.286525
-        - 161.286525
-    0.003:
-      alpha_convergence: !!python/tuple
-      - f: 0.003
-        rmult: 9.0
-      - - 162.29523333333333
-        - 162.29523333333333
-        - 162.29523333333333
-    0.004:
-      alpha_convergence: !!python/tuple
-      - f: 0.004
-        rmult: 10.0
-      - - 164.0939625
-        - 164.0939625
-        - 164.0939625
-    0.005:
-      alpha_convergence: null
+      - - 160.84789999999998
+        - 160.84789999999998
+        - 160.84789999999998
   input_gs:
     dft:
       gnrm_cv: 1.0e-06
-      hgrids: 0.3
+      hgrids: 0.27
       ixc: 11
       mpol: 1
       nspin: 2
