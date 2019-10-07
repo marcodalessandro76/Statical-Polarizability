@@ -3789,7 +3789,7 @@ options:
       - '0'
     units: angstroem
 ? !!python/tuple
-- CH2
+- CH2-t
 - lda_pw
 - hgh_k
 : alpha_convergence: !!python/tuple
@@ -3837,7 +3837,7 @@ options:
       - '0'
     units: angstroem
 ? !!python/tuple
-- CH2
+- CH2-t
 - pbe
 - hgh_k
 : alpha_convergence: !!python/tuple
@@ -3881,7 +3881,7 @@ options:
       - '0'
     units: angstroem
 ? !!python/tuple
-- CH2
+- CH2-t
 - pbe
 - nlcc_aw
 : alpha_convergence: !!python/tuple
@@ -3925,7 +3925,7 @@ options:
       - '0'
     units: angstroem
 ? !!python/tuple
-- CH2
+- CH2-t
 - pbe
 - nlcc_ss
 : alpha_convergence: !!python/tuple
@@ -3969,7 +3969,7 @@ options:
       - '0'
     units: angstroem
 ? !!python/tuple
-- CH2
+- CH2-t
 - pbe0
 - hgh_k
 : alpha_convergence: !!python/tuple
@@ -26106,7 +26106,7 @@ options:
       - '0'
     units: angstroem
 ? !!python/tuple
-- SO
+- SO-trip
 - lda_pw
 - hgh_k
 : alpha_convergence: !!python/tuple
@@ -26147,7 +26147,7 @@ options:
       - '0'
     units: angstroem
 ? !!python/tuple
-- SO
+- SO-trip
 - pbe
 - hgh_k
 : alpha_convergence: !!python/tuple
@@ -26184,7 +26184,7 @@ options:
       - '0'
     units: angstroem
 ? !!python/tuple
-- SO
+- SO-trip
 - pbe
 - nlcc_aw
 : alpha_convergence: !!python/tuple
@@ -26221,7 +26221,7 @@ options:
       - '0'
     units: angstroem
 ? !!python/tuple
-- SO
+- SO-trip
 - pbe0
 - hgh_k
 : alpha_convergence: !!python/tuple
