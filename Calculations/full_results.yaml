@@ -11071,6 +11071,202 @@ options:
       - '0'
     units: angstroem
 ? !!python/tuple
+- H2O-Li
+- lda_pw
+- hgh_k
+: alpha_convergence: null
+  input_gs:
+    dft:
+      gnrm_cv: 1.0e-06
+      hgrids: 0.3
+      ixc: '-001012'
+      mpol: 1
+      nspin: 2
+      rmult:
+      - 6.0
+      - 9.0
+    psppar.H:
+      Pseudopotential XC: 1
+    psppar.Li:
+      Pseudopotential XC: 1
+    psppar.O:
+      Pseudopotential XC: 1
+  posinp:
+    positions:
+    - Li:
+      - -1.3932104517
+      - -0.0100233075
+      - -0.0239998707
+      frag:
+      - molecule
+      - '0'
+    - O:
+      - 0.4829558803
+      - -0.0100233075
+      - -0.0239998707
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.9639807102
+      - 0.8254768782
+      - -0.0239998707
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.9639807102
+      - -0.597349525
+      - 0.5702294409
+      frag:
+      - molecule
+      - '0'
+    units: angstroem
+? !!python/tuple
+- H2O-Li
+- pbe
+- hgh_k
+: alpha_convergence: null
+  input_gs:
+    dft:
+      gnrm_cv: 1.0e-06
+      hgrids: 0.3
+      ixc: 11
+      mpol: 1
+      nspin: 2
+      rmult:
+      - 6.0
+      - 9.0
+  posinp:
+    positions:
+    - Li:
+      - -1.3932104517
+      - -0.0100233075
+      - -0.0239998707
+      frag:
+      - molecule
+      - '0'
+    - O:
+      - 0.4829558803
+      - -0.0100233075
+      - -0.0239998707
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.9639807102
+      - 0.8254768782
+      - -0.0239998707
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.9639807102
+      - -0.597349525
+      - 0.5702294409
+      frag:
+      - molecule
+      - '0'
+    units: angstroem
+? !!python/tuple
+- H2O-Li
+- pbe
+- nlcc_ss
+: alpha_convergence: null
+  input_gs:
+    dft:
+      gnrm_cv: 1.0e-06
+      hgrids: 0.3
+      ixc: 11
+      mpol: 1
+      nspin: 2
+      rmult:
+      - 6.0
+      - 9.0
+  posinp:
+    positions:
+    - Li:
+      - -1.3932104517
+      - -0.0100233075
+      - -0.0239998707
+      frag:
+      - molecule
+      - '0'
+    - O:
+      - 0.4829558803
+      - -0.0100233075
+      - -0.0239998707
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.9639807102
+      - 0.8254768782
+      - -0.0239998707
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.9639807102
+      - -0.597349525
+      - 0.5702294409
+      frag:
+      - molecule
+      - '0'
+    units: angstroem
+? !!python/tuple
+- H2O-Li
+- pbe0
+- hgh_k
+: alpha_convergence: null
+  input_gs:
+    dft:
+      gnrm_cv: 1.0e-06
+      hgrids: 0.3
+      ixc: PBE0
+      mpol: 1
+      nspin: 2
+      rmult:
+      - 6.0
+      - 9.0
+    psppar.H:
+      Pseudopotential XC: 11
+    psppar.Li:
+      Pseudopotential XC: 11
+    psppar.O:
+      Pseudopotential XC: 11
+  posinp:
+    positions:
+    - Li:
+      - -1.3932104517
+      - -0.0100233075
+      - -0.0239998707
+      frag:
+      - molecule
+      - '0'
+    - O:
+      - 0.4829558803
+      - -0.0100233075
+      - -0.0239998707
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.9639807102
+      - 0.8254768782
+      - -0.0239998707
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - 0.9639807102
+      - -0.597349525
+      - 0.5702294409
+      frag:
+      - molecule
+      - '0'
+    units: angstroem
+? !!python/tuple
 - HBO
 - lda_pw
 - hgh_k
