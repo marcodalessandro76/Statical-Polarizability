@@ -2414,7 +2414,12 @@ options:
 - BeH
 - pbe
 - hgh_k
-: alpha_convergence: null
+: alpha_convergence: !!python/tuple
+  - f: 0.001
+    rmult: 10.0
+  - - 38.32381999999999
+    - 38.32381999999999
+    - 28.90645
   input_gs:
     dft:
       gnrm_cv: 1.0e-06
@@ -2446,7 +2451,12 @@ options:
 - BeH
 - pbe
 - nlcc_ss
-: alpha_convergence: null
+: alpha_convergence: !!python/tuple
+  - f: 0.001
+    rmult: 10.0
+  - - 37.69994
+    - 37.69994
+    - 28.412319999999998
   input_gs:
     dft:
       gnrm_cv: 1.0e-06
@@ -10031,6 +10041,273 @@ options:
       - '0'
     units: angstroem
 ? !!python/tuple
+- FH-OH
+- lda_pw
+- hgh_k
+: alpha_convergence: !!python/tuple
+  - f: 0.001
+    rmult: 8.0
+  - - 30.472000000000055
+    - 14.389450000000025
+    - 12.280674999999999
+  input_gs:
+    dft:
+      gnrm_cv: 1.0e-06
+      hgrids: 0.3
+      ixc: '-001012'
+      mpol: 1
+      nspin: 2
+      rmult:
+      - 5.0
+      - 9.0
+    psppar.F:
+      Pseudopotential XC: 1
+    psppar.H:
+      Pseudopotential XC: 1
+    psppar.O:
+      Pseudopotential XC: 1
+  posinp:
+    positions:
+    - H:
+      - 0.3595336038
+      - 0.1031451694
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    - F:
+      - 1.2872626215
+      - 0.1031451694
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    - O:
+      - -1.4435649825
+      - -0.0659384624
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - -1.7085828783
+      - -1.0006367674
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    units: angstroem
+? !!python/tuple
+- FH-OH
+- pbe
+- hgh_k
+: alpha_convergence: !!python/tuple
+  - f: 0.0001
+    rmult: 7.0
+  - - 21.23499999999945
+    - 14.248499999999774
+    - 12.20567
+  input_gs:
+    dft:
+      gnrm_cv: 1.0e-06
+      hgrids: 0.3
+      ixc: 11
+      mpol: 1
+      nspin: 2
+      rmult:
+      - 5.0
+      - 9.0
+  posinp:
+    positions:
+    - H:
+      - 0.3595336038
+      - 0.1031451694
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    - F:
+      - 1.2872626215
+      - 0.1031451694
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    - O:
+      - -1.4435649825
+      - -0.0659384624
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - -1.7085828783
+      - -1.0006367674
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    units: angstroem
+? !!python/tuple
+- FH-OH
+- pbe
+- nlcc_aw
+: alpha_convergence: !!python/tuple
+  - f: 0.0001
+    rmult: 7.0
+  - - 25.110000000000408
+    - 14.277500000000053
+    - 12.19624
+  input_gs:
+    dft:
+      gnrm_cv: 1.0e-06
+      hgrids: 0.3
+      ixc: 11
+      mpol: 1
+      nspin: 2
+      rmult:
+      - 5.0
+      - 9.0
+  posinp:
+    positions:
+    - H:
+      - 0.3595336038
+      - 0.1031451694
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    - F:
+      - 1.2872626215
+      - 0.1031451694
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    - O:
+      - -1.4435649825
+      - -0.0659384624
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - -1.7085828783
+      - -1.0006367674
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    units: angstroem
+? !!python/tuple
+- FH-OH
+- pbe
+- nlcc_ss
+: alpha_convergence: !!python/tuple
+  - f: 0.0001
+    rmult: 9.0
+  - - 24.005000000000276
+    - 14.269000000000087
+    - 12.181129999999998
+  input_gs:
+    dft:
+      gnrm_cv: 1.0e-06
+      hgrids: 0.3
+      ixc: 11
+      mpol: 1
+      nspin: 2
+      rmult:
+      - 5.0
+      - 9.0
+  posinp:
+    positions:
+    - H:
+      - 0.3595336038
+      - 0.1031451694
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    - F:
+      - 1.2872626215
+      - 0.1031451694
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    - O:
+      - -1.4435649825
+      - -0.0659384624
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - -1.7085828783
+      - -1.0006367674
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    units: angstroem
+? !!python/tuple
+- FH-OH
+- pbe0
+- hgh_k
+: alpha_convergence: !!python/tuple
+  - f: 0.0001
+    rmult: 7.0
+  - - 16.2400000000007
+    - 13.164500000000245
+    - 11.181245
+  input_gs:
+    dft:
+      gnrm_cv: 1.0e-06
+      hgrids: 0.3
+      ixc: PBE0
+      mpol: 1
+      nspin: 2
+      rmult:
+      - 5.0
+      - 9.0
+    psppar.F:
+      Pseudopotential XC: 11
+    psppar.H:
+      Pseudopotential XC: 11
+    psppar.O:
+      Pseudopotential XC: 11
+  posinp:
+    positions:
+    - H:
+      - 0.3595336038
+      - 0.1031451694
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    - F:
+      - 1.2872626215
+      - 0.1031451694
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    - O:
+      - -1.4435649825
+      - -0.0659384624
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    - H:
+      - -1.7085828783
+      - -1.0006367674
+      - 0.0
+      frag:
+      - molecule
+      - '0'
+    units: angstroem
+? !!python/tuple
 - FNO
 - lda_pw
 - hgh_k
@@ -11074,7 +11351,12 @@ options:
 - H2O-Li
 - lda_pw
 - hgh_k
-: alpha_convergence: null
+: alpha_convergence: !!python/tuple
+  - f: 0.001
+    rmult: 10.0
+  - - 292.23215
+    - 219.09689999999998
+    - 187.02655000000001
   input_gs:
     dft:
       gnrm_cv: 1.0e-06
@@ -11126,7 +11408,12 @@ options:
 - H2O-Li
 - pbe
 - hgh_k
-: alpha_convergence: null
+: alpha_convergence: !!python/tuple
+  - f: 0.001
+    rmult: 10.0
+  - - 270.44605000000007
+    - 223.45445
+    - 191.92584999999997
   input_gs:
     dft:
       gnrm_cv: 1.0e-06
@@ -11172,7 +11459,12 @@ options:
 - H2O-Li
 - pbe
 - nlcc_ss
-: alpha_convergence: null
+: alpha_convergence: !!python/tuple
+  - f: 0.001
+    rmult: 10.0
+  - - 271.43530000000004
+    - 223.70325
+    - 191.7735
   input_gs:
     dft:
       gnrm_cv: 1.0e-06
@@ -11218,7 +11510,12 @@ options:
 - H2O-Li
 - pbe0
 - hgh_k
-: alpha_convergence: null
+: alpha_convergence: !!python/tuple
+  - f: 0.0005
+    rmult: 10.0
+  - - 270.45699999999994
+    - 239.26969
+    - 207.243926
   input_gs:
     dft:
       gnrm_cv: 1.0e-06
