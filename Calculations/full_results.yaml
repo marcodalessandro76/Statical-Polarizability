@@ -1716,11 +1716,11 @@ options:
 - lda_pw
 - hgh_k
 : alpha_convergence: !!python/tuple
-  - f: 0.0001
-    rmult: 7.0
-  - - 18.20028
-    - 18.20028
-    - 31.32599999999985
+  - f: 0.001
+    rmult: 6.0
+  - - 18.18901
+    - 18.18901
+    - 31.296950000000045
   input_gs:
     dft:
       gnrm_cv: 1.0e-06
@@ -1757,11 +1757,11 @@ options:
 - pbe
 - hgh_k
 : alpha_convergence: !!python/tuple
-  - f: 0.0001
+  - f: 0.001
     rmult: 7.0
-  - - 17.98925
-    - 17.98925
-    - 30.12899999999985
+  - - 17.99108
+    - 17.99108
+    - 30.13205000000002
   input_gs:
     dft:
       gnrm_cv: 1.0e-06
@@ -1794,11 +1794,11 @@ options:
 - pbe
 - nlcc_aw
 : alpha_convergence: !!python/tuple
-  - f: 0.0001
-    rmult: 8.0
-  - - 18.560209999999998
-    - 18.560209999999998
-    - 30.75300000000003
+  - f: 0.001
+    rmult: 7.0
+  - - 18.06407
+    - 18.06407
+    - 30.75205000000003
   input_gs:
     dft:
       gnrm_cv: 1.0e-06
@@ -1831,11 +1831,11 @@ options:
 - pbe
 - nlcc_ss
 : alpha_convergence: !!python/tuple
-  - f: 0.0001
+  - f: 0.001
     rmult: 7.0
-  - - 18.11405
-    - 18.11405
-    - 31.297499999999864
+  - - 18.114829999999998
+    - 18.114829999999998
+    - 31.300050000000024
   input_gs:
     dft:
       gnrm_cv: 1.0e-06
@@ -1868,11 +1868,11 @@ options:
 - pbe0
 - hgh_k
 : alpha_convergence: !!python/tuple
-  - f: 0.0001
-    rmult: 7.0
-  - - 17.373234999999998
-    - 17.373234999999998
-    - 27.76599999999962
+  - f: 0.001
+    rmult: 6.0
+  - - 17.381130000000002
+    - 17.381130000000002
+    - 27.74645000000003
   input_gs:
     dft:
       gnrm_cv: 1.0e-06
@@ -10102,11 +10102,11 @@ options:
 - pbe
 - hgh_k
 : alpha_convergence: !!python/tuple
-  - f: 0.0001
+  - f: 0.001
     rmult: 7.0
-  - - 21.23499999999945
-    - 14.248499999999774
-    - 12.20567
+  - - 21.258
+    - 14.249200000000018
+    - 12.186374999999998
   input_gs:
     dft:
       gnrm_cv: 1.0e-06
@@ -10153,11 +10153,11 @@ options:
 - pbe
 - nlcc_aw
 : alpha_convergence: !!python/tuple
-  - f: 0.0001
+  - f: 0.001
     rmult: 7.0
-  - - 25.110000000000408
-    - 14.277500000000053
-    - 12.19624
+  - - 25.154499999999967
+    - 14.278100000000016
+    - 12.19882
   input_gs:
     dft:
       gnrm_cv: 1.0e-06
@@ -10204,11 +10204,11 @@ options:
 - pbe
 - nlcc_ss
 : alpha_convergence: !!python/tuple
-  - f: 0.0001
-    rmult: 9.0
-  - - 24.005000000000276
-    - 14.269000000000087
-    - 12.181129999999998
+  - f: 0.001
+    rmult: 7.0
+  - - 24.031999999999943
+    - 14.258550000000037
+    - 12.17383
   input_gs:
     dft:
       gnrm_cv: 1.0e-06
@@ -10255,11 +10255,11 @@ options:
 - pbe0
 - hgh_k
 : alpha_convergence: !!python/tuple
-  - f: 0.0001
+  - f: 0.001
     rmult: 7.0
-  - - 16.2400000000007
-    - 13.164500000000245
-    - 11.181245
+  - - 16.23949999999996
+    - 13.164750000000003
+    - 11.174255
   input_gs:
     dft:
       gnrm_cv: 1.0e-06
@@ -22998,11 +22998,11 @@ options:
 - lda_pw
 - hgh_k
 : alpha_convergence: !!python/tuple
-  - f: 0.0001
+  - f: 0.001
     rmult: 8.0
-  - - 6.938107
-    - 6.938105999999999
-    - 9.330499999999908
+  - - 6.9395655
+    - 6.9395655
+    - 9.330850000000002
   input_gs:
     dft:
       gnrm_cv: 1.0e-06
@@ -23038,7 +23038,12 @@ options:
 - OH
 - pbe
 - hgh_k
-: alpha_convergence: null
+: alpha_convergence: !!python/tuple
+  - f: 0.001
+    rmult: 8.0
+  - - 6.8349435
+    - 6.8349435
+    - 9.32050000000001
   input_gs:
     dft:
       gnrm_cv: 1.0e-06
@@ -23071,11 +23076,11 @@ options:
 - pbe
 - nlcc_aw
 : alpha_convergence: !!python/tuple
-  - f: 0.0001
+  - f: 0.001
     rmult: 8.0
-  - - 6.886665499999999
-    - 6.886665499999999
-    - 9.294500000000538
+  - - 6.886985
+    - 6.886985
+    - 9.295050000000026
   input_gs:
     dft:
       gnrm_cv: 1.0e-06
@@ -23108,11 +23113,11 @@ options:
 - pbe
 - nlcc_ss
 : alpha_convergence: !!python/tuple
-  - f: 0.0001
+  - f: 0.001
     rmult: 8.0
-  - - 6.8579675
-    - 6.8579675
-    - 9.291499999999896
+  - - 6.8581674999999995
+    - 6.8581674999999995
+    - 9.291699999999958
   input_gs:
     dft:
       gnrm_cv: 1.0e-06
@@ -23144,7 +23149,12 @@ options:
 - OH
 - pbe0
 - hgh_k
-: alpha_convergence: null
+: alpha_convergence: !!python/tuple
+  - f: 0.001
+    rmult: 7.0
+  - - 6.369935999999999
+    - 6.369935999999999
+    - 8.733850000000043
   input_gs:
     dft:
       gnrm_cv: 1.0e-06
@@ -25095,11 +25105,11 @@ options:
 - lda_pw
 - hgh_k
 : alpha_convergence: !!python/tuple
-  - f: 0.0001
+  - f: 0.001
     rmult: 8.0
-  - - 35.63026
-    - 35.63026
-    - 64.6229999999999
+  - - 35.6316
+    - 35.6316
+    - 64.6276
   input_gs:
     dft:
       gnrm_cv: 1.0e-06
@@ -25136,11 +25146,11 @@ options:
 - pbe
 - hgh_k
 : alpha_convergence: !!python/tuple
-  - f: 0.0001
+  - f: 0.001
     rmult: 8.0
-  - - 35.472674999999995
-    - 35.472674999999995
-    - 64.60449999999992
+  - - 35.473875
+    - 35.473875
+    - 64.60895000000001
   input_gs:
     dft:
       gnrm_cv: 1.0e-06
@@ -25173,11 +25183,11 @@ options:
 - pbe
 - nlcc_aw
 : alpha_convergence: !!python/tuple
-  - f: 0.0001
+  - f: 0.001
     rmult: 8.0
-  - - 35.409455
-    - 35.409455
-    - 64.42000000000003
+  - - 35.410935
+    - 35.410935
+    - 64.42484999999999
   input_gs:
     dft:
       gnrm_cv: 1.0e-06
@@ -25210,11 +25220,11 @@ options:
 - pbe0
 - hgh_k
 : alpha_convergence: !!python/tuple
-  - f: 0.005
+  - f: 0.001
     rmult: 8.0
-  - - 34.85163
-    - 34.85163
-    - 63.210074999999996
+  - - 34.81356
+    - 34.81356
+    - 63.12300000000001
   input_gs:
     dft:
       gnrm_cv: 1.0e-06
